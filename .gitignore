@@ -4,7 +4,6 @@
 /index.php
 /index.html
 /preactalpha.html
-/data/*
 node_modules/
 eslint-cache/
 .DS_Store
