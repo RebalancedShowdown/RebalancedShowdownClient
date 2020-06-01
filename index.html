@@ -18,13 +18,12 @@
 				scriptEl.src = src.replace(/.*\/?data\//g, 'https://play.pokemonshowdown.com/data/');
 				document.head.appendChild(scriptEl);
 			}
-			
+			/*
 			var Config = {testclient: true};
 			(function() {
-				if (location.search !== '') {
+				if (location.search != '') {
 					var m = /\?~~(([^:\/]*)(:[0-9]*)?)/.exec(location.search);
 					if (m) {
-						alert(m)
 						Config.server = {
 							id: m[1],
 							host: m[2],
@@ -35,6 +34,7 @@
 					}
 				}
 			})();
+			*/
 			/* 
 			var Config = {
                 testclient: true,
@@ -45,6 +45,14 @@
                 }
 			};
 			 */
+			var Config = {
+                testclient: true,
+                server: {
+                    id: 'rebalanced-showdown.herokuapp.com:80',
+                    host: 'rebalanced-showdown.herokuapp.com',
+                    port: 80
+                }
+			};
 		</script>
 		<!--[if lte IE 8]><script>
 			Config.oldie = true;
