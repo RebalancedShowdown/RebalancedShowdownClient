@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8" />
@@ -18,13 +18,11 @@
 				scriptEl.src = src.replace(/.*\/?data\//g, 'https://play.pokemonshowdown.com/data/');
 				document.head.appendChild(scriptEl);
 			}
-			
 			var Config = {testclient: true};
 			(function() {
 				if (location.search !== '') {
 					var m = /\?~~(([^:\/]*)(:[0-9]*)?)/.exec(location.search);
 					if (m) {
-						alert(m)
 						Config.server = {
 							id: m[1],
 							host: m[2],
@@ -35,16 +33,6 @@
 					}
 				}
 			})();
-			/* 
-			var Config = {
-                testclient: true,
-                server: {
-                    id: 'localhost:8000',
-                    host: 'localhost',
-                    port: 8000
-                }
-			};
-			 */
 		</script>
 		<!--[if lte IE 8]><script>
 			Config.oldie = true;
