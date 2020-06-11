@@ -1,1 +1,1 @@
-web: node build $PORT
+web: npx http-server -p 80

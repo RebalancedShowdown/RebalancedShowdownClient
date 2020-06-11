@@ -1,7 +1,12 @@
+47 lines (44 sloc)  829 Bytes
+  
 /sprites/
 /audio/
 /config/
+/index.php
+/index.html
 /preactalpha.html
+/data/*
 node_modules/
 eslint-cache/
 .DS_Store
