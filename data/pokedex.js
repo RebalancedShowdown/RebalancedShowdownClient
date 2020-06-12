@@ -9427,7 +9427,7 @@ let BattlePokedex = {
 		species: "Swanna",
 		types: ["Water", "Flying"],
 		baseStats: {hp: 75, atk: 87, def: 73, spa: 97, spd: 73, spe: 106},
-		abilities: {0: "Keen Eye", 1: "Big Pecks", H: "Hydration"},
+		abilities: {0: "Cloud Nine", 1: "Big Pecks", H: "Hydration"},
 		heightm: 1.3,
 		weightkg: 24.2,
 		color: "White",
