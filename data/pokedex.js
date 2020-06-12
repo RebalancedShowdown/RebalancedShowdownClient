@@ -13725,9 +13725,9 @@ let BattlePokedex = {
     {
         hp: 120,
         atk: 95,
-        def: 95,
+        def: 105,
         spa: 55,
-        spd: 75,
+        spd: 95,
         spe: 20
     },
     abilities:
@@ -13915,7 +13915,7 @@ let BattlePokedex = {
     types: ["Bug", "Psychic"],
     baseStats:
     {
-        hp: 60,
+        hp: 80,
         atk: 45,
         def: 110,
         spa: 80,
@@ -14001,10 +14001,10 @@ let BattlePokedex = {
     {
         hp: 70,
         atk: 58,
-        def: 58,
-        spa: 87,
+        def: 68,
+        spa: 104,
         spd: 92,
-        spe: 90
+        spe: 106
     },
     abilities:
     {
@@ -14064,7 +14064,7 @@ let BattlePokedex = {
     {
         "0": "Cotton Down",
         "1": "Regenerator",
-        H: "Effect Spore"
+        H: "Chlorophyll"
     },
     heightm: 0.5,
     weightkg: 2.5,
@@ -14165,8 +14165,8 @@ let BattlePokedex = {
         atk: 115,
         def: 90,
         spa: 48,
-        spd: 68,
-        spe: 74
+        spd: 88,
+        spe: 54
     },
     abilities:
     {
@@ -14245,9 +14245,9 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 69,
-        atk: 90,
+        atk: 100,
         def: 60,
-        spa: 90,
+        spa: 100,
         spd: 60,
         spe: 121
     },
@@ -14326,9 +14326,9 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 110,
-        atk: 80,
+        atk: 100,
         def: 120,
-        spa: 80,
+        spa: 100,
         spd: 90,
         spe: 30
     },
@@ -14409,7 +14409,7 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 70,
-        atk: 110,
+        atk: 120,
         def: 80,
         spa: 95,
         spd: 60,
@@ -14550,7 +14550,7 @@ let BattlePokedex = {
     types: ["Ground"],
     baseStats:
     {
-        hp: 72,
+        hp: 82,
         atk: 107,
         def: 125,
         spa: 65,
@@ -14559,9 +14559,9 @@ let BattlePokedex = {
     },
     abilities:
     {
-        "0": "Sand Spit",
+        "0": "Sand Stream",
         "1": "Shed Skin",
-        H: "Sand Veil"
+        H: "Wonder Skin"
     },
     heightm: 3.8,
     weightkg: 65.5,
@@ -14608,9 +14608,9 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 70,
-        atk: 85,
-        def: 55,
-        spa: 85,
+        atk: 95,
+        def: 75,
+        spa: 95,
         spd: 95,
         spe: 85
     },
@@ -14905,7 +14905,7 @@ let BattlePokedex = {
     {
         hp: 100,
         atk: 115,
-        def: 65,
+        def: 75,
         spa: 90,
         spd: 90,
         spe: 65
@@ -14982,19 +14982,19 @@ let BattlePokedex = {
 {
     num: 853,
     name: "Grapploct",
-    types: ["Fighting"],
+    types: ["Fighting", "Water"],
     baseStats:
     {
         hp: 80,
         atk: 118,
         def: 90,
         spa: 70,
-        spd: 80,
+        spd: 90,
         spe: 42
     },
     abilities:
     {
-        "0": "Limber",
+        "0": "Contrary",
         H: "Technician"
     },
     heightm: 1.6,
@@ -15072,7 +15072,7 @@ let BattlePokedex = {
     gender: "N",
     baseStats:
     {
-        hp: 60,
+        hp: 80,
         atk: 65,
         def: 65,
         spa: 134,
@@ -15104,7 +15104,7 @@ let BattlePokedex = {
     gender: "N",
     baseStats:
     {
-        hp: 60,
+        hp: 80,
         atk: 65,
         def: 65,
         spa: 134,
@@ -15189,8 +15189,8 @@ let BattlePokedex = {
     gender: "F",
     baseStats:
     {
-        hp: 57,
-        atk: 90,
+        hp: 77,
+        atk: 105,
         def: 95,
         spa: 136,
         spd: 103,
@@ -15391,15 +15391,15 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 70,
-        atk: 110,
-        def: 100,
+        atk: 120,
+        def: 110,
         spa: 50,
         spd: 60,
         spe: 50
     },
     abilities:
     {
-        "0": "Battle Armor",
+        "0": "Intimidate",
         "1": "Tough Claws",
         H: "Steely Spirit"
     },
@@ -15422,9 +15422,9 @@ let BattlePokedex = {
     },
     baseStats:
     {
-        hp: 60,
-        atk: 95,
-        def: 50,
+        hp: 70,
+        atk: 75,
+        def: 70,
         spa: 145,
         spd: 130,
         spe: 30
@@ -15477,7 +15477,7 @@ let BattlePokedex = {
     {
         hp: 80,
         atk: 85,
-        def: 75,
+        def: 85,
         spa: 110,
         spd: 100,
         spe: 70
@@ -15486,7 +15486,7 @@ let BattlePokedex = {
     {
         "0": "Tangled Feet",
         "1": "Screen Cleaner",
-        H: "Ice Body"
+        H: "Dancer"
     },
     heightm: 1.5,
     weightkg: 58.2,
@@ -15611,15 +15611,15 @@ let BattlePokedex = {
 {
     num: 870,
     name: "Falinks",
-    types: ["Fighting"],
+    types: ["Fighting", "Bug"],
     gender: "N",
     baseStats:
     {
         hp: 65,
-        atk: 100,
-        def: 100,
+        atk: 110,
+        def: 110,
         spa: 70,
-        spd: 60,
+        spd: 85,
         spe: 75
     },
     abilities:
@@ -15636,10 +15636,10 @@ let BattlePokedex = {
 {
     num: 871,
     name: "Pincurchin",
-    types: ["Electric"],
+    types: ["Electric", "Water"],
     baseStats:
     {
-        hp: 48,
+        hp: 78,
         atk: 101,
         def: 95,
         spa: 91,
@@ -15690,10 +15690,10 @@ let BattlePokedex = {
     {
         hp: 70,
         atk: 65,
-        def: 60,
+        def: 75,
         spa: 125,
         spd: 90,
-        spe: 65
+        spe: 75
     },
     abilities:
     {
@@ -15739,7 +15739,7 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 75,
-        atk: 80,
+        atk: 105,
         def: 110,
         spa: 65,
         spd: 90,
@@ -15766,7 +15766,7 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 75,
-        atk: 80,
+        atk: 105,
         def: 70,
         spa: 65,
         spd: 50,
@@ -15791,11 +15791,11 @@ let BattlePokedex = {
     gender: "M",
     baseStats:
     {
-        hp: 60,
+        hp: 80,
         atk: 65,
-        def: 55,
+        def: 75,
         spa: 105,
-        spd: 95,
+        spd: 105,
         spe: 95
     },
     abilities:
@@ -15821,10 +15821,10 @@ let BattlePokedex = {
     gender: "F",
     baseStats:
     {
-        hp: 70,
-        atk: 55,
-        def: 65,
-        spa: 95,
+        hp: 80,
+        atk: 65,
+        def: 75,
+        spa: 105,
         spd: 105,
         spe: 85
     },
@@ -15848,9 +15848,9 @@ let BattlePokedex = {
     {
         hp: 58,
         atk: 95,
-        def: 58,
+        def: 68,
         spa: 70,
-        spd: 58,
+        spd: 68,
         spe: 97
     },
     abilities:
@@ -16033,7 +16033,7 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 90,
-        atk: 90,
+        atk: 120,
         def: 100,
         spa: 70,
         spd: 80,
@@ -16043,7 +16043,7 @@ let BattlePokedex = {
     {
         "0": "Water Absorb",
         "1": "Strong Jaw",
-        H: "Sand Rush"
+        H: "Slush Rush"
     },
     heightm: 2.3,
     weightkg: 215,
@@ -16070,7 +16070,7 @@ let BattlePokedex = {
     {
         "0": "Water Absorb",
         "1": "Ice Body",
-        H: "Slush Rush"
+        H: "Swift Swim"
     },
     heightm: 2,
     weightkg: 175,
@@ -16222,12 +16222,12 @@ let BattlePokedex = {
     gender: "N",
     baseStats:
     {
-        hp: 92,
+        hp: 82,
         atk: 130,
-        def: 115,
+        def: 105,
         spa: 80,
-        spd: 115,
-        spe: 138
+        spd: 105,
+        spe: 118
     },
     abilities:
     {
@@ -16277,11 +16277,11 @@ let BattlePokedex = {
     baseStats:
     {
         hp: 92,
-        atk: 130,
+        atk: 115,
         def: 115,
-        spa: 80,
+        spa: 65,
         spd: 115,
-        spe: 138
+        spe: 118
     },
     abilities:
     {
