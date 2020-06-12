@@ -2,7 +2,7 @@
 
 /**@type {{[k: string]: TemplateData}} */
 let BattlePokedex = {
-	Bulbasaur: {
+	bulbasaur: {
 		num: 1,
 		species: "Bulbasaur",
 		types: ["Grass", "Poison"],
@@ -15,7 +15,7 @@ let BattlePokedex = {
 		evos: ["ivysaur"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	Ivysaur: {
+	ivysaur: {
 		num: 2,
 		species: "Ivysaur",
 		types: ["Grass", "Poison"],
@@ -30,7 +30,7 @@ let BattlePokedex = {
 		evos: ["venusaur"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	Venusaur: {
+	venusaur: {
 		num: 3,
 		species: "Venusaur",
 		types: ["Grass", "Poison"],
@@ -45,7 +45,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Grass"],
 		otherFormes: ["venusaurmega"],
 	},
-	VenusaurMega: {
+	venusaurmega: {
 		num: 3,
 		species: "Venusaur-Mega",
 		baseSpecies: "Venusaur",
@@ -60,7 +60,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
 	},
-	Charmander: {
+	charmander: {
 		num: 4,
 		species: "Charmander",
 		types: ["Fire"],
@@ -73,7 +73,7 @@ let BattlePokedex = {
 		evos: ["charmeleon"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Charmeleon: {
+	charmeleon: {
 		num: 5,
 		species: "Charmeleon",
 		types: ["Fire"],
@@ -88,7 +88,7 @@ let BattlePokedex = {
 		evos: ["charizard"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Charizard: {
+	charizard: {
 		num: 6,
 		species: "Charizard",
 		types: ["Fire", "Flying"],
@@ -103,7 +103,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Dragon"],
 		otherFormes: ["charizardmegax", "charizardmegay"],
 	},
-	CharizardMegaX: {
+	charizardmegax: {
 		num: 6,
 		species: "Charizard-Mega-X",
 		baseSpecies: "Charizard",
@@ -118,7 +118,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Monster", "Dragon"],
 	},
-	CharizardMegaY: {
+	charizardmegay: {
 		num: 6,
 		species: "Charizard-Mega-Y",
 		baseSpecies: "Charizard",
@@ -133,7 +133,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Squirtle: {
+	squirtle: {
 		num: 7,
 		species: "Squirtle",
 		types: ["Water"],
@@ -146,7 +146,7 @@ let BattlePokedex = {
 		evos: ["wartortle"],
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Wartortle: {
+	wartortle: {
 		num: 8,
 		species: "Wartortle",
 		types: ["Water"],
@@ -161,7 +161,7 @@ let BattlePokedex = {
 		evos: ["blastoise"],
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Blastoise: {
+	blastoise: {
 		num: 9,
 		species: "Blastoise",
 		types: ["Water"],
@@ -176,7 +176,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Water 1"],
 		otherFormes: ["blastoisemega"],
 	},
-	BlastoiseMega: {
+	blastoisemega: {
 		num: 9,
 		species: "Blastoise-Mega",
 		baseSpecies: "Blastoise",
@@ -191,7 +191,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Caterpie: {
+	caterpie: {
 		num: 10,
 		species: "Caterpie",
 		types: ["Bug"],
@@ -203,7 +203,7 @@ let BattlePokedex = {
 		evos: ["metapod"],
 		eggGroups: ["Bug"],
 	},
-	Metapod: {
+	metapod: {
 		num: 11,
 		species: "Metapod",
 		types: ["Bug"],
@@ -217,7 +217,7 @@ let BattlePokedex = {
 		evos: ["butterfree"],
 		eggGroups: ["Bug"],
 	},
-	Butterfree: {
+	butterfree: {
 		num: 12,
 		species: "Butterfree",
 		types: ["Bug", "Psychic"],
@@ -230,7 +230,7 @@ let BattlePokedex = {
 		evoLevel: 10,
 		eggGroups: ["Bug"],
 	},
-	Weedle: {
+	weedle: {
 		num: 13,
 		species: "Weedle",
 		types: ["Bug", "Poison"],
@@ -242,7 +242,7 @@ let BattlePokedex = {
 		evos: ["kakuna"],
 		eggGroups: ["Bug"],
 	},
-	Kakuna: {
+	kakuna: {
 		num: 14,
 		species: "Kakuna",
 		types: ["Bug", "Poison"],
@@ -256,7 +256,7 @@ let BattlePokedex = {
 		evos: ["beedrill"],
 		eggGroups: ["Bug"],
 	},
-	Beedrill: {
+	beedrill: {
 		num: 15,
 		species: "Beedrill",
 		types: ["Bug", "Poison"],
@@ -270,7 +270,7 @@ let BattlePokedex = {
 		eggGroups: ["Bug"],
 		otherFormes: ["beedrillmega"],
 	},
-	BeedrillMega: {
+	beedrillmega: {
 		num: 15,
 		species: "Beedrill-Mega",
 		baseSpecies: "Beedrill",
@@ -284,7 +284,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Bug"],
 	},
-	Pidgey: {
+	pidgey: {
 		num: 16,
 		species: "Pidgey",
 		types: ["Normal", "Flying"],
@@ -296,7 +296,7 @@ let BattlePokedex = {
 		evos: ["pidgeotto"],
 		eggGroups: ["Flying"],
 	},
-	Pidgeotto: {
+	pidgeotto: {
 		num: 17,
 		species: "Pidgeotto",
 		types: ["Normal", "Flying"],
@@ -310,7 +310,7 @@ let BattlePokedex = {
 		evos: ["pidgeot"],
 		eggGroups: ["Flying"],
 	},
-	Pidgeot: {
+	pidgeot: {
 		num: 18,
 		species: "Pidgeot",
 		types: ["Normal", "Flying"],
@@ -324,7 +324,7 @@ let BattlePokedex = {
 		eggGroups: ["Flying"],
 		otherFormes: ["pidgeotmega"],
 	},
-	PidgeotMega: {
+	pidgeotmega: {
 		num: 18,
 		species: "Pidgeot-Mega",
 		baseSpecies: "Pidgeot",
@@ -338,7 +338,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Flying"],
 	},
-	Rattata: {
+	rattata: {
 		num: 19,
 		species: "Rattata",
 		types: ["Normal"],
@@ -351,7 +351,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["rattataalola"],
 	},
-	RattataAlola: {
+	rattataalola: {
 		num: 19,
 		species: "Rattata-Alola",
 		baseSpecies: "Rattata",
@@ -366,7 +366,7 @@ let BattlePokedex = {
 		evos: ["raticatealola"],
 		eggGroups: ["Field"],
 	},
-	Raticate: {
+	raticate: {
 		num: 20,
 		species: "Raticate",
 		types: ["Normal"],
@@ -380,7 +380,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["raticatealola", "raticatealolatotem"],
 	},
-	RaticateAlola: {
+	raticatealola: {
 		num: 20,
 		species: "Raticate-Alola",
 		baseSpecies: "Raticate",
@@ -396,7 +396,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Field"],
 	},
-	RaticateAlolaTotem: {
+	raticatealolatotem: {
 		num: 20,
 		species: "Raticate-Alola-Totem",
 		baseSpecies: "Raticate",
@@ -410,7 +410,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Field"],
 	},
-	Spearow: {
+	spearow: {
 		num: 21,
 		species: "Spearow",
 		types: ["Normal", "Flying"],
@@ -422,7 +422,7 @@ let BattlePokedex = {
 		evos: ["fearow"],
 		eggGroups: ["Flying"],
 	},
-	Fearow: {
+	fearow: {
 		num: 22,
 		species: "Fearow",
 		types: ["Normal", "Flying"],
@@ -435,7 +435,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Flying"],
 	},
-	Ekans: {
+	ekans: {
 		num: 23,
 		species: "Ekans",
 		types: ["Poison"],
@@ -447,7 +447,7 @@ let BattlePokedex = {
 		evos: ["arbok"],
 		eggGroups: ["Field", "Dragon"],
 	},
-	Arbok: {
+	arbok: {
 		num: 24,
 		species: "Arbok",
 		types: ["Poison"],
@@ -460,7 +460,7 @@ let BattlePokedex = {
 		evoLevel: 22,
 		eggGroups: ["Field", "Dragon"],
 	},
-	Pikachu: {
+	pikachu: {
 		num: 25,
 		species: "Pikachu",
 		types: ["Electric"],
@@ -684,7 +684,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	Raichu: {
+	raichu: {
 		num: 26,
 		species: "Raichu",
 		types: ["Electric"],
@@ -699,7 +699,7 @@ let BattlePokedex = {
 		eggGroups: ["Field", "Fairy"],
 		otherFormes: ["raichualola"],
 	},
-	RaichuAlola: {
+	raichualola: {
 		num: 26,
 		species: "Raichu-Alola",
 		baseSpecies: "Raichu",
@@ -716,7 +716,7 @@ let BattlePokedex = {
 		evoItem: "Thunder Stone",
 		eggGroups: ["Field", "Fairy"],
 	},
-	Sandshrew: {
+	sandshrew: {
 		num: 27,
 		species: "Sandshrew",
 		types: ["Ground"],
@@ -729,7 +729,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["sandshrewalola"],
 	},
-	SandshrewAlola: {
+	sandshrewalola: {
 		num: 27,
 		species: "Sandshrew-Alola",
 		baseSpecies: "Sandshrew",
@@ -744,7 +744,7 @@ let BattlePokedex = {
 		evos: ["sandslashalola"],
 		eggGroups: ["Field"],
 	},
-	Sandslash: {
+	sandslash: {
 		num: 28,
 		species: "Sandslash",
 		types: ["Ground"],
@@ -758,7 +758,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["sandslashalola"],
 	},
-	SandslashAlola: {
+	sandslashalola: {
 		num: 28,
 		species: "Sandslash-Alola",
 		baseSpecies: "Sandslash",
@@ -775,7 +775,7 @@ let BattlePokedex = {
 		evoItem: "Ice Stone",
 		eggGroups: ["Field"],
 	},
-	Nidoranf: {
+	nidoranf: {
 		num: 29,
 		species: "Nidoran-F",
 		types: ["Poison"],
@@ -788,7 +788,7 @@ let BattlePokedex = {
 		evos: ["nidorina"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Nidorina: {
+	nidorina: {
 		num: 30,
 		species: "Nidorina",
 		types: ["Poison"],
@@ -803,7 +803,7 @@ let BattlePokedex = {
 		evos: ["nidoqueen"],
 		eggGroups: ["Undiscovered"],
 	},
-	Nidoqueen: {
+	nidoqueen: {
 		num: 31,
 		species: "Nidoqueen",
 		types: ["Poison", "Ground"],
@@ -818,7 +818,7 @@ let BattlePokedex = {
 		evoItem: "Moon Stone",
 		eggGroups: ["Undiscovered"],
 	},
-	Nidoranm: {
+	nidoranm: {
 		num: 32,
 		species: "Nidoran-M",
 		types: ["Poison"],
@@ -831,7 +831,7 @@ let BattlePokedex = {
 		evos: ["nidorino"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Nidorino: {
+	nidorino: {
 		num: 33,
 		species: "Nidorino",
 		types: ["Poison"],
@@ -846,7 +846,7 @@ let BattlePokedex = {
 		evos: ["nidoking"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Nidoking: {
+	nidoking: {
 		num: 34,
 		species: "Nidoking",
 		types: ["Poison", "Ground"],
@@ -861,7 +861,7 @@ let BattlePokedex = {
 		evoItem: "Moon Stone",
 		eggGroups: ["Monster", "Field"],
 	},
-	Clefairy: {
+	clefairy: {
 		num: 35,
 		species: "Clefairy",
 		types: ["Fairy"],
@@ -876,7 +876,7 @@ let BattlePokedex = {
 		evos: ["clefable"],
 		eggGroups: ["Fairy"],
 	},
-	Clefable: {
+	clefable: {
 		num: 36,
 		species: "Clefable",
 		types: ["Fairy"],
@@ -891,7 +891,7 @@ let BattlePokedex = {
 		evoItem: "Moon Stone",
 		eggGroups: ["Fairy"],
 	},
-	Vulpix: {
+	vulpix: {
 		num: 37,
 		species: "Vulpix",
 		types: ["Fire"],
@@ -905,7 +905,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["vulpixalola"],
 	},
-	VulpixAlola: {
+	vulpixalola: {
 		num: 37,
 		species: "Vulpix-Alola",
 		baseSpecies: "Vulpix",
@@ -921,7 +921,7 @@ let BattlePokedex = {
 		evos: ["ninetalesalola"],
 		eggGroups: ["Field"],
 	},
-	Ninetales: {
+	ninetales: {
 		num: 38,
 		species: "Ninetales",
 		types: ["Fire"],
@@ -937,7 +937,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["ninetalesalola"],
 	},
-	NinetalesAlola: {
+	ninetalesalola: {
 		num: 38,
 		species: "Ninetales-Alola",
 		baseSpecies: "Ninetales",
@@ -955,7 +955,7 @@ let BattlePokedex = {
 		evoItem: "Ice Stone",
 		eggGroups: ["Field"],
 	},
-	Jigglypuff: {
+	jigglypuff: {
 		num: 39,
 		species: "Jigglypuff",
 		types: ["Normal", "Fairy"],
@@ -970,7 +970,7 @@ let BattlePokedex = {
 		evos: ["wigglytuff"],
 		eggGroups: ["Fairy"],
 	},
-	Wigglytuff: {
+	wigglytuff: {
 		num: 40,
 		species: "Wigglytuff",
 		types: ["Normal", "Fairy"],
@@ -985,7 +985,7 @@ let BattlePokedex = {
 		evoItem: "Moon Stone",
 		eggGroups: ["Fairy"],
 	},
-	Zubat: {
+	zubat: {
 		num: 41,
 		species: "Zubat",
 		types: ["Poison", "Flying"],
@@ -997,7 +997,7 @@ let BattlePokedex = {
 		evos: ["golbat"],
 		eggGroups: ["Flying"],
 	},
-	Golbat: {
+	golbat: {
 		num: 42,
 		species: "Golbat",
 		types: ["Poison", "Flying"],
@@ -1011,7 +1011,7 @@ let BattlePokedex = {
 		evos: ["crobat"],
 		eggGroups: ["Flying"],
 	},
-	Oddish: {
+	oddish: {
 		num: 43,
 		species: "Oddish",
 		types: ["Grass", "Poison"],
@@ -1023,7 +1023,7 @@ let BattlePokedex = {
 		evos: ["gloom"],
 		eggGroups: ["Grass"],
 	},
-	Gloom: {
+	gloom: {
 		num: 44,
 		species: "Gloom",
 		types: ["Grass", "Poison"],
@@ -1037,7 +1037,7 @@ let BattlePokedex = {
 		evos: ["vileplume", "bellossom"],
 		eggGroups: ["Grass"],
 	},
-	Vileplume: {
+	vileplume: {
 		num: 45,
 		species: "Vileplume",
 		types: ["Grass", "Poison"],
@@ -1051,7 +1051,7 @@ let BattlePokedex = {
 		evoItem: "Leaf Stone",
 		eggGroups: ["Grass"],
 	},
-	Paras: {
+	paras: {
 		num: 46,
 		species: "Paras",
 		types: ["Bug", "Grass"],
@@ -1063,7 +1063,7 @@ let BattlePokedex = {
 		evos: ["parasect"],
 		eggGroups: ["Bug", "Grass"],
 	},
-	Parasect: {
+	parasect: {
 		num: 47,
 		species: "Parasect",
 		types: ["Bug", "Grass"],
@@ -1076,7 +1076,7 @@ let BattlePokedex = {
 		evoLevel: 24,
 		eggGroups: ["Bug", "Grass"],
 	},
-	Venonat: {
+	venonat: {
 		num: 48,
 		species: "Venonat",
 		types: ["Bug", "Poison"],
@@ -1088,7 +1088,7 @@ let BattlePokedex = {
 		evos: ["venomoth"],
 		eggGroups: ["Bug"],
 	},
-	Venomoth: {
+	venomoth: {
 		num: 49,
 		species: "Venomoth",
 		types: ["Bug", "Poison"],
@@ -1101,7 +1101,7 @@ let BattlePokedex = {
 		evoLevel: 31,
 		eggGroups: ["Bug"],
 	},
-	Diglett: {
+	diglett: {
 		num: 50,
 		species: "Diglett",
 		types: ["Ground"],
@@ -1114,7 +1114,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["diglettalola"],
 	},
-	DiglettAlola: {
+	diglettalola: {
 		num: 50,
 		species: "Diglett-Alola",
 		baseSpecies: "Diglett",
@@ -1129,7 +1129,7 @@ let BattlePokedex = {
 		evos: ["dugtrioalola"],
 		eggGroups: ["Field"],
 	},
-	Dugtrio: {
+	dugtrio: {
 		num: 51,
 		species: "Dugtrio",
 		types: ["Ground"],
@@ -1143,7 +1143,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["dugtrioalola"],
 	},
-	DugtrioAlola: {
+	dugtrioalola: {
 		num: 51,
 		species: "Dugtrio-Alola",
 		baseSpecies: "Dugtrio",
@@ -1159,7 +1159,7 @@ let BattlePokedex = {
 		evoLevel: 26,
 		eggGroups: ["Field"],
 	},
-	Meowth: {
+	meowth: {
 		num: 52,
 		species: "Meowth",
 		types: ["Normal"],
@@ -1172,7 +1172,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["meowthalola"],
 	},
-	MeowthAlola: {
+	meowthalola: {
 		num: 52,
 		species: "Meowth-Alola",
 		baseSpecies: "Meowth",
@@ -1187,7 +1187,7 @@ let BattlePokedex = {
 		evos: ["persianalola"],
 		eggGroups: ["Field"],
 	},
-	Persian: {
+	persian: {
 		num: 53,
 		species: "Persian",
 		types: ["Normal"],
@@ -1201,7 +1201,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["persianalola"],
 	},
-	PersianAlola: {
+	persianalola: {
 		num: 53,
 		species: "Persian-Alola",
 		baseSpecies: "Persian",
@@ -1217,7 +1217,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Field"],
 	},
-	Psyduck: {
+	psyduck: {
 		num: 54,
 		species: "Psyduck",
 		types: ["Water"],
@@ -1229,7 +1229,7 @@ let BattlePokedex = {
 		evos: ["golduck"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Golduck: {
+	golduck: {
 		num: 55,
 		species: "Golduck",
 		types: ["Water"],
@@ -1242,7 +1242,7 @@ let BattlePokedex = {
 		evoLevel: 33,
 		eggGroups: ["Water 1", "Field"],
 	},
-	Mankey: {
+	mankey: {
 		num: 56,
 		species: "Mankey",
 		types: ["Fighting"],
@@ -1254,7 +1254,7 @@ let BattlePokedex = {
 		evos: ["primeape"],
 		eggGroups: ["Field"],
 	},
-	Primeape: {
+	primeape: {
 		num: 57,
 		species: "Primeape",
 		types: ["Fighting"],
@@ -1267,7 +1267,7 @@ let BattlePokedex = {
 		evoLevel: 28,
 		eggGroups: ["Field"],
 	},
-	Growlithe: {
+	growlithe: {
 		num: 58,
 		species: "Growlithe",
 		types: ["Fire"],
@@ -1280,7 +1280,7 @@ let BattlePokedex = {
 		evos: ["arcanine"],
 		eggGroups: ["Field"],
 	},
-	Arcanine: {
+	arcanine: {
 		num: 59,
 		species: "Arcanine",
 		types: ["Fire"],
@@ -1295,7 +1295,7 @@ let BattlePokedex = {
 		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
 	},
-	Poliwag: {
+	poliwag: {
 		num: 60,
 		species: "Poliwag",
 		types: ["Water"],
@@ -1307,7 +1307,7 @@ let BattlePokedex = {
 		evos: ["poliwhirl"],
 		eggGroups: ["Water 1"],
 	},
-	Poliwhirl: {
+	poliwhirl: {
 		num: 61,
 		species: "Poliwhirl",
 		types: ["Water"],
@@ -1321,7 +1321,7 @@ let BattlePokedex = {
 		evos: ["poliwrath", "politoed"],
 		eggGroups: ["Water 1"],
 	},
-	Poliwrath: {
+	poliwrath: {
 		num: 62,
 		species: "Poliwrath",
 		types: ["Water", "Fighting"],
@@ -1335,7 +1335,7 @@ let BattlePokedex = {
 		evoItem: "Water Stone",
 		eggGroups: ["Water 1"],
 	},
-	Abra: {
+	abra: {
 		num: 63,
 		species: "Abra",
 		types: ["Psychic"],
@@ -1348,7 +1348,7 @@ let BattlePokedex = {
 		evos: ["kadabra"],
 		eggGroups: ["Human-Like"],
 	},
-	Kadabra: {
+	kadabra: {
 		num: 64,
 		species: "Kadabra",
 		types: ["Psychic"],
@@ -1363,7 +1363,7 @@ let BattlePokedex = {
 		evos: ["alakazam"],
 		eggGroups: ["Human-Like"],
 	},
-	Alakazam: {
+	alakazam: {
 		num: 65,
 		species: "Alakazam",
 		types: ["Psychic"],
@@ -1378,7 +1378,7 @@ let BattlePokedex = {
 		eggGroups: ["Human-Like"],
 		otherFormes: ["alakazammega"],
 	},
-	AlakazamMega: {
+	alakazammega: {
 		num: 65,
 		species: "Alakazam-Mega",
 		baseSpecies: "Alakazam",
@@ -1393,7 +1393,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Human-Like"],
 	},
-	Machop: {
+	machop: {
 		num: 66,
 		species: "Machop",
 		types: ["Fighting"],
@@ -1406,7 +1406,7 @@ let BattlePokedex = {
 		evos: ["machoke"],
 		eggGroups: ["Human-Like"],
 	},
-	Machoke: {
+	machoke: {
 		num: 67,
 		species: "Machoke",
 		types: ["Fighting"],
@@ -1421,7 +1421,7 @@ let BattlePokedex = {
 		evos: ["machamp"],
 		eggGroups: ["Human-Like"],
 	},
-	Machamp: {
+	machamp: {
 		num: 68,
 		species: "Machamp",
 		types: ["Fighting"],
@@ -1435,7 +1435,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Human-Like"],
 	},
-	Bellsprout: {
+	bellsprout: {
 		num: 69,
 		species: "Bellsprout",
 		types: ["Grass", "Poison"],
@@ -1447,7 +1447,7 @@ let BattlePokedex = {
 		evos: ["weepinbell"],
 		eggGroups: ["Grass"],
 	},
-	Weepinbell: {
+	weepinbell: {
 		num: 70,
 		species: "Weepinbell",
 		types: ["Grass", "Poison"],
@@ -1461,7 +1461,7 @@ let BattlePokedex = {
 		evos: ["victreebel"],
 		eggGroups: ["Grass"],
 	},
-	Victreebel: {
+	victreebel: {
 		num: 71,
 		species: "Victreebel",
 		types: ["Grass", "Poison"],
@@ -1475,7 +1475,7 @@ let BattlePokedex = {
 		evoItem: "Leaf Stone",
 		eggGroups: ["Grass"],
 	},
-	Tentacool: {
+	tentacool: {
 		num: 72,
 		species: "Tentacool",
 		types: ["Water", "Poison"],
@@ -1487,7 +1487,7 @@ let BattlePokedex = {
 		evos: ["tentacruel"],
 		eggGroups: ["Water 3"],
 	},
-	Tentacruel: {
+	tentacruel: {
 		num: 73,
 		species: "Tentacruel",
 		types: ["Water", "Poison"],
@@ -1500,7 +1500,7 @@ let BattlePokedex = {
 		evoLevel: 30,
 		eggGroups: ["Water 3"],
 	},
-	Geodude: {
+	geodude: {
 		num: 74,
 		species: "Geodude",
 		types: ["Rock", "Ground"],
@@ -1513,7 +1513,7 @@ let BattlePokedex = {
 		eggGroups: ["Mineral"],
 		otherFormes: ["geodudealola"],
 	},
-	GeodudeAlola: {
+	geodudealola: {
 		num: 74,
 		species: "Geodude-Alola",
 		baseSpecies: "Geodude",
@@ -1528,7 +1528,7 @@ let BattlePokedex = {
 		evos: ["graveleralola"],
 		eggGroups: ["Mineral"],
 	},
-	Graveler: {
+	graveler: {
 		num: 75,
 		species: "Graveler",
 		types: ["Rock", "Ground"],
@@ -1543,7 +1543,7 @@ let BattlePokedex = {
 		eggGroups: ["Mineral"],
 		otherFormes: ["graveleralola"],
 	},
-	GravelerAlola: {
+	graveleralola: {
 		num: 75,
 		species: "Graveler-Alola",
 		baseSpecies: "Graveler",
@@ -1560,7 +1560,7 @@ let BattlePokedex = {
 		evos: ["golemalola"],
 		eggGroups: ["Mineral"],
 	},
-	Golem: {
+	golem: {
 		num: 76,
 		species: "Golem",
 		types: ["Rock", "Ground"],
@@ -1574,7 +1574,7 @@ let BattlePokedex = {
 		eggGroups: ["Mineral"],
 		otherFormes: ["golemalola"],
 	},
-	GolemAlola: {
+	golemalola: {
 		num: 76,
 		species: "Golem-Alola",
 		baseSpecies: "Golem",
@@ -1590,7 +1590,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Mineral"],
 	},
-	Ponyta: {
+	ponyta: {
 		num: 77,
 		species: "Ponyta",
 		types: ["Fire"],
@@ -1602,7 +1602,7 @@ let BattlePokedex = {
 		evos: ["rapidash"],
 		eggGroups: ["Field"],
 	},
-	Rapidash: {
+	rapidash: {
 		num: 78,
 		species: "Rapidash",
 		types: ["Fire", "Fairy"],
@@ -1615,7 +1615,7 @@ let BattlePokedex = {
 		evoLevel: 40,
 		eggGroups: ["Field"],
 	},
-	Slowpoke: {
+	slowpoke: {
 		num: 79,
 		species: "Slowpoke",
 		types: ["Water", "Psychic"],
@@ -1627,7 +1627,7 @@ let BattlePokedex = {
 		evos: ["slowbro", "slowking"],
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Slowbro: {
+	slowbro: {
 		num: 80,
 		species: "Slowbro",
 		types: ["Water", "Psychic"],
@@ -1641,7 +1641,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Water 1"],
 		otherFormes: ["slowbromega"],
 	},
-	SlowbroMega: {
+	slowbromega: {
 		num: 80,
 		species: "Slowbro-Mega",
 		baseSpecies: "Slowbro",
@@ -1655,7 +1655,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Magnemite: {
+	magnemite: {
 		num: 81,
 		species: "Magnemite",
 		types: ["Electric", "Steel"],
@@ -1668,7 +1668,7 @@ let BattlePokedex = {
 		evos: ["magneton"],
 		eggGroups: ["Mineral"],
 	},
-	Magneton: {
+	magneton: {
 		num: 82,
 		species: "Magneton",
 		types: ["Electric", "Steel"],
@@ -1683,7 +1683,7 @@ let BattlePokedex = {
 		evos: ["magnezone"],
 		eggGroups: ["Mineral"],
 	},
-	Farfetchd: {
+	farfetchd: {
 		num: 83,
 		species: "Farfetch'd",
 		types: ["Fighting", "Flying"],
@@ -1694,7 +1694,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Flying", "Field"],
 	},
-	Doduo: {
+	doduo: {
 		num: 84,
 		species: "Doduo",
 		types: ["Normal", "Flying"],
@@ -1706,7 +1706,7 @@ let BattlePokedex = {
 		evos: ["dodrio"],
 		eggGroups: ["Flying"],
 	},
-	Dodrio: {
+	dodrio: {
 		num: 85,
 		species: "Dodrio",
 		types: ["Normal", "Flying"],
@@ -1719,7 +1719,7 @@ let BattlePokedex = {
 		evoLevel: 31,
 		eggGroups: ["Flying"],
 	},
-	Seel: {
+	seel: {
 		num: 86,
 		species: "Seel",
 		types: ["Water"],
@@ -1731,7 +1731,7 @@ let BattlePokedex = {
 		evos: ["dewgong"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Dewgong: {
+	dewgong: {
 		num: 87,
 		species: "Dewgong",
 		types: ["Water", "Fairy"],
@@ -1744,7 +1744,7 @@ let BattlePokedex = {
 		evoLevel: 34,
 		eggGroups: ["Water 1", "Field"],
 	},
-	Grimer: {
+	grimer: {
 		num: 88,
 		species: "Grimer",
 		types: ["Poison"],
@@ -1757,7 +1757,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["grimeralola"],
 	},
-	GrimerAlola: {
+	grimeralola: {
 		num: 88,
 		species: "Grimer-Alola",
 		baseSpecies: "Grimer",
@@ -1772,7 +1772,7 @@ let BattlePokedex = {
 		evos: ["mukalola"],
 		eggGroups: ["Amorphous"],
 	},
-	Muk: {
+	muk: {
 		num: 89,
 		species: "Muk",
 		types: ["Poison"],
@@ -1786,7 +1786,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["mukalola"],
 	},
-	MukAlola: {
+	mukalola: {
 		num: 89,
 		species: "Muk-Alola",
 		baseSpecies: "Muk",
@@ -1802,7 +1802,7 @@ let BattlePokedex = {
 		evoLevel: 38,
 		eggGroups: ["Amorphous"],
 	},
-	Shellder: {
+	shellder: {
 		num: 90,
 		species: "Shellder",
 		types: ["Water"],
@@ -1814,7 +1814,7 @@ let BattlePokedex = {
 		evos: ["cloyster"],
 		eggGroups: ["Water 3"],
 	},
-	Cloyster: {
+	cloyster: {
 		num: 91,
 		species: "Cloyster",
 		types: ["Water", "Ice"],
@@ -1828,7 +1828,7 @@ let BattlePokedex = {
 		evoItem: "Water Stone",
 		eggGroups: ["Water 3"],
 	},
-	Gastly: {
+	gastly: {
 		num: 92,
 		species: "Gastly",
 		types: ["Ghost", "Poison"],
@@ -1840,7 +1840,7 @@ let BattlePokedex = {
 		evos: ["haunter"],
 		eggGroups: ["Amorphous"],
 	},
-	Haunter: {
+	haunter: {
 		num: 93,
 		species: "Haunter",
 		types: ["Ghost", "Poison"],
@@ -1854,7 +1854,7 @@ let BattlePokedex = {
 		evos: ["gengar"],
 		eggGroups: ["Amorphous"],
 	},
-	Gengar: {
+	gengar: {
 		num: 94,
 		species: "Gengar",
 		types: ["Ghost", "Poison"],
@@ -1868,7 +1868,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["gengarmega"],
 	},
-	GengarMega: {
+	gengarmega: {
 		num: 94,
 		species: "Gengar-Mega",
 		baseSpecies: "Gengar",
@@ -1882,7 +1882,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Amorphous"],
 	},
-	Onix: {
+	onix: {
 		num: 95,
 		species: "Onix",
 		types: ["Rock", "Ground"],
@@ -1894,7 +1894,7 @@ let BattlePokedex = {
 		evos: ["steelix"],
 		eggGroups: ["Mineral"],
 	},
-	Drowzee: {
+	drowzee: {
 		num: 96,
 		species: "Drowzee",
 		types: ["Psychic"],
@@ -1906,7 +1906,7 @@ let BattlePokedex = {
 		evos: ["hypno"],
 		eggGroups: ["Human-Like"],
 	},
-	Hypno: {
+	hypno: {
 		num: 97,
 		species: "Hypno",
 		types: ["Psychic", "Dark"],
@@ -1919,7 +1919,7 @@ let BattlePokedex = {
 		evoLevel: 26,
 		eggGroups: ["Human-Like"],
 	},
-	Krabby: {
+	krabby: {
 		num: 98,
 		species: "Krabby",
 		types: ["Water"],
@@ -1931,7 +1931,7 @@ let BattlePokedex = {
 		evos: ["kingler"],
 		eggGroups: ["Water 3"],
 	},
-	Kingler: {
+	kingler: {
 		num: 99,
 		species: "Kingler",
 		types: ["Water"],
@@ -1944,7 +1944,7 @@ let BattlePokedex = {
 		evoLevel: 28,
 		eggGroups: ["Water 3"],
 	},
-	Voltorb: {
+	voltorb: {
 		num: 100,
 		species: "Voltorb",
 		types: ["Electric"],
@@ -1957,7 +1957,7 @@ let BattlePokedex = {
 		evos: ["electrode"],
 		eggGroups: ["Mineral"],
 	},
-	Electrode: {
+	electrode: {
 		num: 101,
 		species: "Electrode",
 		types: ["Electric"],
@@ -1971,7 +1971,7 @@ let BattlePokedex = {
 		evoLevel: 30,
 		eggGroups: ["Mineral"],
 	},
-	Exeggcute: {
+	exeggcute: {
 		num: 102,
 		species: "Exeggcute",
 		types: ["Grass", "Psychic"],
@@ -1983,7 +1983,7 @@ let BattlePokedex = {
 		evos: ["exeggutor", "exeggutoralola"],
 		eggGroups: ["Grass"],
 	},
-	Exeggutor: {
+	exeggutor: {
 		num: 103,
 		species: "Exeggutor",
 		types: ["Grass", "Psychic"],
@@ -1998,7 +1998,7 @@ let BattlePokedex = {
 		eggGroups: ["Grass"],
 		otherFormes: ["exeggutoralola"],
 	},
-	ExeggutorAlola: {
+	exeggutoralola: {
 		num: 103,
 		species: "Exeggutor-Alola",
 		baseSpecies: "Exeggutor",
@@ -2015,7 +2015,7 @@ let BattlePokedex = {
 		evoItem: "Leaf Stone",
 		eggGroups: ["Grass"],
 	},
-	Cubone: {
+	cubone: {
 		num: 104,
 		species: "Cubone",
 		types: ["Ground"],
@@ -2027,7 +2027,7 @@ let BattlePokedex = {
 		evos: ["marowak", "marowakalola"],
 		eggGroups: ["Monster"],
 	},
-	Marowak: {
+	marowak: {
 		num: 105,
 		species: "Marowak",
 		types: ["Ground"],
@@ -2041,7 +2041,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster"],
 		otherFormes: ["marowakalola", "marowakalolatotem"],
 	},
-	MarowakAlola: {
+	marowakalola: {
 		num: 105,
 		species: "Marowak-Alola",
 		baseSpecies: "Marowak",
@@ -2057,7 +2057,7 @@ let BattlePokedex = {
 		evoLevel: 28,
 		eggGroups: ["Monster"],
 	},
-	MarowakAlolaTotem: {
+	marowakalolatotem: {
 		num: 105,
 		species: "Marowak-Alola-Totem",
 		baseSpecies: "Marowak",
@@ -2071,7 +2071,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Monster"],
 	},
-	Hitmonlee: {
+	hitmonlee: {
 		num: 106,
 		species: "Hitmonlee",
 		types: ["Fighting"],
@@ -2085,7 +2085,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Human-Like"],
 	},
-	Hitmonchan: {
+	hitmonchan: {
 		num: 107,
 		species: "Hitmonchan",
 		types: ["Fighting"],
@@ -2099,7 +2099,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Human-Like"],
 	},
-	Lickitung: {
+	lickitung: {
 		num: 108,
 		species: "Lickitung",
 		types: ["Normal"],
@@ -2111,7 +2111,7 @@ let BattlePokedex = {
 		evos: ["lickilicky"],
 		eggGroups: ["Monster"],
 	},
-	Koffing: {
+	koffing: {
 		num: 109,
 		species: "Koffing",
 		types: ["Poison"],
@@ -2123,7 +2123,7 @@ let BattlePokedex = {
 		evos: ["weezing"],
 		eggGroups: ["Amorphous"],
 	},
-	Weezing: {
+	weezing: {
 		num: 110,
 		species: "Weezing",
 		types: ["Poison"],
@@ -2136,7 +2136,7 @@ let BattlePokedex = {
 		evoLevel: 35,
 		eggGroups: ["Amorphous"],
 	},
-	Rhyhorn: {
+	rhyhorn: {
 		num: 111,
 		species: "Rhyhorn",
 		types: ["Ground", "Rock"],
@@ -2148,7 +2148,7 @@ let BattlePokedex = {
 		evos: ["rhydon"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Rhydon: {
+	rhydon: {
 		num: 112,
 		species: "Rhydon",
 		types: ["Ground", "Rock"],
@@ -2162,7 +2162,7 @@ let BattlePokedex = {
 		evos: ["rhyperior"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Chansey: {
+	chansey: {
 		num: 113,
 		species: "Chansey",
 		types: ["Normal"],
@@ -2180,7 +2180,7 @@ let BattlePokedex = {
 		eggGroups: ["Fairy"],
 		canHatch: true,
 	},
-	Tangela: {
+	tangela: {
 		num: 114,
 		species: "Tangela",
 		types: ["Grass"],
@@ -2192,7 +2192,7 @@ let BattlePokedex = {
 		evos: ["tangrowth"],
 		eggGroups: ["Grass"],
 	},
-	Kangaskhan: {
+	kangaskhan: {
 		num: 115,
 		species: "Kangaskhan",
 		types: ["Normal"],
@@ -2205,7 +2205,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster"],
 		otherFormes: ["kangaskhanmega"],
 	},
-	KangaskhanMega: {
+	kangaskhanmega: {
 		num: 115,
 		species: "Kangaskhan-Mega",
 		baseSpecies: "Kangaskhan",
@@ -2220,7 +2220,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Monster"],
 	},
-	Horsea: {
+	horsea: {
 		num: 116,
 		species: "Horsea",
 		types: ["Water"],
@@ -2232,7 +2232,7 @@ let BattlePokedex = {
 		evos: ["seadra"],
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Seadra: {
+	seadra: {
 		num: 117,
 		species: "Seadra",
 		types: ["Water"],
@@ -2246,7 +2246,7 @@ let BattlePokedex = {
 		evos: ["kingdra"],
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Goldeen: {
+	goldeen: {
 		num: 118,
 		species: "Goldeen",
 		types: ["Water"],
@@ -2258,7 +2258,7 @@ let BattlePokedex = {
 		evos: ["seaking"],
 		eggGroups: ["Water 2"],
 	},
-	Seaking: {
+	seaking: {
 		num: 119,
 		species: "Seaking",
 		types: ["Water"],
@@ -2271,7 +2271,7 @@ let BattlePokedex = {
 		evoLevel: 33,
 		eggGroups: ["Water 2"],
 	},
-	Staryu: {
+	staryu: {
 		num: 120,
 		species: "Staryu",
 		types: ["Water"],
@@ -2284,7 +2284,7 @@ let BattlePokedex = {
 		evos: ["starmie"],
 		eggGroups: ["Water 3"],
 	},
-	Starmie: {
+	starmie: {
 		num: 121,
 		species: "Starmie",
 		types: ["Water", "Psychic"],
@@ -2299,7 +2299,7 @@ let BattlePokedex = {
 		evoItem: "Water Stone",
 		eggGroups: ["Water 3"],
 	},
-	MrMime: {
+	mrmime: {
 		num: 122,
 		species: "Mr. Mime",
 		types: ["Psychic", "Fairy"],
@@ -2314,7 +2314,7 @@ let BattlePokedex = {
 		eggGroups: ["Human-Like"],
 		canHatch: true,
 	},
-	Scyther: {
+	scyther: {
 		num: 123,
 		species: "Scyther",
 		types: ["Bug", "Flying"],
@@ -2326,7 +2326,7 @@ let BattlePokedex = {
 		evos: ["scizor"],
 		eggGroups: ["Bug"],
 	},
-	Jynx: {
+	jynx: {
 		num: 124,
 		species: "Jynx",
 		types: ["Ice", "Psychic"],
@@ -2340,7 +2340,7 @@ let BattlePokedex = {
 		evoLevel: 30,
 		eggGroups: ["Human-Like"],
 	},
-	Electabuzz: {
+	electabuzz: {
 		num: 125,
 		species: "Electabuzz",
 		types: ["Electric"],
@@ -2355,7 +2355,7 @@ let BattlePokedex = {
 		evos: ["electivire"],
 		eggGroups: ["Human-Like"],
 	},
-	Magmar: {
+	magmar: {
 		num: 126,
 		species: "Magmar",
 		types: ["Fire"],
@@ -2370,7 +2370,7 @@ let BattlePokedex = {
 		evos: ["magmortar"],
 		eggGroups: ["Human-Like"],
 	},
-	Pinsir: {
+	pinsir: {
 		num: 127,
 		species: "Pinsir",
 		types: ["Bug", "Dark"],
@@ -2382,7 +2382,7 @@ let BattlePokedex = {
 		eggGroups: ["Bug"],
 		otherFormes: ["pinsirmega"],
 	},
-	PinsirMega: {
+	pinsirmega: {
 		num: 127,
 		species: "Pinsir-Mega",
 		baseSpecies: "Pinsir",
@@ -2396,7 +2396,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Bug"],
 	},
-	Tauros: {
+	tauros: {
 		num: 128,
 		species: "Tauros",
 		types: ["Normal"],
@@ -2408,7 +2408,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Field"],
 	},
-	Magikarp: {
+	magikarp: {
 		num: 129,
 		species: "Magikarp",
 		types: ["Water"],
@@ -2420,7 +2420,7 @@ let BattlePokedex = {
 		evos: ["gyarados"],
 		eggGroups: ["Water 2", "Dragon"],
 	},
-	Gyarados: {
+	gyarados: {
 		num: 130,
 		species: "Gyarados",
 		types: ["Water", "Flying"],
@@ -2434,7 +2434,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 2", "Dragon"],
 		otherFormes: ["gyaradosmega"],
 	},
-	GyaradosMega: {
+	gyaradosmega: {
 		num: 130,
 		species: "Gyarados-Mega",
 		baseSpecies: "Gyarados",
@@ -2448,7 +2448,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Water 2", "Dragon"],
 	},
-	Lapras: {
+	lapras: {
 		num: 131,
 		species: "Lapras",
 		types: ["Water", "Ice"],
@@ -2459,7 +2459,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Ditto: {
+	ditto: {
 		num: 132,
 		species: "Ditto",
 		types: ["Normal"],
@@ -2471,7 +2471,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Ditto"],
 	},
-	Eevee: {
+	eevee: {
 		num: 133,
 		species: "Eevee",
 		types: ["Normal"],
@@ -2485,7 +2485,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["eeveestarter"],
 	},
-	EeveeStarter: {
+	eeveestarter: {
 		num: 133,
 		species: "Eevee-Starter",
 		baseSpecies: "Eevee",
@@ -2500,7 +2500,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
 	},
-	Vaporeon: {
+	vaporeon: {
 		num: 134,
 		species: "Vaporeon",
 		types: ["Water"],
@@ -2515,7 +2515,7 @@ let BattlePokedex = {
 		evoItem: "Water Stone",
 		eggGroups: ["Field"],
 	},
-	Jolteon: {
+	jolteon: {
 		num: 135,
 		species: "Jolteon",
 		types: ["Electric"],
@@ -2530,7 +2530,7 @@ let BattlePokedex = {
 		evoItem: "Thunder Stone",
 		eggGroups: ["Field"],
 	},
-	Flareon: {
+	flareon: {
 		num: 136,
 		species: "Flareon",
 		types: ["Fire"],
@@ -2545,7 +2545,7 @@ let BattlePokedex = {
 		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
 	},
-	Porygon: {
+	porygon: {
 		num: 137,
 		species: "Porygon",
 		types: ["Normal"],
@@ -2558,7 +2558,7 @@ let BattlePokedex = {
 		evos: ["porygon2"],
 		eggGroups: ["Mineral"],
 	},
-	Omanyte: {
+	omanyte: {
 		num: 138,
 		species: "Omanyte",
 		types: ["Rock", "Water"],
@@ -2571,7 +2571,7 @@ let BattlePokedex = {
 		evos: ["omastar"],
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Omastar: {
+	omastar: {
 		num: 139,
 		species: "Omastar",
 		types: ["Rock", "Water"],
@@ -2585,7 +2585,7 @@ let BattlePokedex = {
 		evoLevel: 40,
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Kabuto: {
+	kabuto: {
 		num: 140,
 		species: "Kabuto",
 		types: ["Rock", "Water"],
@@ -2598,7 +2598,7 @@ let BattlePokedex = {
 		evos: ["kabutops"],
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Kabutops: {
+	kabutops: {
 		num: 141,
 		species: "Kabutops",
 		types: ["Rock", "Water"],
@@ -2612,7 +2612,7 @@ let BattlePokedex = {
 		evoLevel: 40,
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Aerodactyl: {
+	aerodactyl: {
 		num: 142,
 		species: "Aerodactyl",
 		types: ["Rock", "Flying"],
@@ -2625,7 +2625,7 @@ let BattlePokedex = {
 		eggGroups: ["Flying"],
 		otherFormes: ["aerodactylmega"],
 	},
-	AerodactylMega: {
+	aerodactylmega: {
 		num: 142,
 		species: "Aerodactyl-Mega",
 		baseSpecies: "Aerodactyl",
@@ -2640,7 +2640,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Flying"],
 	},
-	Snorlax: {
+	snorlax: {
 		num: 143,
 		species: "Snorlax",
 		types: ["Normal"],
@@ -2655,7 +2655,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster"],
 		canHatch: true,
 	},
-	Articuno: {
+	articuno: {
 		num: 144,
 		species: "Articuno",
 		types: ["Ice", "Flying"],
@@ -2667,7 +2667,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Zapdos: {
+	zapdos: {
 		num: 145,
 		species: "Zapdos",
 		types: ["Electric", "Flying"],
@@ -2679,7 +2679,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	Moltres: {
+	moltres: {
 		num: 146,
 		species: "Moltres",
 		types: ["Fire", "Flying"],
@@ -2691,7 +2691,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	Dratini: {
+	dratini: {
 		num: 147,
 		species: "Dratini",
 		types: ["Dragon"],
@@ -2703,7 +2703,7 @@ let BattlePokedex = {
 		evos: ["dragonair"],
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Dragonair: {
+	dragonair: {
 		num: 148,
 		species: "Dragonair",
 		types: ["Dragon"],
@@ -2717,7 +2717,7 @@ let BattlePokedex = {
 		evos: ["dragonite"],
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Dragonite: {
+	dragonite: {
 		num: 149,
 		species: "Dragonite",
 		types: ["Dragon", "Flying"],
@@ -2730,7 +2730,7 @@ let BattlePokedex = {
 		evoLevel: 55,
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Mewtwo: {
+	mewtwo: {
 		num: 150,
 		species: "Mewtwo",
 		types: ["Psychic"],
@@ -2743,7 +2743,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["mewtwomegax", "mewtwomegay"],
 	},
-	MewtwoMegaX: {
+	mewtwomegax: {
 		num: 150,
 		species: "Mewtwo-Mega-X",
 		baseSpecies: "Mewtwo",
@@ -2758,7 +2758,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 	},
-	MewtwoMegaY: {
+	mewtwomegay: {
 		num: 150,
 		species: "Mewtwo-Mega-Y",
 		baseSpecies: "Mewtwo",
@@ -2773,7 +2773,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 	},
-	Mew: {
+	mew: {
 		num: 151,
 		species: "Mew",
 		types: ["Psychic"],
@@ -2785,7 +2785,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 	},
-	Chikorita: {
+	chikorita: {
 		num: 152,
 		species: "Chikorita",
 		types: ["Grass"],
@@ -2798,7 +2798,7 @@ let BattlePokedex = {
 		evos: ["bayleef"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	Bayleef: {
+	bayleef: {
 		num: 153,
 		species: "Bayleef",
 		types: ["Grass"],
@@ -2813,7 +2813,7 @@ let BattlePokedex = {
 		evos: ["meganium"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	Meganium: {
+	meganium: {
 		num: 154,
 		species: "Meganium",
 		types: ["Grass", "Fairy"],
@@ -2827,7 +2827,7 @@ let BattlePokedex = {
 		evoLevel: 32,
 		eggGroups: ["Monster", "Grass"],
 	},
-	Cyndaquil: {
+	cyndaquil: {
 		num: 155,
 		species: "Cyndaquil",
 		types: ["Fire"],
@@ -2840,7 +2840,7 @@ let BattlePokedex = {
 		evos: ["quilava"],
 		eggGroups: ["Field"],
 	},
-	Quilava: {
+	quilava: {
 		num: 156,
 		species: "Quilava",
 		types: ["Fire"],
@@ -2855,7 +2855,7 @@ let BattlePokedex = {
 		evos: ["typhlosion"],
 		eggGroups: ["Field"],
 	},
-	Typhlosion: {
+	typhlosion: {
 		num: 157,
 		species: "Typhlosion",
 		types: ["Fire"],
@@ -2869,7 +2869,7 @@ let BattlePokedex = {
 		evoLevel: 36,
 		eggGroups: ["Field"],
 	},
-	Totodile: {
+	totodile: {
 		num: 158,
 		species: "Totodile",
 		types: ["Water"],
@@ -2882,7 +2882,7 @@ let BattlePokedex = {
 		evos: ["croconaw"],
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Croconaw: {
+	croconaw: {
 		num: 159,
 		species: "Croconaw",
 		types: ["Water"],
@@ -2897,7 +2897,7 @@ let BattlePokedex = {
 		evos: ["feraligatr"],
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Feraligatr: {
+	feraligatr: {
 		num: 160,
 		species: "Feraligatr",
 		types: ["Water"],
@@ -2911,7 +2911,7 @@ let BattlePokedex = {
 		evoLevel: 30,
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Sentret: {
+	sentret: {
 		num: 161,
 		species: "Sentret",
 		types: ["Normal"],
@@ -2923,7 +2923,7 @@ let BattlePokedex = {
 		evos: ["furret"],
 		eggGroups: ["Field"],
 	},
-	Furret: {
+	furret: {
 		num: 162,
 		species: "Furret",
 		types: ["Normal"],
@@ -2936,7 +2936,7 @@ let BattlePokedex = {
 		evoLevel: 15,
 		eggGroups: ["Field"],
 	},
-	Hoothoot: {
+	hoothoot: {
 		num: 163,
 		species: "Hoothoot",
 		types: ["Normal", "Flying"],
@@ -2948,7 +2948,7 @@ let BattlePokedex = {
 		evos: ["noctowl"],
 		eggGroups: ["Flying"],
 	},
-	Noctowl: {
+	noctowl: {
 		num: 164,
 		species: "Noctowl",
 		types: ["Psychic", "Flying"],
@@ -2961,7 +2961,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Flying"],
 	},
-	Ledyba: {
+	ledyba: {
 		num: 165,
 		species: "Ledyba",
 		types: ["Bug", "Flying"],
@@ -2973,7 +2973,7 @@ let BattlePokedex = {
 		evos: ["ledian"],
 		eggGroups: ["Bug"],
 	},
-	Ledian: {
+	ledian: {
 		num: 166,
 		species: "Ledian",
 		types: ["Bug", "Fighting"],
@@ -2986,7 +2986,7 @@ let BattlePokedex = {
 		evoLevel: 18,
 		eggGroups: ["Bug"],
 	},
-	Spinarak: {
+	spinarak: {
 		num: 167,
 		species: "Spinarak",
 		types: ["Bug", "Poison"],
@@ -2998,7 +2998,7 @@ let BattlePokedex = {
 		evos: ["ariados"],
 		eggGroups: ["Bug"],
 	},
-	Ariados: {
+	ariados: {
 		num: 168,
 		species: "Ariados",
 		types: ["Bug", "Poison"],
@@ -3011,7 +3011,7 @@ let BattlePokedex = {
 		evoLevel: 22,
 		eggGroups: ["Bug"],
 	},
-	Crobat: {
+	crobat: {
 		num: 169,
 		species: "Crobat",
 		types: ["Poison", "Flying"],
@@ -3024,7 +3024,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Flying"],
 	},
-	Chinchou: {
+	chinchou: {
 		num: 170,
 		species: "Chinchou",
 		types: ["Water", "Electric"],
@@ -3036,7 +3036,7 @@ let BattlePokedex = {
 		evos: ["lanturn"],
 		eggGroups: ["Water 2"],
 	},
-	Lanturn: {
+	lanturn: {
 		num: 171,
 		species: "Lanturn",
 		types: ["Water", "Electric"],
@@ -3049,7 +3049,7 @@ let BattlePokedex = {
 		evoLevel: 27,
 		eggGroups: ["Water 2"],
 	},
-	Pichu: {
+	pichu: {
 		num: 172,
 		species: "Pichu",
 		types: ["Electric"],
@@ -3077,7 +3077,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	Cleffa: {
+	cleffa: {
 		num: 173,
 		species: "Cleffa",
 		types: ["Fairy"],
@@ -3091,7 +3091,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Igglybuff: {
+	igglybuff: {
 		num: 174,
 		species: "Igglybuff",
 		types: ["Normal", "Fairy"],
@@ -3105,7 +3105,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Togepi: {
+	togepi: {
 		num: 175,
 		species: "Togepi",
 		types: ["Fairy"],
@@ -3119,7 +3119,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Togetic: {
+	togetic: {
 		num: 176,
 		species: "Togetic",
 		types: ["Fairy", "Flying"],
@@ -3134,7 +3134,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Flying", "Fairy"],
 	},
-	Natu: {
+	natu: {
 		num: 177,
 		species: "Natu",
 		types: ["Psychic", "Flying"],
@@ -3146,7 +3146,7 @@ let BattlePokedex = {
 		evos: ["xatu"],
 		eggGroups: ["Flying"],
 	},
-	Xatu: {
+	xatu: {
 		num: 178,
 		species: "Xatu",
 		types: ["Psychic", "Flying"],
@@ -3159,7 +3159,7 @@ let BattlePokedex = {
 		evoLevel: 25,
 		eggGroups: ["Flying"],
 	},
-	Mareep: {
+	mareep: {
 		num: 179,
 		species: "Mareep",
 		types: ["Electric"],
@@ -3171,7 +3171,7 @@ let BattlePokedex = {
 		evos: ["flaaffy"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Flaaffy: {
+	flaaffy: {
 		num: 180,
 		species: "Flaaffy",
 		types: ["Electric"],
@@ -3185,7 +3185,7 @@ let BattlePokedex = {
 		evos: ["ampharos"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Ampharos: {
+	ampharos: {
 		num: 181,
 		species: "Ampharos",
 		types: ["Electric"],
@@ -3199,7 +3199,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Field"],
 		otherFormes: ["ampharosmega"],
 	},
-	AmpharosMega: {
+	ampharosmega: {
 		num: 181,
 		species: "Ampharos-Mega",
 		baseSpecies: "Ampharos",
@@ -3213,7 +3213,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Monster", "Field"],
 	},
-	Bellossom: {
+	bellossom: {
 		num: 182,
 		species: "Bellossom",
 		types: ["Grass", "Fire"],
@@ -3227,7 +3227,7 @@ let BattlePokedex = {
 		evoItem: "Sun Stone",
 		eggGroups: ["Grass"],
 	},
-	Marill: {
+	marill: {
 		num: 183,
 		species: "Marill",
 		types: ["Water", "Fairy"],
@@ -3242,7 +3242,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 1", "Fairy"],
 		canHatch: true,
 	},
-	Azumarill: {
+	azumarill: {
 		num: 184,
 		species: "Azumarill",
 		types: ["Water", "Fairy"],
@@ -3255,7 +3255,7 @@ let BattlePokedex = {
 		evoLevel: 18,
 		eggGroups: ["Water 1", "Fairy"],
 	},
-	Sudowoodo: {
+	sudowoodo: {
 		num: 185,
 		species: "Sudowoodo",
 		types: ["Rock"],
@@ -3270,7 +3270,7 @@ let BattlePokedex = {
 		eggGroups: ["Mineral"],
 		canHatch: true,
 	},
-	Politoed: {
+	politoed: {
 		num: 186,
 		species: "Politoed",
 		types: ["Water", "Poison"],
@@ -3283,7 +3283,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Water 1"],
 	},
-	Hoppip: {
+	hoppip: {
 		num: 187,
 		species: "Hoppip",
 		types: ["Grass", "Flying"],
@@ -3295,7 +3295,7 @@ let BattlePokedex = {
 		evos: ["skiploom"],
 		eggGroups: ["Fairy", "Grass"],
 	},
-	Skiploom: {
+	skiploom: {
 		num: 188,
 		species: "Skiploom",
 		types: ["Grass", "Flying"],
@@ -3309,7 +3309,7 @@ let BattlePokedex = {
 		evos: ["jumpluff"],
 		eggGroups: ["Fairy", "Grass"],
 	},
-	Jumpluff: {
+	jumpluff: {
 		num: 189,
 		species: "Jumpluff",
 		types: ["Grass", "Flying"],
@@ -3322,7 +3322,7 @@ let BattlePokedex = {
 		evoLevel: 27,
 		eggGroups: ["Fairy", "Grass"],
 	},
-	Aipom: {
+	aipom: {
 		num: 190,
 		species: "Aipom",
 		types: ["Normal"],
@@ -3334,7 +3334,7 @@ let BattlePokedex = {
 		evos: ["ambipom"],
 		eggGroups: ["Field"],
 	},
-	Sunkern: {
+	sunkern: {
 		num: 191,
 		species: "Sunkern",
 		types: ["Grass"],
@@ -3346,7 +3346,7 @@ let BattlePokedex = {
 		evos: ["sunflora"],
 		eggGroups: ["Grass"],
 	},
-	Sunflora: {
+	sunflora: {
 		num: 192,
 		species: "Sunflora",
 		types: ["Grass", "Ground"],
@@ -3360,7 +3360,7 @@ let BattlePokedex = {
 		evoItem: "Sun Stone",
 		eggGroups: ["Grass"],
 	},
-	Yanma: {
+	yanma: {
 		num: 193,
 		species: "Yanma",
 		types: ["Bug", "Flying"],
@@ -3372,7 +3372,7 @@ let BattlePokedex = {
 		evos: ["yanmega"],
 		eggGroups: ["Bug"],
 	},
-	Wooper: {
+	wooper: {
 		num: 194,
 		species: "Wooper",
 		types: ["Water", "Ground"],
@@ -3384,7 +3384,7 @@ let BattlePokedex = {
 		evos: ["quagsire"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Quagsire: {
+	quagsire: {
 		num: 195,
 		species: "Quagsire",
 		types: ["Water", "Ground"],
@@ -3397,7 +3397,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Water 1", "Field"],
 	},
-	Espeon: {
+	espeon: {
 		num: 196,
 		species: "Espeon",
 		types: ["Psychic"],
@@ -3412,7 +3412,7 @@ let BattlePokedex = {
 		evoCondition: "during the day",
 		eggGroups: ["Field"],
 	},
-	Umbreon: {
+	umbreon: {
 		num: 197,
 		species: "Umbreon",
 		types: ["Dark"],
@@ -3427,7 +3427,7 @@ let BattlePokedex = {
 		evoCondition: "at night",
 		eggGroups: ["Field"],
 	},
-	Murkrow: {
+	murkrow: {
 		num: 198,
 		species: "Murkrow",
 		types: ["Dark", "Flying"],
@@ -3439,7 +3439,7 @@ let BattlePokedex = {
 		evos: ["honchkrow"],
 		eggGroups: ["Flying"],
 	},
-	Slowking: {
+	slowking: {
 		num: 199,
 		species: "Slowking",
 		types: ["Water", "Psychic"],
@@ -3452,7 +3452,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Misdreavus: {
+	misdreavus: {
 		num: 200,
 		species: "Misdreavus",
 		types: ["Ghost"],
@@ -3464,7 +3464,7 @@ let BattlePokedex = {
 		evos: ["mismagius"],
 		eggGroups: ["Amorphous"],
 	},
-	Unown: {
+	unown: {
 		num: 201,
 		species: "Unown",
 		baseForme: "A",
@@ -3478,7 +3478,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherForms: ["unownb", "unownc", "unownd", "unowne", "unownf", "unowng", "unownh", "unowni", "unownj", "unownk", "unownl", "unownm", "unownn", "unowno", "unownp", "unownq", "unownr", "unowns", "unownt", "unownu", "unownv", "unownw", "unownx", "unowny", "unownz", "unownexclamation", "unownquestion"],
 	},
-	Wobbuffet: {
+	wobbuffet: {
 		num: 202,
 		species: "Wobbuffet",
 		types: ["Psychic"],
@@ -3491,7 +3491,7 @@ let BattlePokedex = {
 		evoLevel: 15,
 		eggGroups: ["Amorphous"],
 	},
-	Girafarig: {
+	girafarig: {
 		num: 203,
 		species: "Girafarig",
 		types: ["Normal", "Psychic"],
@@ -3502,7 +3502,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	Pineco: {
+	pineco: {
 		num: 204,
 		species: "Pineco",
 		types: ["Bug"],
@@ -3514,7 +3514,7 @@ let BattlePokedex = {
 		evos: ["forretress"],
 		eggGroups: ["Bug"],
 	},
-	Forretress: {
+	forretress: {
 		num: 205,
 		species: "Forretress",
 		types: ["Bug", "Steel"],
@@ -3527,7 +3527,7 @@ let BattlePokedex = {
 		evoLevel: 31,
 		eggGroups: ["Bug"],
 	},
-	Dunsparce: {
+	dunsparce: {
 		num: 206,
 		species: "Dunsparce",
 		types: ["Normal", "Dragon"],
@@ -3538,7 +3538,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	Gligar: {
+	gligar: {
 		num: 207,
 		species: "Gligar",
 		types: ["Ground", "Flying"],
@@ -3550,7 +3550,7 @@ let BattlePokedex = {
 		evos: ["gliscor"],
 		eggGroups: ["Bug"],
 	},
-	Steelix: {
+	steelix: {
 		num: 208,
 		species: "Steelix",
 		types: ["Steel", "Ground"],
@@ -3564,7 +3564,7 @@ let BattlePokedex = {
 		eggGroups: ["Mineral"],
 		otherFormes: ["steelixmega"],
 	},
-	SteelixMega: {
+	steelixmega: {
 		num: 208,
 		species: "Steelix-Mega",
 		baseSpecies: "Steelix",
@@ -3578,7 +3578,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Mineral"],
 	},
-	Snubbull: {
+	snubbull: {
 		num: 209,
 		species: "Snubbull",
 		types: ["Fairy"],
@@ -3591,7 +3591,7 @@ let BattlePokedex = {
 		evos: ["granbull"],
 		eggGroups: ["Field", "Fairy"],
 	},
-	Granbull: {
+	granbull: {
 		num: 210,
 		species: "Granbull",
 		types: ["Fairy", "Fighting"],
@@ -3605,7 +3605,7 @@ let BattlePokedex = {
 		evoLevel: 23,
 		eggGroups: ["Field", "Fairy"],
 	},
-	Qwilfish: {
+	qwilfish: {
 		num: 211,
 		species: "Qwilfish",
 		types: ["Water", "Poison"],
@@ -3616,7 +3616,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Water 2"],
 	},
-	Scizor: {
+	scizor: {
 		num: 212,
 		species: "Scizor",
 		types: ["Bug", "Steel"],
@@ -3630,7 +3630,7 @@ let BattlePokedex = {
 		eggGroups: ["Bug"],
 		otherFormes: ["scizormega"],
 	},
-	ScizorMega: {
+	scizormega: {
 		num: 212,
 		species: "Scizor-Mega",
 		baseSpecies: "Scizor",
@@ -3644,7 +3644,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Bug"],
 	},
-	Shuckle: {
+	shuckle: {
 		num: 213,
 		species: "Shuckle",
 		types: ["Bug", "Rock"],
@@ -3655,7 +3655,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Bug"],
 	},
-	Heracross: {
+	heracross: {
 		num: 214,
 		species: "Heracross",
 		types: ["Bug", "Fighting"],
@@ -3667,7 +3667,7 @@ let BattlePokedex = {
 		eggGroups: ["Bug"],
 		otherFormes: ["heracrossmega"],
 	},
-	HeracrossMega: {
+	heracrossmega: {
 		num: 214,
 		species: "Heracross-Mega",
 		baseSpecies: "Heracross",
@@ -3681,7 +3681,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Bug"],
 	},
-	Sneasel: {
+	sneasel: {
 		num: 215,
 		species: "Sneasel",
 		types: ["Dark", "Ice"],
@@ -3693,7 +3693,7 @@ let BattlePokedex = {
 		evos: ["weavile"],
 		eggGroups: ["Field"],
 	},
-	Teddiursa: {
+	teddiursa: {
 		num: 216,
 		species: "Teddiursa",
 		types: ["Normal"],
@@ -3705,7 +3705,7 @@ let BattlePokedex = {
 		evos: ["ursaring"],
 		eggGroups: ["Field"],
 	},
-	Ursaring: {
+	ursaring: {
 		num: 217,
 		species: "Ursaring",
 		types: ["Normal", "Dark"],
@@ -3718,7 +3718,7 @@ let BattlePokedex = {
 		evoLevel: 30,
 		eggGroups: ["Field"],
 	},
-	Slugma: {
+	slugma: {
 		num: 218,
 		species: "Slugma",
 		types: ["Fire"],
@@ -3730,7 +3730,7 @@ let BattlePokedex = {
 		evos: ["magcargo"],
 		eggGroups: ["Amorphous"],
 	},
-	Magcargo: {
+	magcargo: {
 		num: 219,
 		species: "Magcargo",
 		types: ["Fire", "Rock"],
@@ -3743,7 +3743,7 @@ let BattlePokedex = {
 		evoLevel: 38,
 		eggGroups: ["Amorphous"],
 	},
-	Swinub: {
+	swinub: {
 		num: 220,
 		species: "Swinub",
 		types: ["Ice", "Ground"],
@@ -3755,7 +3755,7 @@ let BattlePokedex = {
 		evos: ["piloswine"],
 		eggGroups: ["Field"],
 	},
-	Piloswine: {
+	piloswine: {
 		num: 221,
 		species: "Piloswine",
 		types: ["Ice", "Ground"],
@@ -3769,7 +3769,7 @@ let BattlePokedex = {
 		evos: ["mamoswine"],
 		eggGroups: ["Field"],
 	},
-	Corsola: {
+	corsola: {
 		num: 222,
 		species: "Corsola",
 		types: ["Water", "Rock"],
@@ -3781,7 +3781,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Remoraid: {
+	remoraid: {
 		num: 223,
 		species: "Remoraid",
 		types: ["Water"],
@@ -3793,7 +3793,7 @@ let BattlePokedex = {
 		evos: ["octillery"],
 		eggGroups: ["Water 1", "Water 2"],
 	},
-	Octillery: {
+	octillery: {
 		num: 224,
 		species: "Octillery",
 		types: ["Water"],
@@ -3806,7 +3806,7 @@ let BattlePokedex = {
 		evoLevel: 25,
 		eggGroups: ["Water 1", "Water 2"],
 	},
-	Delibird: {
+	delibird: {
 		num: 225,
 		species: "Delibird",
 		types: ["Ice", "Flying"],
@@ -3817,7 +3817,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Water 1", "Field"],
 	},
-	Mantine: {
+	mantine: {
 		num: 226,
 		species: "Mantine",
 		types: ["Water", "Flying"],
@@ -3832,7 +3832,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 1"],
 		canHatch: true,
 	},
-	Skarmory: {
+	skarmory: {
 		num: 227,
 		species: "Skarmory",
 		types: ["Steel", "Flying"],
@@ -3843,7 +3843,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Flying"],
 	},
-	Houndour: {
+	houndour: {
 		num: 228,
 		species: "Houndour",
 		types: ["Dark", "Fire"],
@@ -3855,7 +3855,7 @@ let BattlePokedex = {
 		evos: ["houndoom"],
 		eggGroups: ["Field"],
 	},
-	Houndoom: {
+	houndoom: {
 		num: 229,
 		species: "Houndoom",
 		types: ["Dark", "Fire"],
@@ -3869,7 +3869,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["houndoommega"],
 	},
-	HoundoomMega: {
+	houndoommega: {
 		num: 229,
 		species: "Houndoom-Mega",
 		baseSpecies: "Houndoom",
@@ -3883,7 +3883,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Field"],
 	},
-	Kingdra: {
+	kingdra: {
 		num: 230,
 		species: "Kingdra",
 		types: ["Water", "Dragon"],
@@ -3896,7 +3896,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Phanpy: {
+	phanpy: {
 		num: 231,
 		species: "Phanpy",
 		types: ["Ground"],
@@ -3908,7 +3908,7 @@ let BattlePokedex = {
 		evos: ["donphan"],
 		eggGroups: ["Field"],
 	},
-	Donphan: {
+	donphan: {
 		num: 232,
 		species: "Donphan",
 		types: ["Ground"],
@@ -3921,7 +3921,7 @@ let BattlePokedex = {
 		evoLevel: 25,
 		eggGroups: ["Field"],
 	},
-	Porygon2: {
+	porygon2: {
 		num: 233,
 		species: "Porygon2",
 		types: ["Normal"],
@@ -3936,7 +3936,7 @@ let BattlePokedex = {
 		evos: ["porygonz"],
 		eggGroups: ["Mineral"],
 	},
-	Stantler: {
+	stantler: {
 		num: 234,
 		species: "Stantler",
 		types: ["Normal", "Ghost"],
@@ -3947,7 +3947,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Field"],
 	},
-	Smeargle: {
+	smeargle: {
 		num: 235,
 		species: "Smeargle",
 		types: ["Normal"],
@@ -3958,7 +3958,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Field"],
 	},
-	Tyrogue: {
+	tyrogue: {
 		num: 236,
 		species: "Tyrogue",
 		types: ["Fighting"],
@@ -3972,7 +3972,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Hitmontop: {
+	hitmontop: {
 		num: 237,
 		species: "Hitmontop",
 		types: ["Fighting"],
@@ -3986,7 +3986,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Human-Like"],
 	},
-	Smoochum: {
+	smoochum: {
 		num: 238,
 		species: "Smoochum",
 		types: ["Ice", "Psychic"],
@@ -4000,7 +4000,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Elekid: {
+	elekid: {
 		num: 239,
 		species: "Elekid",
 		types: ["Electric"],
@@ -4014,7 +4014,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Magby: {
+	magby: {
 		num: 240,
 		species: "Magby",
 		types: ["Fire"],
@@ -4028,7 +4028,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Miltank: {
+	miltank: {
 		num: 241,
 		species: "Miltank",
 		types: ["Normal"],
@@ -4040,7 +4040,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Field"],
 	},
-	Blissey: {
+	blissey: {
 		num: 242,
 		species: "Blissey",
 		types: ["Normal"],
@@ -4054,7 +4054,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Fairy"],
 	},
-	Raikou: {
+	raikou: {
 		num: 243,
 		species: "Raikou",
 		types: ["Electric"],
@@ -4066,7 +4066,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	Entei: {
+	entei: {
 		num: 244,
 		species: "Entei",
 		types: ["Fire"],
@@ -4078,7 +4078,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
 	},
-	Suicune: {
+	suicune: {
 		num: 245,
 		species: "Suicune",
 		types: ["Water"],
@@ -4090,7 +4090,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Larvitar: {
+	larvitar: {
 		num: 246,
 		species: "Larvitar",
 		types: ["Rock", "Ground"],
@@ -4102,7 +4102,7 @@ let BattlePokedex = {
 		evos: ["pupitar"],
 		eggGroups: ["Monster"],
 	},
-	Pupitar: {
+	pupitar: {
 		num: 247,
 		species: "Pupitar",
 		types: ["Rock", "Ground"],
@@ -4116,7 +4116,7 @@ let BattlePokedex = {
 		evos: ["tyranitar"],
 		eggGroups: ["Monster"],
 	},
-	Tyranitar: {
+	tyranitar: {
 		num: 248,
 		species: "Tyranitar",
 		types: ["Rock", "Dark"],
@@ -4130,7 +4130,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster"],
 		otherFormes: ["tyranitarmega"],
 	},
-	TyranitarMega: {
+	tyranitarmega: {
 		num: 248,
 		species: "Tyranitar-Mega",
 		baseSpecies: "Tyranitar",
@@ -4144,7 +4144,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Monster"],
 	},
-	Lugia: {
+	lugia: {
 		num: 249,
 		species: "Lugia",
 		types: ["Psychic", "Flying"],
@@ -4156,7 +4156,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	HoOh: {
+	hooh: {
 		num: 250,
 		species: "Ho-Oh",
 		types: ["Fire", "Flying"],
@@ -4168,7 +4168,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	Celebi: {
+	celebi: {
 		num: 251,
 		species: "Celebi",
 		types: ["Psychic", "Grass"],
@@ -4180,7 +4180,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
-	Treecko: {
+	treecko: {
 		num: 252,
 		species: "Treecko",
 		types: ["Grass"],
@@ -4193,7 +4193,7 @@ let BattlePokedex = {
 		evos: ["grovyle"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Grovyle: {
+	grovyle: {
 		num: 253,
 		species: "Grovyle",
 		types: ["Grass"],
@@ -4208,7 +4208,7 @@ let BattlePokedex = {
 		evos: ["sceptile"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Sceptile: {
+	sceptile: {
 		num: 254,
 		species: "Sceptile",
 		types: ["Grass", "Dragon"],
@@ -4223,7 +4223,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Dragon"],
 		otherFormes: ["sceptilemega"],
 	},
-	SceptileMega: {
+	sceptilemega: {
 		num: 254,
 		species: "Sceptile-Mega",
 		baseSpecies: "Sceptile",
@@ -4238,7 +4238,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Torchic: {
+	torchic: {
 		num: 255,
 		species: "Torchic",
 		types: ["Fire"],
@@ -4251,7 +4251,7 @@ let BattlePokedex = {
 		evos: ["combusken"],
 		eggGroups: ["Field"],
 	},
-	Combusken: {
+	combusken: {
 		num: 256,
 		species: "Combusken",
 		types: ["Fire", "Fighting"],
@@ -4266,7 +4266,7 @@ let BattlePokedex = {
 		evos: ["blaziken"],
 		eggGroups: ["Field"],
 	},
-	Blaziken: {
+	blaziken: {
 		num: 257,
 		species: "Blaziken",
 		types: ["Fire", "Fighting"],
@@ -4281,7 +4281,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["blazikenmega"],
 	},
-	BlazikenMega: {
+	blazikenmega: {
 		num: 257,
 		species: "Blaziken-Mega",
 		baseSpecies: "Blaziken",
@@ -4296,7 +4296,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Field"],
 	},
-	Mudkip: {
+	mudkip: {
 		num: 258,
 		species: "Mudkip",
 		types: ["Water"],
@@ -4309,7 +4309,7 @@ let BattlePokedex = {
 		evos: ["marshtomp"],
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Marshtomp: {
+	marshtomp: {
 		num: 259,
 		species: "Marshtomp",
 		types: ["Water", "Ground"],
@@ -4324,7 +4324,7 @@ let BattlePokedex = {
 		evos: ["swampert"],
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Swampert: {
+	swampert: {
 		num: 260,
 		species: "Swampert",
 		types: ["Water", "Ground"],
@@ -4339,7 +4339,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Water 1"],
 		otherFormes: ["swampertmega"],
 	},
-	SwampertMega: {
+	swampertmega: {
 		num: 260,
 		species: "Swampert-Mega",
 		baseSpecies: "Swampert",
@@ -4354,7 +4354,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Monster", "Water 1"],
 	},
-	Poochyena: {
+	poochyena: {
 		num: 261,
 		species: "Poochyena",
 		types: ["Dark"],
@@ -4366,7 +4366,7 @@ let BattlePokedex = {
 		evos: ["mightyena"],
 		eggGroups: ["Field"],
 	},
-	Mightyena: {
+	mightyena: {
 		num: 262,
 		species: "Mightyena",
 		types: ["Dark"],
@@ -4379,7 +4379,7 @@ let BattlePokedex = {
 		evoLevel: 18,
 		eggGroups: ["Field"],
 	},
-	Zigzagoon: {
+	zigzagoon: {
 		num: 263,
 		species: "Zigzagoon",
 		types: ["Normal"],
@@ -4391,7 +4391,7 @@ let BattlePokedex = {
 		evos: ["linoone"],
 		eggGroups: ["Field"],
 	},
-	Linoone: {
+	linoone: {
 		num: 264,
 		species: "Linoone",
 		types: ["Normal"],
@@ -4404,7 +4404,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Field"],
 	},
-	Wurmple: {
+	wurmple: {
 		num: 265,
 		species: "Wurmple",
 		types: ["Bug"],
@@ -4416,7 +4416,7 @@ let BattlePokedex = {
 		evos: ["silcoon", "cascoon"],
 		eggGroups: ["Bug"],
 	},
-	Silcoon: {
+	silcoon: {
 		num: 266,
 		species: "Silcoon",
 		types: ["Bug"],
@@ -4430,7 +4430,7 @@ let BattlePokedex = {
 		evos: ["beautifly"],
 		eggGroups: ["Bug"],
 	},
-	Beautifly: {
+	beautifly: {
 		num: 267,
 		species: "Beautifly",
 		types: ["Bug", "Fairy"],
@@ -4443,7 +4443,7 @@ let BattlePokedex = {
 		evoLevel: 10,
 		eggGroups: ["Bug"],
 	},
-	Cascoon: {
+	cascoon: {
 		num: 268,
 		species: "Cascoon",
 		types: ["Bug"],
@@ -4457,7 +4457,7 @@ let BattlePokedex = {
 		evos: ["dustox"],
 		eggGroups: ["Bug"],
 	},
-	Dustox: {
+	dustox: {
 		num: 269,
 		species: "Dustox",
 		types: ["Bug", "Poison"],
@@ -4470,7 +4470,7 @@ let BattlePokedex = {
 		evoLevel: 10,
 		eggGroups: ["Bug"],
 	},
-	Lotad: {
+	lotad: {
 		num: 270,
 		species: "Lotad",
 		types: ["Water", "Grass"],
@@ -4482,7 +4482,7 @@ let BattlePokedex = {
 		evos: ["lombre"],
 		eggGroups: ["Water 1", "Grass"],
 	},
-	Lombre: {
+	lombre: {
 		num: 271,
 		species: "Lombre",
 		types: ["Water", "Grass"],
@@ -4496,7 +4496,7 @@ let BattlePokedex = {
 		evos: ["ludicolo"],
 		eggGroups: ["Water 1", "Grass"],
 	},
-	Ludicolo: {
+	ludicolo: {
 		num: 272,
 		species: "Ludicolo",
 		types: ["Water", "Grass"],
@@ -4510,7 +4510,7 @@ let BattlePokedex = {
 		evoItem: "Water Stone",
 		eggGroups: ["Water 1", "Grass"],
 	},
-	Seedot: {
+	seedot: {
 		num: 273,
 		species: "Seedot",
 		types: ["Grass"],
@@ -4522,7 +4522,7 @@ let BattlePokedex = {
 		evos: ["nuzleaf"],
 		eggGroups: ["Field", "Grass"],
 	},
-	Nuzleaf: {
+	nuzleaf: {
 		num: 274,
 		species: "Nuzleaf",
 		types: ["Grass", "Dark"],
@@ -4536,7 +4536,7 @@ let BattlePokedex = {
 		evos: ["shiftry"],
 		eggGroups: ["Field", "Grass"],
 	},
-	Shiftry: {
+	shiftry: {
 		num: 275,
 		species: "Shiftry",
 		types: ["Grass", "Dark"],
@@ -4550,7 +4550,7 @@ let BattlePokedex = {
 		evoItem: "Leaf Stone",
 		eggGroups: ["Field", "Grass"],
 	},
-	Taillow: {
+	taillow: {
 		num: 276,
 		species: "Taillow",
 		types: ["Normal", "Flying"],
@@ -4562,7 +4562,7 @@ let BattlePokedex = {
 		evos: ["swellow"],
 		eggGroups: ["Flying"],
 	},
-	Swellow: {
+	swellow: {
 		num: 277,
 		species: "Swellow",
 		types: ["Normal", "Flying"],
@@ -4575,7 +4575,7 @@ let BattlePokedex = {
 		evoLevel: 22,
 		eggGroups: ["Flying"],
 	},
-	Wingull: {
+	wingull: {
 		num: 278,
 		species: "Wingull",
 		types: ["Water", "Flying"],
@@ -4587,7 +4587,7 @@ let BattlePokedex = {
 		evos: ["pelipper"],
 		eggGroups: ["Water 1", "Flying"],
 	},
-	Pelipper: {
+	pelipper: {
 		num: 279,
 		species: "Pelipper",
 		types: ["Water", "Flying"],
@@ -4600,7 +4600,7 @@ let BattlePokedex = {
 		evoLevel: 25,
 		eggGroups: ["Water 1", "Flying"],
 	},
-	Ralts: {
+	ralts: {
 		num: 280,
 		species: "Ralts",
 		types: ["Psychic", "Fairy"],
@@ -4612,7 +4612,7 @@ let BattlePokedex = {
 		evos: ["kirlia"],
 		eggGroups: ["Amorphous"],
 	},
-	Kirlia: {
+	kirlia: {
 		num: 281,
 		species: "Kirlia",
 		types: ["Psychic", "Fairy"],
@@ -4626,7 +4626,7 @@ let BattlePokedex = {
 		evos: ["gardevoir", "gallade"],
 		eggGroups: ["Amorphous"],
 	},
-	Gardevoir: {
+	gardevoir: {
 		num: 282,
 		species: "Gardevoir",
 		types: ["Psychic", "Fairy"],
@@ -4640,7 +4640,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["gardevoirmega"],
 	},
-	GardevoirMega: {
+	gardevoirmega: {
 		num: 282,
 		species: "Gardevoir-Mega",
 		baseSpecies: "Gardevoir",
@@ -4654,7 +4654,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Amorphous"],
 	},
-	Surskit: {
+	surskit: {
 		num: 283,
 		species: "Surskit",
 		types: ["Bug", "Water"],
@@ -4666,7 +4666,7 @@ let BattlePokedex = {
 		evos: ["masquerain"],
 		eggGroups: ["Water 1", "Bug"],
 	},
-	Masquerain: {
+	masquerain: {
 		num: 284,
 		species: "Masquerain",
 		types: ["Bug", "Water"],
@@ -4679,7 +4679,7 @@ let BattlePokedex = {
 		evoLevel: 22,
 		eggGroups: ["Water 1", "Bug"],
 	},
-	Shroomish: {
+	shroomish: {
 		num: 285,
 		species: "Shroomish",
 		types: ["Grass"],
@@ -4691,7 +4691,7 @@ let BattlePokedex = {
 		evos: ["breloom"],
 		eggGroups: ["Fairy", "Grass"],
 	},
-	Breloom: {
+	breloom: {
 		num: 286,
 		species: "Breloom",
 		types: ["Grass", "Fighting"],
@@ -4704,7 +4704,7 @@ let BattlePokedex = {
 		evoLevel: 23,
 		eggGroups: ["Fairy", "Grass"],
 	},
-	Slakoth: {
+	slakoth: {
 		num: 287,
 		species: "Slakoth",
 		types: ["Normal"],
@@ -4716,7 +4716,7 @@ let BattlePokedex = {
 		evos: ["vigoroth"],
 		eggGroups: ["Field"],
 	},
-	Vigoroth: {
+	vigoroth: {
 		num: 288,
 		species: "Vigoroth",
 		types: ["Normal"],
@@ -4730,7 +4730,7 @@ let BattlePokedex = {
 		evos: ["slaking"],
 		eggGroups: ["Field"],
 	},
-	Slaking: {
+	slaking: {
 		num: 289,
 		species: "Slaking",
 		types: ["Normal"],
@@ -4743,7 +4743,7 @@ let BattlePokedex = {
 		evoLevel: 36,
 		eggGroups: ["Field"],
 	},
-	Nincada: {
+	nincada: {
 		num: 290,
 		species: "Nincada",
 		types: ["Bug", "Ground"],
@@ -4755,7 +4755,7 @@ let BattlePokedex = {
 		evos: ["ninjask", "shedinja"],
 		eggGroups: ["Bug"],
 	},
-	Ninjask: {
+	ninjask: {
 		num: 291,
 		species: "Ninjask",
 		types: ["Bug", "Flying"],
@@ -4768,7 +4768,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Bug"],
 	},
-	Shedinja: {
+	shedinja: {
 		num: 292,
 		species: "Shedinja",
 		types: ["Bug", "Ghost"],
@@ -4783,7 +4783,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Mineral"],
 	},
-	Whismur: {
+	whismur: {
 		num: 293,
 		species: "Whismur",
 		types: ["Normal"],
@@ -4795,7 +4795,7 @@ let BattlePokedex = {
 		evos: ["loudred"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Loudred: {
+	loudred: {
 		num: 294,
 		species: "Loudred",
 		types: ["Normal"],
@@ -4809,7 +4809,7 @@ let BattlePokedex = {
 		evos: ["exploud"],
 		eggGroups: ["Monster", "Field"],
 	},
-	Exploud: {
+	exploud: {
 		num: 295,
 		species: "Exploud",
 		types: ["Normal"],
@@ -4822,7 +4822,7 @@ let BattlePokedex = {
 		evoLevel: 40,
 		eggGroups: ["Monster", "Field"],
 	},
-	Makuhita: {
+	makuhita: {
 		num: 296,
 		species: "Makuhita",
 		types: ["Fighting"],
@@ -4835,7 +4835,7 @@ let BattlePokedex = {
 		evos: ["hariyama"],
 		eggGroups: ["Human-Like"],
 	},
-	Hariyama: {
+	hariyama: {
 		num: 297,
 		species: "Hariyama",
 		types: ["Fighting"],
@@ -4849,7 +4849,7 @@ let BattlePokedex = {
 		evoLevel: 24,
 		eggGroups: ["Human-Like"],
 	},
-	Azurill: {
+	azurill: {
 		num: 298,
 		species: "Azurill",
 		types: ["Normal", "Fairy"],
@@ -4863,7 +4863,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Nosepass: {
+	nosepass: {
 		num: 299,
 		species: "Nosepass",
 		types: ["Rock"],
@@ -4875,7 +4875,7 @@ let BattlePokedex = {
 		evos: ["probopass"],
 		eggGroups: ["Mineral"],
 	},
-	Skitty: {
+	skitty: {
 		num: 300,
 		species: "Skitty",
 		types: ["Normal"],
@@ -4888,7 +4888,7 @@ let BattlePokedex = {
 		evos: ["delcatty"],
 		eggGroups: ["Field", "Fairy"],
 	},
-	Delcatty: {
+	delcatty: {
 		num: 301,
 		species: "Delcatty",
 		types: ["Ground", "Fairy"],
@@ -4903,7 +4903,7 @@ let BattlePokedex = {
 		evoItem: "Moon Stone",
 		eggGroups: ["Field", "Fairy"],
 	},
-	Sableye: {
+	sableye: {
 		num: 302,
 		species: "Sableye",
 		types: ["Dark", "Ghost"],
@@ -4915,7 +4915,7 @@ let BattlePokedex = {
 		eggGroups: ["Human-Like"],
 		otherFormes: ["sableyemega"],
 	},
-	SableyeMega: {
+	sableyemega: {
 		num: 302,
 		species: "Sableye-Mega",
 		baseSpecies: "Sableye",
@@ -4929,7 +4929,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Human-Like"],
 	},
-	Mawile: {
+	mawile: {
 		num: 303,
 		species: "Mawile",
 		types: ["Steel", "Fairy"],
@@ -4941,7 +4941,7 @@ let BattlePokedex = {
 		eggGroups: ["Field", "Fairy"],
 		otherFormes: ["mawilemega"],
 	},
-	MawileMega: {
+	mawilemega: {
 		num: 303,
 		species: "Mawile-Mega",
 		baseSpecies: "Mawile",
@@ -4955,7 +4955,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Field", "Fairy"],
 	},
-	Aron: {
+	aron: {
 		num: 304,
 		species: "Aron",
 		types: ["Steel", "Rock"],
@@ -4967,7 +4967,7 @@ let BattlePokedex = {
 		evos: ["lairon"],
 		eggGroups: ["Monster"],
 	},
-	Lairon: {
+	lairon: {
 		num: 305,
 		species: "Lairon",
 		types: ["Steel", "Rock"],
@@ -4981,7 +4981,7 @@ let BattlePokedex = {
 		evos: ["aggron"],
 		eggGroups: ["Monster"],
 	},
-	Aggron: {
+	aggron: {
 		num: 306,
 		species: "Aggron",
 		types: ["Steel", "Rock"],
@@ -4995,7 +4995,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster"],
 		otherFormes: ["aggronmega"],
 	},
-	AggronMega: {
+	aggronmega: {
 		num: 306,
 		species: "Aggron-Mega",
 		baseSpecies: "Aggron",
@@ -5009,7 +5009,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Monster"],
 	},
-	Meditite: {
+	meditite: {
 		num: 307,
 		species: "Meditite",
 		types: ["Fighting", "Psychic"],
@@ -5021,7 +5021,7 @@ let BattlePokedex = {
 		evos: ["medicham"],
 		eggGroups: ["Human-Like"],
 	},
-	Medicham: {
+	medicham: {
 		num: 308,
 		species: "Medicham",
 		types: ["Fighting", "Psychic"],
@@ -5035,7 +5035,7 @@ let BattlePokedex = {
 		eggGroups: ["Human-Like"],
 		otherFormes: ["medichammega"],
 	},
-	MedichamMega: {
+	medichammega: {
 		num: 308,
 		species: "Medicham-Mega",
 		baseSpecies: "Medicham",
@@ -5049,7 +5049,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Human-Like"],
 	},
-	Electrike: {
+	electrike: {
 		num: 309,
 		species: "Electrike",
 		types: ["Electric"],
@@ -5061,7 +5061,7 @@ let BattlePokedex = {
 		evos: ["manectric"],
 		eggGroups: ["Field"],
 	},
-	Manectric: {
+	manectric: {
 		num: 310,
 		species: "Manectric",
 		types: ["Electric"],
@@ -5075,7 +5075,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["manectricmega"],
 	},
-	ManectricMega: {
+	manectricmega: {
 		num: 310,
 		species: "Manectric-Mega",
 		baseSpecies: "Manectric",
@@ -5089,7 +5089,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	Plusle: {
+	plusle: {
 		num: 311,
 		species: "Plusle",
 		types: ["Electric", "Fire"],
@@ -5100,7 +5100,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Fairy"],
 	},
-	Minun: {
+	minun: {
 		num: 312,
 		species: "Minun",
 		types: ["Electric", "Ice"],
@@ -5111,7 +5111,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Fairy"],
 	},
-	Volbeat: {
+	volbeat: {
 		num: 313,
 		species: "Volbeat",
 		types: ["Bug", "Electric"],
@@ -5123,7 +5123,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Bug", "Human-Like"],
 	},
-	Illumise: {
+	illumise: {
 		num: 314,
 		species: "Illumise",
 		types: ["Bug", "Fairy"],
@@ -5135,7 +5135,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Bug", "Human-Like"],
 	},
-	Roselia: {
+	roselia: {
 		num: 315,
 		species: "Roselia",
 		types: ["Grass", "Poison"],
@@ -5151,7 +5151,7 @@ let BattlePokedex = {
 		eggGroups: ["Fairy", "Grass"],
 		canHatch: true,
 	},
-	Gulpin: {
+	gulpin: {
 		num: 316,
 		species: "Gulpin",
 		types: ["Poison"],
@@ -5163,7 +5163,7 @@ let BattlePokedex = {
 		evos: ["swalot"],
 		eggGroups: ["Amorphous"],
 	},
-	Swalot: {
+	swalot: {
 		num: 317,
 		species: "Swalot",
 		types: ["Poison"],
@@ -5176,7 +5176,7 @@ let BattlePokedex = {
 		evoLevel: 26,
 		eggGroups: ["Amorphous"],
 	},
-	Carvanha: {
+	carvanha: {
 		num: 318,
 		species: "Carvanha",
 		types: ["Water", "Dark"],
@@ -5188,7 +5188,7 @@ let BattlePokedex = {
 		evos: ["sharpedo"],
 		eggGroups: ["Water 2"],
 	},
-	Sharpedo: {
+	sharpedo: {
 		num: 319,
 		species: "Sharpedo",
 		types: ["Water", "Dark"],
@@ -5202,7 +5202,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 2"],
 		otherFormes: ["sharpedomega"],
 	},
-	SharpedoMega: {
+	sharpedomega: {
 		num: 319,
 		species: "Sharpedo-Mega",
 		baseSpecies: "Sharpedo",
@@ -5216,7 +5216,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Water 2"],
 	},
-	Wailmer: {
+	wailmer: {
 		num: 320,
 		species: "Wailmer",
 		types: ["Water"],
@@ -5228,7 +5228,7 @@ let BattlePokedex = {
 		evos: ["wailord"],
 		eggGroups: ["Field", "Water 2"],
 	},
-	Wailord: {
+	wailord: {
 		num: 321,
 		species: "Wailord",
 		types: ["Water"],
@@ -5241,7 +5241,7 @@ let BattlePokedex = {
 		evoLevel: 40,
 		eggGroups: ["Field", "Water 2"],
 	},
-	Numel: {
+	numel: {
 		num: 322,
 		species: "Numel",
 		types: ["Fire", "Ground"],
@@ -5253,7 +5253,7 @@ let BattlePokedex = {
 		evos: ["camerupt"],
 		eggGroups: ["Field"],
 	},
-	Camerupt: {
+	camerupt: {
 		num: 323,
 		species: "Camerupt",
 		types: ["Fire", "Ground"],
@@ -5267,7 +5267,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["cameruptmega"],
 	},
-	CameruptMega: {
+	cameruptmega: {
 		num: 323,
 		species: "Camerupt-Mega",
 		baseSpecies: "Camerupt",
@@ -5281,7 +5281,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Field"],
 	},
-	Torkoal: {
+	torkoal: {
 		num: 324,
 		species: "Torkoal",
 		types: ["Fire"],
@@ -5292,7 +5292,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Field"],
 	},
-	Spoink: {
+	spoink: {
 		num: 325,
 		species: "Spoink",
 		types: ["Psychic"],
@@ -5304,7 +5304,7 @@ let BattlePokedex = {
 		evos: ["grumpig"],
 		eggGroups: ["Field"],
 	},
-	Grumpig: {
+	grumpig: {
 		num: 326,
 		species: "Grumpig",
 		types: ["Psychic"],
@@ -5317,7 +5317,7 @@ let BattlePokedex = {
 		evoLevel: 32,
 		eggGroups: ["Field"],
 	},
-	Spinda: {
+	spinda: {
 		num: 327,
 		species: "Spinda",
 		types: ["Fighting"],
@@ -5328,7 +5328,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Field", "Human-Like"],
 	},
-	Trapinch: {
+	trapinch: {
 		num: 328,
 		species: "Trapinch",
 		types: ["Ground"],
@@ -5340,7 +5340,7 @@ let BattlePokedex = {
 		evos: ["vibrava"],
 		eggGroups: ["Bug"],
 	},
-	Vibrava: {
+	vibrava: {
 		num: 329,
 		species: "Vibrava",
 		types: ["Ground", "Dragon"],
@@ -5354,7 +5354,7 @@ let BattlePokedex = {
 		evoLevel: 35,
 		eggGroups: ["Bug"],
 	},
-	Flygon: {
+	flygon: {
 		num: 330,
 		species: "Flygon",
 		types: ["Ground", "Dragon"],
@@ -5367,7 +5367,7 @@ let BattlePokedex = {
 		evoLevel: 45,
 		eggGroups: ["Bug"],
 	},
-	Cacnea: {
+	cacnea: {
 		num: 331,
 		species: "Cacnea",
 		types: ["Grass"],
@@ -5379,7 +5379,7 @@ let BattlePokedex = {
 		evos: ["cacturne"],
 		eggGroups: ["Grass", "Human-Like"],
 	},
-	Cacturne: {
+	cacturne: {
 		num: 332,
 		species: "Cacturne",
 		types: ["Grass", "Dark"],
@@ -5392,7 +5392,7 @@ let BattlePokedex = {
 		evoLevel: 32,
 		eggGroups: ["Grass", "Human-Like"],
 	},
-	Swablu: {
+	swablu: {
 		num: 333,
 		species: "Swablu",
 		types: ["Normal", "Flying"],
@@ -5404,7 +5404,7 @@ let BattlePokedex = {
 		evos: ["altaria"],
 		eggGroups: ["Flying", "Dragon"],
 	},
-	Altaria: {
+	altaria: {
 		num: 334,
 		species: "Altaria",
 		types: ["Dragon", "Flying"],
@@ -5418,7 +5418,7 @@ let BattlePokedex = {
 		eggGroups: ["Flying", "Dragon"],
 		otherFormes: ["altariamega"],
 	},
-	AltariaMega: {
+	altariamega: {
 		num: 334,
 		species: "Altaria-Mega",
 		baseSpecies: "Altaria",
@@ -5432,7 +5432,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Flying", "Dragon"],
 	},
-	Zangoose: {
+	zangoose: {
 		num: 335,
 		species: "Zangoose",
 		types: ["Normal"],
@@ -5443,7 +5443,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Field"],
 	},
-	Seviper: {
+	seviper: {
 		num: 336,
 		species: "Seviper",
 		types: ["Poison", "Dark"],
@@ -5454,7 +5454,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Field", "Dragon"],
 	},
-	Lunatone: {
+	lunatone: {
 		num: 337,
 		species: "Lunatone",
 		types: ["Rock", "Psychic"],
@@ -5466,7 +5466,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Mineral"],
 	},
-	Solrock: {
+	solrock: {
 		num: 338,
 		species: "Solrock",
 		types: ["Rock", "Psychic"],
@@ -5478,7 +5478,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Mineral"],
 	},
-	Barboach: {
+	barboach: {
 		num: 339,
 		species: "Barboach",
 		types: ["Water", "Ground"],
@@ -5490,7 +5490,7 @@ let BattlePokedex = {
 		evos: ["whiscash"],
 		eggGroups: ["Water 2"],
 	},
-	Whiscash: {
+	whiscash: {
 		num: 340,
 		species: "Whiscash",
 		types: ["Water", "Ground"],
@@ -5503,7 +5503,7 @@ let BattlePokedex = {
 		evoLevel: 30,
 		eggGroups: ["Water 2"],
 	},
-	Corphish: {
+	corphish: {
 		num: 341,
 		species: "Corphish",
 		types: ["Water"],
@@ -5515,7 +5515,7 @@ let BattlePokedex = {
 		evos: ["crawdaunt"],
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Crawdaunt: {
+	crawdaunt: {
 		num: 342,
 		species: "Crawdaunt",
 		types: ["Water", "Dark"],
@@ -5528,7 +5528,7 @@ let BattlePokedex = {
 		evoLevel: 30,
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Baltoy: {
+	baltoy: {
 		num: 343,
 		species: "Baltoy",
 		types: ["Ground", "Psychic"],
@@ -5541,7 +5541,7 @@ let BattlePokedex = {
 		evos: ["claydol"],
 		eggGroups: ["Mineral"],
 	},
-	Claydol: {
+	claydol: {
 		num: 344,
 		species: "Claydol",
 		types: ["Ground", "Psychic"],
@@ -5555,7 +5555,7 @@ let BattlePokedex = {
 		evoLevel: 36,
 		eggGroups: ["Mineral"],
 	},
-	Lileep: {
+	lileep: {
 		num: 345,
 		species: "Lileep",
 		types: ["Rock", "Grass"],
@@ -5568,7 +5568,7 @@ let BattlePokedex = {
 		evos: ["cradily"],
 		eggGroups: ["Water 3"],
 	},
-	Cradily: {
+	cradily: {
 		num: 346,
 		species: "Cradily",
 		types: ["Rock", "Grass"],
@@ -5582,7 +5582,7 @@ let BattlePokedex = {
 		evoLevel: 40,
 		eggGroups: ["Water 3"],
 	},
-	Anorith: {
+	anorith: {
 		num: 347,
 		species: "Anorith",
 		types: ["Rock", "Bug"],
@@ -5595,7 +5595,7 @@ let BattlePokedex = {
 		evos: ["armaldo"],
 		eggGroups: ["Water 3"],
 	},
-	Armaldo: {
+	armaldo: {
 		num: 348,
 		species: "Armaldo",
 		types: ["Rock", "Bug"],
@@ -5609,7 +5609,7 @@ let BattlePokedex = {
 		evoLevel: 40,
 		eggGroups: ["Water 3"],
 	},
-	Feebas: {
+	feebas: {
 		num: 349,
 		species: "Feebas",
 		types: ["Water"],
@@ -5621,7 +5621,7 @@ let BattlePokedex = {
 		evos: ["milotic"],
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Milotic: {
+	milotic: {
 		num: 350,
 		species: "Milotic",
 		types: ["Water"],
@@ -5634,7 +5634,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Castform: {
+	castform: {
 		num: 351,
 		species: "Castform",
 		types: ["Normal"],
@@ -5646,7 +5646,7 @@ let BattlePokedex = {
 		eggGroups: ["Fairy", "Amorphous"],
 		otherFormes: ["castformsunny", "castformrainy", "castformsnowy"],
 	},
-	CastformSunny: {
+	castformsunny: {
 		num: 351,
 		species: "Castform-Sunny",
 		baseSpecies: "Castform",
@@ -5660,7 +5660,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Fairy", "Amorphous"],
 	},
-	CastformRainy: {
+	castformrainy: {
 		num: 351,
 		species: "Castform-Rainy",
 		baseSpecies: "Castform",
@@ -5674,7 +5674,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Fairy", "Amorphous"],
 	},
-	CastformSnowy: {
+	castformsnowy: {
 		num: 351,
 		species: "Castform-Snowy",
 		baseSpecies: "Castform",
@@ -5688,7 +5688,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Fairy", "Amorphous"],
 	},
-	Kecleon: {
+	kecleon: {
 		num: 352,
 		species: "Kecleon",
 		types: ["Normal"],
@@ -5699,7 +5699,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Field"],
 	},
-	Shuppet: {
+	shuppet: {
 		num: 353,
 		species: "Shuppet",
 		types: ["Ghost"],
@@ -5711,7 +5711,7 @@ let BattlePokedex = {
 		evos: ["banette"],
 		eggGroups: ["Amorphous"],
 	},
-	Banette: {
+	banette: {
 		num: 354,
 		species: "Banette",
 		types: ["Ghost", "Fairy"],
@@ -5725,7 +5725,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["banettemega"],
 	},
-	BanetteMega: {
+	banettemega: {
 		num: 354,
 		species: "Banette-Mega",
 		baseSpecies: "Banette",
@@ -5739,7 +5739,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Amorphous"],
 	},
-	Duskull: {
+	duskull: {
 		num: 355,
 		species: "Duskull",
 		types: ["Ghost"],
@@ -5751,7 +5751,7 @@ let BattlePokedex = {
 		evos: ["dusclops"],
 		eggGroups: ["Amorphous"],
 	},
-	Dusclops: {
+	dusclops: {
 		num: 356,
 		species: "Dusclops",
 		types: ["Ghost"],
@@ -5765,7 +5765,7 @@ let BattlePokedex = {
 		evos: ["dusknoir"],
 		eggGroups: ["Amorphous"],
 	},
-	Tropius: {
+	tropius: {
 		num: 357,
 		species: "Tropius",
 		types: ["Grass", "Flying"],
@@ -5776,7 +5776,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
 	},
-	Chimecho: {
+	chimecho: {
 		num: 358,
 		species: "Chimecho",
 		types: ["Psychic", "Ghost"],
@@ -5791,7 +5791,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		canHatch: true,
 	},
-	Absol: {
+	absol: {
 		num: 359,
 		species: "Absol",
 		types: ["Dark"],
@@ -5803,7 +5803,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["absolmega"],
 	},
-	AbsolMega: {
+	absolmega: {
 		num: 359,
 		species: "Absol-Mega",
 		baseSpecies: "Absol",
@@ -5817,7 +5817,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Field"],
 	},
-	Wynaut: {
+	wynaut: {
 		num: 360,
 		species: "Wynaut",
 		types: ["Psychic"],
@@ -5830,7 +5830,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Snorunt: {
+	snorunt: {
 		num: 361,
 		species: "Snorunt",
 		types: ["Ice"],
@@ -5842,7 +5842,7 @@ let BattlePokedex = {
 		evos: ["glalie", "froslass"],
 		eggGroups: ["Fairy", "Mineral"],
 	},
-	Glalie: {
+	glalie: {
 		num: 362,
 		species: "Glalie",
 		types: ["Ice", "Rock"],
@@ -5856,7 +5856,7 @@ let BattlePokedex = {
 		eggGroups: ["Fairy", "Mineral"],
 		otherFormes: ["glaliemega"],
 	},
-	GlalieMega: {
+	glaliemega: {
 		num: 362,
 		species: "Glalie-Mega",
 		baseSpecies: "Glalie",
@@ -5870,7 +5870,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Fairy", "Mineral"],
 	},
-	Spheal: {
+	spheal: {
 		num: 363,
 		species: "Spheal",
 		types: ["Ice", "Water"],
@@ -5882,7 +5882,7 @@ let BattlePokedex = {
 		evos: ["sealeo"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Sealeo: {
+	sealeo: {
 		num: 364,
 		species: "Sealeo",
 		types: ["Ice", "Water"],
@@ -5896,7 +5896,7 @@ let BattlePokedex = {
 		evos: ["walrein"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Walrein: {
+	walrein: {
 		num: 365,
 		species: "Walrein",
 		types: ["Ice", "Water"],
@@ -5909,7 +5909,7 @@ let BattlePokedex = {
 		evoLevel: 44,
 		eggGroups: ["Water 1", "Field"],
 	},
-	Clamperl: {
+	clamperl: {
 		num: 366,
 		species: "Clamperl",
 		types: ["Water"],
@@ -5921,7 +5921,7 @@ let BattlePokedex = {
 		evos: ["huntail", "gorebyss"],
 		eggGroups: ["Water 1"],
 	},
-	Huntail: {
+	huntail: {
 		num: 367,
 		species: "Huntail",
 		types: ["Water"],
@@ -5934,7 +5934,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Water 1"],
 	},
-	Gorebyss: {
+	gorebyss: {
 		num: 368,
 		species: "Gorebyss",
 		types: ["Water"],
@@ -5947,7 +5947,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Water 1"],
 	},
-	Relicanth: {
+	relicanth: {
 		num: 369,
 		species: "Relicanth",
 		types: ["Water", "Rock"],
@@ -5959,7 +5959,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Water 1", "Water 2"],
 	},
-	Luvdisc: {
+	luvdisc: {
 		num: 370,
 		species: "Luvdisc",
 		types: ["Water"],
@@ -5971,7 +5971,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Water 2"],
 	},
-	Bagon: {
+	bagon: {
 		num: 371,
 		species: "Bagon",
 		types: ["Dragon"],
@@ -5983,7 +5983,7 @@ let BattlePokedex = {
 		evos: ["shelgon"],
 		eggGroups: ["Dragon"],
 	},
-	Shelgon: {
+	shelgon: {
 		num: 372,
 		species: "Shelgon",
 		types: ["Dragon"],
@@ -5997,7 +5997,7 @@ let BattlePokedex = {
 		evos: ["salamence"],
 		eggGroups: ["Dragon"],
 	},
-	Salamence: {
+	salamence: {
 		num: 373,
 		species: "Salamence",
 		types: ["Dragon", "Flying"],
@@ -6011,7 +6011,7 @@ let BattlePokedex = {
 		eggGroups: ["Dragon"],
 		otherFormes: ["salamencemega"],
 	},
-	SalamenceMega: {
+	salamencemega: {
 		num: 373,
 		species: "Salamence-Mega",
 		baseSpecies: "Salamence",
@@ -6025,7 +6025,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Dragon"],
 	},
-	Beldum: {
+	beldum: {
 		num: 374,
 		species: "Beldum",
 		types: ["Steel", "Psychic"],
@@ -6038,7 +6038,7 @@ let BattlePokedex = {
 		evos: ["metang"],
 		eggGroups: ["Mineral"],
 	},
-	Metang: {
+	metang: {
 		num: 375,
 		species: "Metang",
 		types: ["Steel", "Psychic"],
@@ -6053,7 +6053,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Mineral"],
 	},
-	Metagross: {
+	metagross: {
 		num: 376,
 		species: "Metagross",
 		types: ["Steel", "Psychic"],
@@ -6068,7 +6068,7 @@ let BattlePokedex = {
 		eggGroups: ["Mineral"],
 		otherFormes: ["metagrossmega"],
 	},
-	MetagrossMega: {
+	metagrossmega: {
 		num: 376,
 		species: "Metagross-Mega",
 		baseSpecies: "Metagross",
@@ -6083,7 +6083,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Mineral"],
 	},
-	Regirock: {
+	regirock: {
 		num: 377,
 		species: "Regirock",
 		types: ["Rock"],
@@ -6095,7 +6095,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
 	},
-	Regice: {
+	regice: {
 		num: 378,
 		species: "Regice",
 		types: ["Ice"],
@@ -6107,7 +6107,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Registeel: {
+	registeel: {
 		num: 379,
 		species: "Registeel",
 		types: ["Steel"],
@@ -6119,7 +6119,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	Latias: {
+	latias: {
 		num: 380,
 		species: "Latias",
 		types: ["Dragon", "Psychic"],
@@ -6132,7 +6132,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["latiasmega"],
 	},
-	LatiasMega: {
+	latiasmega: {
 		num: 380,
 		species: "Latias-Mega",
 		baseSpecies: "Latias",
@@ -6147,7 +6147,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 	},
-	Latios: {
+	latios: {
 		num: 381,
 		species: "Latios",
 		types: ["Dragon", "Psychic"],
@@ -6160,7 +6160,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["latiosmega"],
 	},
-	LatiosMega: {
+	latiosmega: {
 		num: 381,
 		species: "Latios-Mega",
 		baseSpecies: "Latios",
@@ -6175,7 +6175,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 	},
-	Kyogre: {
+	kyogre: {
 		num: 382,
 		species: "Kyogre",
 		types: ["Water"],
@@ -6188,7 +6188,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["kyogreprimal"],
 	},
-	KyogrePrimal: {
+	kyogreprimal: {
 		num: 382,
 		species: "Kyogre-Primal",
 		baseSpecies: "Kyogre",
@@ -6203,7 +6203,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Groudon: {
+	groudon: {
 		num: 383,
 		species: "Groudon",
 		types: ["Ground", "Fire"],
@@ -6216,7 +6216,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["groudonprimal"],
 	},
-	GroudonPrimal: {
+	groudonprimal: {
 		num: 383,
 		species: "Groudon-Primal",
 		baseSpecies: "Groudon",
@@ -6231,7 +6231,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	Rayquaza: {
+	rayquaza: {
 		num: 384,
 		species: "Rayquaza",
 		types: ["Dragon", "Flying"],
@@ -6244,7 +6244,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["rayquazamega"],
 	},
-	RayquazaMega: {
+	rayquazamega: {
 		num: 384,
 		species: "Rayquaza-Mega",
 		baseSpecies: "Rayquaza",
@@ -6259,7 +6259,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
-	Jirachi: {
+	jirachi: {
 		num: 385,
 		species: "Jirachi",
 		types: ["Steel", "Psychic"],
@@ -6271,7 +6271,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	Deoxys: {
+	deoxys: {
 		num: 386,
 		species: "Deoxys",
 		baseForme: "Normal",
@@ -6285,7 +6285,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["deoxysattack", "deoxysdefense", "deoxysspeed"],
 	},
-	DeoxysAttack: {
+	deoxysattack: {
 		num: 386,
 		species: "Deoxys-Attack",
 		baseSpecies: "Deoxys",
@@ -6300,7 +6300,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	DeoxysDefense: {
+	deoxysdefense: {
 		num: 386,
 		species: "Deoxys-Defense",
 		baseSpecies: "Deoxys",
@@ -6315,7 +6315,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	DeoxysSpeed: {
+	deoxysspeed: {
 		num: 386,
 		species: "Deoxys-Speed",
 		baseSpecies: "Deoxys",
@@ -6330,7 +6330,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	Turtwig: {
+	turtwig: {
 		num: 387,
 		species: "Turtwig",
 		types: ["Grass"],
@@ -6358,7 +6358,7 @@ let BattlePokedex = {
 		evos: ["torterra"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	Torterra: {
+	torterra: {
 		num: 389,
 		species: "Torterra",
 		types: ["Grass", "Ground"],
@@ -6400,7 +6400,7 @@ let BattlePokedex = {
 		evos: ["infernape"],
 		eggGroups: ["Field", "Human-Like"],
 	},
-	Infernape: {
+	infernape: {
 		num: 392,
 		species: "Infernape",
 		types: ["Fire", "Fighting"],
@@ -6442,7 +6442,7 @@ let BattlePokedex = {
 		evos: ["empoleon"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Empoleon: {
+	empoleon: {
 		num: 395,
 		species: "Empoleon",
 		types: ["Water", "Steel"],
@@ -6482,7 +6482,7 @@ let BattlePokedex = {
 		evos: ["staraptor"],
 		eggGroups: ["Flying"],
 	},
-	Staraptor: {
+	staraptor: {
 		num: 398,
 		species: "Staraptor",
 		types: ["Normal", "Flying"],
@@ -6507,7 +6507,7 @@ let BattlePokedex = {
 		evos: ["bibarel"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Bibarel: {
+	bibarel: {
 		num: 400,
 		species: "Bibarel",
 		types: ["Normal", "Water"],
@@ -6532,7 +6532,7 @@ let BattlePokedex = {
 		evos: ["kricketune"],
 		eggGroups: ["Bug"],
 	},
-	Kricketune: {
+	kricketune: {
 		num: 402,
 		species: "Kricketune",
 		types: ["Bug", "Normal"],
@@ -6571,7 +6571,7 @@ let BattlePokedex = {
 		evos: ["luxray"],
 		eggGroups: ["Field"],
 	},
-	Luxray: {
+	luxray: {
 		num: 405,
 		species: "Luxray",
 		types: ["Electric", "Dark"],
@@ -6597,7 +6597,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Roserade: {
+	roserade: {
 		num: 407,
 		species: "Roserade",
 		types: ["Grass", "Poison"],
@@ -6624,7 +6624,7 @@ let BattlePokedex = {
 		evos: ["rampardos"],
 		eggGroups: ["Monster"],
 	},
-	Rampardos: {
+	rampardos: {
 		num: 409,
 		species: "Rampardos",
 		types: ["Rock"],
@@ -6651,7 +6651,7 @@ let BattlePokedex = {
 		evos: ["bastiodon"],
 		eggGroups: ["Monster"],
 	},
-	Bastiodon: {
+	bastiodon: {
 		num: 411,
 		species: "Bastiodon",
 		types: ["Steel"],
@@ -6679,7 +6679,7 @@ let BattlePokedex = {
 		eggGroups: ["Bug"],
 		otherForms: ["burmysandy", "burmytrash"],
 	},
-	Wormadam: {
+	wormadam: {
 		num: 413,
 		species: "Wormadam",
 		baseForme: "Plant",
@@ -6695,7 +6695,7 @@ let BattlePokedex = {
 		eggGroups: ["Bug"],
 		otherFormes: ["wormadamsandy", "wormadamtrash"],
 	},
-	WormadamSandy: {
+	wormadamsandy: {
 		num: 413,
 		species: "Wormadam-Sandy",
 		baseSpecies: "Wormadam",
@@ -6712,7 +6712,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Bug"],
 	},
-	WormadamTrash: {
+	wormadamtrash: {
 		num: 413,
 		species: "Wormadam-Trash",
 		baseSpecies: "Wormadam",
@@ -6729,7 +6729,7 @@ let BattlePokedex = {
 		evoLevel: 20,
 		eggGroups: ["Bug"],
 	},
-	Mothim: {
+	mothim: {
 		num: 414,
 		species: "Mothim",
 		types: ["Bug", "Flying"],
@@ -6756,7 +6756,7 @@ let BattlePokedex = {
 		evos: ["vespiquen"],
 		eggGroups: ["Bug"],
 	},
-	Vespiquen: {
+	vespiquen: {
 		num: 416,
 		species: "Vespiquen",
 		types: ["Bug", "Steel"],
@@ -6770,7 +6770,7 @@ let BattlePokedex = {
 		evoLevel: 21,
 		eggGroups: ["Bug"],
 	},
-	Pachirisu: {
+	pachirisu: {
 		num: 417,
 		species: "Pachirisu",
 		types: ["Electric"],
@@ -6793,7 +6793,7 @@ let BattlePokedex = {
 		evos: ["floatzel"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Floatzel: {
+	floatzel: {
 		num: 419,
 		species: "Floatzel",
 		types: ["Water", "Electric"],
@@ -6818,7 +6818,7 @@ let BattlePokedex = {
 		evos: ["cherrim"],
 		eggGroups: ["Fairy", "Grass"],
 	},
-	Cherrim: {
+	cherrim: {
 		num: 421,
 		species: "Cherrim",
 		baseForme: "Overcast",
@@ -6833,7 +6833,7 @@ let BattlePokedex = {
 		eggGroups: ["Fairy", "Grass"],
 		otherFormes: ["cherrimsunshine"],
 	},
-	CherrimSunshine: {
+	cherrimsunshine: {
 		num: 421,
 		species: "Cherrim-Sunshine",
 		baseSpecies: "Cherrim",
@@ -6863,7 +6863,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 1", "Amorphous"],
 		otherForms: ["shelloseast"],
 	},
-	Gastrodon: {
+	gastrodon: {
 		num: 423,
 		species: "Gastrodon",
 		baseForme: "West",
@@ -6878,7 +6878,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 1", "Amorphous"],
 		otherForms: ["gastrodoneast"],
 	},
-	Ambipom: {
+	ambipom: {
 		num: 424,
 		species: "Ambipom",
 		types: ["Normal"],
@@ -6904,7 +6904,7 @@ let BattlePokedex = {
 		evos: ["drifblim"],
 		eggGroups: ["Amorphous"],
 	},
-	Drifblim: {
+	drifblim: {
 		num: 426,
 		species: "Drifblim",
 		types: ["Ghost", "Flying"],
@@ -6929,7 +6929,7 @@ let BattlePokedex = {
 		evos: ["lopunny"],
 		eggGroups: ["Field", "Human-Like"],
 	},
-	Lopunny: {
+	lopunny: {
 		num: 428,
 		species: "Lopunny",
 		types: ["Normal", "Fighting"],
@@ -6943,7 +6943,7 @@ let BattlePokedex = {
 		eggGroups: ["Field", "Human-Like"],
 		otherFormes: ["lopunnymega"],
 	},
-	LopunnyMega: {
+	lopunnymega: {
 		num: 428,
 		species: "Lopunny-Mega",
 		baseSpecies: "Lopunny",
@@ -6957,7 +6957,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Field", "Human-Like"],
 	},
-	Mismagius: {
+	mismagius: {
 		num: 429,
 		species: "Mismagius",
 		types: ["Ghost", "Fairy"],
@@ -6971,7 +6971,7 @@ let BattlePokedex = {
 		evoItem: "Dusk Stone",
 		eggGroups: ["Amorphous"],
 	},
-	Honchkrow: {
+	honchkrow: {
 		num: 430,
 		species: "Honchkrow",
 		types: ["Dark", "Flying"],
@@ -6998,7 +6998,7 @@ let BattlePokedex = {
 		evos: ["purugly"],
 		eggGroups: ["Field"],
 	},
-	Purugly: {
+	purugly: {
 		num: 432,
 		species: "Purugly",
 		types: ["Normal"],
@@ -7012,7 +7012,7 @@ let BattlePokedex = {
 		evoLevel: 38,
 		eggGroups: ["Field"],
 	},
-	Chingling: {
+	chingling: {
 		num: 433,
 		species: "Chingling",
 		types: ["Psychic"],
@@ -7037,7 +7037,7 @@ let BattlePokedex = {
 		evos: ["skuntank"],
 		eggGroups: ["Field"],
 	},
-	Skuntank: {
+	skuntank: {
 		num: 435,
 		species: "Skuntank",
 		types: ["Poison", "Dark"],
@@ -7063,7 +7063,7 @@ let BattlePokedex = {
 		evos: ["bronzong"],
 		eggGroups: ["Mineral"],
 	},
-	Bronzong: {
+	bronzong: {
 		num: 437,
 		species: "Bronzong",
 		types: ["Steel", "Psychic"],
@@ -7117,7 +7117,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Chatot: {
+	chatot: {
 		num: 441,
 		species: "Chatot",
 		types: ["Normal", "Flying"],
@@ -7128,7 +7128,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Flying"],
 	},
-	Spiritomb: {
+	spiritomb: {
 		num: 442,
 		species: "Spiritomb",
 		types: ["Ghost", "Dark"],
@@ -7165,7 +7165,7 @@ let BattlePokedex = {
 		evos: ["garchomp"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Garchomp: {
+	garchomp: {
 		num: 445,
 		species: "Garchomp",
 		types: ["Dragon", "Ground"],
@@ -7179,7 +7179,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Dragon"],
 		otherFormes: ["garchompmega"],
 	},
-	GarchompMega: {
+	garchompmega: {
 		num: 445,
 		species: "Garchomp-Mega",
 		baseSpecies: "Garchomp",
@@ -7221,7 +7221,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 	},
-	Lucario: {
+	lucario: {
 		num: 448,
 		species: "Lucario",
 		types: ["Fighting", "Steel"],
@@ -7237,7 +7237,7 @@ let BattlePokedex = {
 		eggGroups: ["Field", "Human-Like"],
 		otherFormes: ["lucariomega"],
 	},
-	LucarioMega: {
+	lucariomega: {
 		num: 448,
 		species: "Lucario-Mega",
 		baseSpecies: "Lucario",
@@ -7264,7 +7264,7 @@ let BattlePokedex = {
 		evos: ["hippowdon"],
 		eggGroups: ["Field"],
 	},
-	Hippowdon: {
+	hippowdon: {
 		num: 450,
 		species: "Hippowdon",
 		types: ["Ground"],
@@ -7289,7 +7289,7 @@ let BattlePokedex = {
 		evos: ["drapion"],
 		eggGroups: ["Bug", "Water 3"],
 	},
-	Drapion: {
+	drapion: {
 		num: 452,
 		species: "Drapion",
 		types: ["Poison", "Ground"],
@@ -7314,7 +7314,7 @@ let BattlePokedex = {
 		evos: ["toxicroak"],
 		eggGroups: ["Human-Like"],
 	},
-	Toxicroak: {
+	toxicroak: {
 		num: 454,
 		species: "Toxicroak",
 		types: ["Poison", "Fighting"],
@@ -7327,7 +7327,7 @@ let BattlePokedex = {
 		evoLevel: 37,
 		eggGroups: ["Human-Like"],
 	},
-	Carnivine: {
+	carnivine: {
 		num: 455,
 		species: "Carnivine",
 		types: ["Grass", "Dark"],
@@ -7350,7 +7350,7 @@ let BattlePokedex = {
 		evos: ["lumineon"],
 		eggGroups: ["Water 2"],
 	},
-	Lumineon: {
+	lumineon: {
 		num: 457,
 		species: "Lumineon",
 		types: ["Water"],
@@ -7388,7 +7388,7 @@ let BattlePokedex = {
 		evos: ["abomasnow"],
 		eggGroups: ["Monster", "Grass"],
 	},
-	Abomasnow: {
+	abomasnow: {
 		num: 460,
 		species: "Abomasnow",
 		types: ["Grass", "Ice"],
@@ -7402,7 +7402,7 @@ let BattlePokedex = {
 		eggGroups: ["Monster", "Grass"],
 		otherFormes: ["abomasnowmega"],
 	},
-	AbomasnowMega: {
+	abomasnowmega: {
 		num: 460,
 		species: "Abomasnow-Mega",
 		baseSpecies: "Abomasnow",
@@ -7416,7 +7416,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Monster", "Grass"],
 	},
-	Weavile: {
+	weavile: {
 		num: 461,
 		species: "Weavile",
 		types: ["Dark", "Ice"],
@@ -7430,7 +7430,7 @@ let BattlePokedex = {
 		evoItem: "Razor Claw",
 		eggGroups: ["Field"],
 	},
-	Magnezone: {
+	magnezone: {
 		num: 462,
 		species: "Magnezone",
 		types: ["Electric", "Steel"],
@@ -7445,7 +7445,7 @@ let BattlePokedex = {
 		evoCondition: "in a special magnetic field",
 		eggGroups: ["Mineral"],
 	},
-	Lickilicky: {
+	lickilicky: {
 		num: 463,
 		species: "Lickilicky",
 		types: ["Normal"],
@@ -7459,7 +7459,7 @@ let BattlePokedex = {
 		evoMove: "Rollout",
 		eggGroups: ["Monster"],
 	},
-	Rhyperior: {
+	rhyperior: {
 		num: 464,
 		species: "Rhyperior",
 		types: ["Ground", "Rock"],
@@ -7472,7 +7472,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Monster", "Field"],
 	},
-	Tangrowth: {
+	tangrowth: {
 		num: 465,
 		species: "Tangrowth",
 		types: ["Grass"],
@@ -7486,7 +7486,7 @@ let BattlePokedex = {
 		evoMove: "Ancient Power",
 		eggGroups: ["Grass"],
 	},
-	Electivire: {
+	electivire: {
 		num: 466,
 		species: "Electivire",
 		types: ["Electric", "Fighting"],
@@ -7500,7 +7500,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Human-Like"],
 	},
-	Magmortar: {
+	magmortar: {
 		num: 467,
 		species: "Magmortar",
 		types: ["Fire", "Poison"],
@@ -7514,7 +7514,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Human-Like"],
 	},
-	Togekiss: {
+	togekiss: {
 		num: 468,
 		species: "Togekiss",
 		types: ["Fairy", "Flying"],
@@ -7529,7 +7529,7 @@ let BattlePokedex = {
 		evoItem: "Shiny Stone",
 		eggGroups: ["Flying", "Fairy"],
 	},
-	Yanmega: {
+	yanmega: {
 		num: 469,
 		species: "Yanmega",
 		types: ["Bug", "Dragon"],
@@ -7543,7 +7543,7 @@ let BattlePokedex = {
 		evoMove: "Ancient Power",
 		eggGroups: ["Bug"],
 	},
-	Leafeon: {
+	leafeon: {
 		num: 470,
 		species: "Leafeon",
 		types: ["Grass"],
@@ -7558,7 +7558,7 @@ let BattlePokedex = {
 		evoCondition: "near a Moss Rock",
 		eggGroups: ["Field"],
 	},
-	Glaceon: {
+	glaceon: {
 		num: 471,
 		species: "Glaceon",
 		types: ["Ice"],
@@ -7573,7 +7573,7 @@ let BattlePokedex = {
 		evoCondition: "near an Ice Rock",
 		eggGroups: ["Field"],
 	},
-	Gliscor: {
+	gliscor: {
 		num: 472,
 		species: "Gliscor",
 		types: ["Ground", "Flying"],
@@ -7588,7 +7588,7 @@ let BattlePokedex = {
 		evoCondition: "at night",
 		eggGroups: ["Bug"],
 	},
-	Mamoswine: {
+	mamoswine: {
 		num: 473,
 		species: "Mamoswine",
 		types: ["Ice", "Ground"],
@@ -7602,7 +7602,7 @@ let BattlePokedex = {
 		evoMove: "Ancient Power",
 		eggGroups: ["Field"],
 	},
-	PorygonZ: {
+	porygonz: {
 		num: 474,
 		species: "Porygon-Z",
 		types: ["Normal"],
@@ -7616,7 +7616,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Mineral"],
 	},
-	Gallade: {
+	gallade: {
 		num: 475,
 		species: "Gallade",
 		types: ["Psychic", "Fighting"],
@@ -7632,7 +7632,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["gallademega"],
 	},
-	GalladeMega: {
+	gallademega: {
 		num: 475,
 		species: "Gallade-Mega",
 		baseSpecies: "Gallade",
@@ -7647,7 +7647,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Amorphous"],
 	},
-	Probopass: {
+	probopass: {
 		num: 476,
 		species: "Probopass",
 		types: ["Rock", "Steel"],
@@ -7661,7 +7661,7 @@ let BattlePokedex = {
 		evoCondition: "near a special magnetic field",
 		eggGroups: ["Mineral"],
 	},
-	Dusknoir: {
+	dusknoir: {
 		num: 477,
 		species: "Dusknoir",
 		types: ["Ghost", "Fighting"],
@@ -7674,7 +7674,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Amorphous"],
 	},
-	Froslass: {
+	froslass: {
 		num: 478,
 		species: "Froslass",
 		types: ["Ice", "Ghost"],
@@ -7689,7 +7689,7 @@ let BattlePokedex = {
 		evoItem: "Dawn Stone",
 		eggGroups: ["Fairy", "Mineral"],
 	},
-	Rotom: {
+	rotom: {
 		num: 479,
 		species: "Rotom",
 		types: ["Electric", "Ghost"],
@@ -7702,7 +7702,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["rotomheat", "rotomwash", "rotomfrost", "rotomfan", "rotommow"],
 	},
-	RotomHeat: {
+	rotomheat: {
 		num: 479,
 		species: "Rotom-Heat",
 		baseSpecies: "Rotom",
@@ -7717,7 +7717,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 	},
-	RotomWash: {
+	rotomwash: {
 		num: 479,
 		species: "Rotom-Wash",
 		baseSpecies: "Rotom",
@@ -7732,7 +7732,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 	},
-	RotomFrost: {
+	rotomfrost: {
 		num: 479,
 		species: "Rotom-Frost",
 		baseSpecies: "Rotom",
@@ -7747,7 +7747,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 	},
-	RotomFan: {
+	rotomfan: {
 		num: 479,
 		species: "Rotom-Fan",
 		baseSpecies: "Rotom",
@@ -7762,7 +7762,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 	},
-	RotomMow: {
+	rotommow: {
 		num: 479,
 		species: "Rotom-Mow",
 		baseSpecies: "Rotom",
@@ -7777,7 +7777,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 	},
-	Uxie: {
+	uxie: {
 		num: 480,
 		species: "Uxie",
 		types: ["Psychic"],
@@ -7789,7 +7789,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	Mesprit: {
+	mesprit: {
 		num: 481,
 		species: "Mesprit",
 		types: ["Psychic", "Fairy"],
@@ -7801,7 +7801,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 	},
-	Azelf: {
+	azelf: {
 		num: 482,
 		species: "Azelf",
 		types: ["Psychic"],
@@ -7813,7 +7813,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Dialga: {
+	dialga: {
 		num: 483,
 		species: "Dialga",
 		types: ["Steel", "Dragon"],
@@ -7825,7 +7825,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Palkia: {
+	palkia: {
 		num: 484,
 		species: "Palkia",
 		types: ["Water", "Dragon"],
@@ -7837,7 +7837,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 	},
-	Heatran: {
+	heatran: {
 		num: 485,
 		species: "Heatran",
 		types: ["Fire", "Steel"],
@@ -7848,7 +7848,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
 	},
-	Regigigas: {
+	regigigas: {
 		num: 486,
 		species: "Regigigas",
 		types: ["Normal"],
@@ -7860,7 +7860,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Giratina: {
+	giratina: {
 		num: 487,
 		species: "Giratina",
 		baseForme: "Altered",
@@ -7874,7 +7874,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["giratinaorigin"],
 	},
-	GiratinaOrigin: {
+	giratinaorigin: {
 		num: 487,
 		species: "Giratina-Origin",
 		baseSpecies: "Giratina",
@@ -7889,7 +7889,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 	},
-	Cresselia: {
+	cresselia: {
 		num: 488,
 		species: "Cresselia",
 		types: ["Psychic"],
@@ -7913,7 +7913,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Water 1", "Fairy"],
 	},
-	Manaphy: {
+	manaphy: {
 		num: 490,
 		species: "Manaphy",
 		types: ["Water"],
@@ -7926,7 +7926,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 1", "Fairy"],
 		canHatch: false,
 	},
-	Darkrai: {
+	darkrai: {
 		num: 491,
 		species: "Darkrai",
 		types: ["Dark"],
@@ -7938,7 +7938,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 	},
-	Shaymin: {
+	shaymin: {
 		num: 492,
 		species: "Shaymin",
 		baseForme: "Land",
@@ -7952,7 +7952,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["shayminsky"],
 	},
-	ShayminSky: {
+	shayminsky: {
 		num: 492,
 		species: "Shaymin-Sky",
 		baseSpecies: "Shaymin",
@@ -7967,7 +7967,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
-	Arceus: {
+	arceus: {
 		num: 493,
 		species: "Arceus",
 		baseForme: "Normal",
@@ -7981,7 +7981,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["arceusbug", "arceusdark", "arceusdragon", "arceuselectric", "arceusfairy", "arceusfighting", "arceusfire", "arceusflying", "arceusghost", "arceusgrass", "arceusground", "arceusice", "arceuspoison", "arceuspsychic", "arceusrock", "arceussteel", "arceuswater"],
 	},
-	ArceusBug: {
+	arceusbug: {
 		num: 493,
 		species: "Arceus-Bug",
 		baseSpecies: "Arceus",
@@ -7996,7 +7996,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusDark: {
+	arceusdark: {
 		num: 493,
 		species: "Arceus-Dark",
 		baseSpecies: "Arceus",
@@ -8011,7 +8011,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusDragon: {
+	arceusdragon: {
 		num: 493,
 		species: "Arceus-Dragon",
 		baseSpecies: "Arceus",
@@ -8026,7 +8026,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusElectric: {
+	arceuselectric: {
 		num: 493,
 		species: "Arceus-Electric",
 		baseSpecies: "Arceus",
@@ -8041,7 +8041,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusFairy: {
+	arceusfairy: {
 		num: 493,
 		species: "Arceus-Fairy",
 		baseSpecies: "Arceus",
@@ -8056,7 +8056,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusFighting: {
+	arceusfighting: {
 		num: 493,
 		species: "Arceus-Fighting",
 		baseSpecies: "Arceus",
@@ -8071,7 +8071,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusFire: {
+	arceusfire: {
 		num: 493,
 		species: "Arceus-Fire",
 		baseSpecies: "Arceus",
@@ -8086,7 +8086,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusFlying: {
+	arceusflying: {
 		num: 493,
 		species: "Arceus-Flying",
 		baseSpecies: "Arceus",
@@ -8101,7 +8101,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusGhost: {
+	arceusghost: {
 		num: 493,
 		species: "Arceus-Ghost",
 		baseSpecies: "Arceus",
@@ -8116,7 +8116,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusGrass: {
+	arceusgrass: {
 		num: 493,
 		species: "Arceus-Grass",
 		baseSpecies: "Arceus",
@@ -8131,7 +8131,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusGround: {
+	arceusground: {
 		num: 493,
 		species: "Arceus-Ground",
 		baseSpecies: "Arceus",
@@ -8146,7 +8146,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusIce: {
+	arceusice: {
 		num: 493,
 		species: "Arceus-Ice",
 		baseSpecies: "Arceus",
@@ -8161,7 +8161,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusPoison: {
+	arceuspoison: {
 		num: 493,
 		species: "Arceus-Poison",
 		baseSpecies: "Arceus",
@@ -8176,7 +8176,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusPsychic: {
+	arceuspsychic: {
 		num: 493,
 		species: "Arceus-Psychic",
 		baseSpecies: "Arceus",
@@ -8191,7 +8191,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusRock: {
+	arceusrock: {
 		num: 493,
 		species: "Arceus-Rock",
 		baseSpecies: "Arceus",
@@ -8206,7 +8206,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusSteel: {
+	arceussteel: {
 		num: 493,
 		species: "Arceus-Steel",
 		baseSpecies: "Arceus",
@@ -8221,7 +8221,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	ArceusWater: {
+	arceuswater: {
 		num: 493,
 		species: "Arceus-Water",
 		baseSpecies: "Arceus",
@@ -8236,7 +8236,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	Victini: {
+	victini: {
 		num: 494,
 		species: "Victini",
 		types: ["Psychic", "Fire"],
@@ -8276,7 +8276,7 @@ let BattlePokedex = {
 		evos: ["serperior"],
 		eggGroups: ["Field", "Grass"],
 	},
-	Serperior: {
+	serperior: {
 		num: 497,
 		species: "Serperior",
 		types: ["Grass"],
@@ -8318,7 +8318,7 @@ let BattlePokedex = {
 		evos: ["emboar"],
 		eggGroups: ["Field"],
 	},
-	Emboar: {
+	emboar: {
 		num: 500,
 		species: "Emboar",
 		types: ["Fire", "Fighting"],
@@ -8360,7 +8360,7 @@ let BattlePokedex = {
 		evos: ["samurott"],
 		eggGroups: ["Field"],
 	},
-	Samurott: {
+	samurott: {
 		num: 503,
 		species: "Samurott",
 		types: ["Water", "Fighting"],
@@ -8386,7 +8386,7 @@ let BattlePokedex = {
 		evos: ["watchog"],
 		eggGroups: ["Field"],
 	},
-	Watchog: {
+	watchog: {
 		num: 505,
 		species: "Watchog",
 		types: ["Normal", "Psychic"],
@@ -8425,7 +8425,7 @@ let BattlePokedex = {
 		evos: ["stoutland"],
 		eggGroups: ["Field"],
 	},
-	Stoutland: {
+	stoutland: {
 		num: 508,
 		species: "Stoutland",
 		types: ["Normal"],
@@ -8450,7 +8450,7 @@ let BattlePokedex = {
 		evos: ["liepard"],
 		eggGroups: ["Field"],
 	},
-	Liepard: {
+	liepard: {
 		num: 510,
 		species: "Liepard",
 		types: ["Dark"],
@@ -8476,7 +8476,7 @@ let BattlePokedex = {
 		evos: ["simisage"],
 		eggGroups: ["Field"],
 	},
-	Simisage: {
+	simisage: {
 		num: 512,
 		species: "Simisage",
 		types: ["Grass", "Normal"],
@@ -8504,7 +8504,7 @@ let BattlePokedex = {
 		evos: ["simisear"],
 		eggGroups: ["Field"],
 	},
-	Simisear: {
+	simisear: {
 		num: 514,
 		species: "Simisear",
 		types: ["Fire", "Normal"],
@@ -8532,7 +8532,7 @@ let BattlePokedex = {
 		evos: ["simipour"],
 		eggGroups: ["Field"],
 	},
-	Simipour: {
+	simipour: {
 		num: 516,
 		species: "Simipour",
 		types: ["Water", "Normal"],
@@ -8559,7 +8559,7 @@ let BattlePokedex = {
 		evos: ["musharna"],
 		eggGroups: ["Field"],
 	},
-	Musharna: {
+	musharna: {
 		num: 518,
 		species: "Musharna",
 		types: ["Psychic"],
@@ -8599,7 +8599,7 @@ let BattlePokedex = {
 		evos: ["unfezant"],
 		eggGroups: ["Flying"],
 	},
-	Unfezant: {
+	unfezant: {
 		num: 521,
 		species: "Unfezant",
 		types: ["Normal", "Flying"],
@@ -8624,7 +8624,7 @@ let BattlePokedex = {
 		evos: ["zebstrika"],
 		eggGroups: ["Field"],
 	},
-	Zebstrika: {
+	zebstrika: {
 		num: 523,
 		species: "Zebstrika",
 		types: ["Electric"],
@@ -8663,7 +8663,7 @@ let BattlePokedex = {
 		evos: ["gigalith"],
 		eggGroups: ["Mineral"],
 	},
-	Gigalith: {
+	gigalith: {
 		num: 526,
 		species: "Gigalith",
 		types: ["Rock"],
@@ -8688,7 +8688,7 @@ let BattlePokedex = {
 		evos: ["swoobat"],
 		eggGroups: ["Flying", "Field"],
 	},
-	Swoobat: {
+	swoobat: {
 		num: 528,
 		species: "Swoobat",
 		types: ["Psychic", "Flying"],
@@ -8713,7 +8713,7 @@ let BattlePokedex = {
 		evos: ["excadrill"],
 		eggGroups: ["Field"],
 	},
-	Excadrill: {
+	excadrill: {
 		num: 530,
 		species: "Excadrill",
 		types: ["Ground", "Steel"],
@@ -8726,7 +8726,7 @@ let BattlePokedex = {
 		evoLevel: 31,
 		eggGroups: ["Field"],
 	},
-	Audino: {
+	audino: {
 		num: 531,
 		species: "Audino",
 		types: ["Normal", "Fairy"],
@@ -8738,7 +8738,7 @@ let BattlePokedex = {
 		eggGroups: ["Fairy"],
 		otherFormes: ["audinomega"],
 	},
-	AudinoMega: {
+	audinomega: {
 		num: 531,
 		species: "Audino-Mega",
 		baseSpecies: "Audino",
@@ -8780,7 +8780,7 @@ let BattlePokedex = {
 		evos: ["conkeldurr"],
 		eggGroups: ["Human-Like"],
 	},
-	Conkeldurr: {
+	conkeldurr: {
 		num: 534,
 		species: "Conkeldurr",
 		types: ["Fighting"],
@@ -8820,7 +8820,7 @@ let BattlePokedex = {
 		evos: ["seismitoad"],
 		eggGroups: ["Water 1"],
 	},
-	Seismitoad: {
+	seismitoad: {
 		num: 537,
 		species: "Seismitoad",
 		types: ["Water", "Ground"],
@@ -8833,7 +8833,7 @@ let BattlePokedex = {
 		evoLevel: 36,
 		eggGroups: ["Water 1"],
 	},
-	Throh: {
+	throh: {
 		num: 538,
 		species: "Throh",
 		types: ["Fighting"],
@@ -8845,7 +8845,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Human-Like"],
 	},
-	Sawk: {
+	sawk: {
 		num: 539,
 		species: "Sawk",
 		types: ["Fighting"],
@@ -8883,7 +8883,7 @@ let BattlePokedex = {
 		evos: ["leavanny"],
 		eggGroups: ["Bug"],
 	},
-	Leavanny: {
+	leavanny: {
 		num: 542,
 		species: "Leavanny",
 		types: ["Bug", "Grass"],
@@ -8922,7 +8922,7 @@ let BattlePokedex = {
 		evos: ["scolipede"],
 		eggGroups: ["Bug"],
 	},
-	Scolipede: {
+	scolipede: {
 		num: 545,
 		species: "Scolipede",
 		types: ["Bug", "Poison"],
@@ -8947,7 +8947,7 @@ let BattlePokedex = {
 		evos: ["whimsicott"],
 		eggGroups: ["Fairy", "Grass"],
 	},
-	Whimsicott: {
+	whimsicott: {
 		num: 547,
 		species: "Whimsicott",
 		types: ["Grass", "Fairy"],
@@ -8974,7 +8974,7 @@ let BattlePokedex = {
 		evos: ["lilligant"],
 		eggGroups: ["Grass"],
 	},
-	Lilligant: {
+	lilligant: {
 		num: 549,
 		species: "Lilligant",
 		types: ["Grass", "Psychic"],
@@ -8989,7 +8989,7 @@ let BattlePokedex = {
 		evoItem: "Sun Stone",
 		eggGroups: ["Grass"],
 	},
-	Basculin: {
+	basculin: {
 		num: 550,
 		species: "Basculin",
 		baseForme: "Red-Striped",
@@ -9042,7 +9042,7 @@ let BattlePokedex = {
 		evos: ["krookodile"],
 		eggGroups: ["Field"],
 	},
-	Krookodile: {
+	krookodile: {
 		num: 553,
 		species: "Krookodile",
 		types: ["Ground", "Dark"],
@@ -9067,7 +9067,7 @@ let BattlePokedex = {
 		evos: ["darmanitan"],
 		eggGroups: ["Field"],
 	},
-	Darmanitan: {
+	darmanitan: {
 		num: 555,
 		species: "Darmanitan",
 		baseForme: "Standard",
@@ -9098,7 +9098,7 @@ let BattlePokedex = {
 		evoLevel: 35,
 		eggGroups: ["Field"],
 	},
-	Maractus: {
+	maractus: {
 		num: 556,
 		species: "Maractus",
 		types: ["Grass", "Water"],
@@ -9121,7 +9121,7 @@ let BattlePokedex = {
 		evos: ["crustle"],
 		eggGroups: ["Bug", "Mineral"],
 	},
-	Crustle: {
+	crustle: {
 		num: 558,
 		species: "Crustle",
 		types: ["Bug", "Rock"],
@@ -9146,7 +9146,7 @@ let BattlePokedex = {
 		evos: ["scrafty"],
 		eggGroups: ["Field", "Dragon"],
 	},
-	Scrafty: {
+	scrafty: {
 		num: 560,
 		species: "Scrafty",
 		types: ["Dark", "Fighting"],
@@ -9159,7 +9159,7 @@ let BattlePokedex = {
 		evoLevel: 39,
 		eggGroups: ["Field", "Dragon"],
 	},
-	Sigilyph: {
+	sigilyph: {
 		num: 561,
 		species: "Sigilyph",
 		types: ["Psychic", "Flying"],
@@ -9182,7 +9182,7 @@ let BattlePokedex = {
 		evos: ["cofagrigus"],
 		eggGroups: ["Mineral", "Amorphous"],
 	},
-	Cofagrigus: {
+	cofagrigus: {
 		num: 563,
 		species: "Cofagrigus",
 		types: ["Ghost"],
@@ -9208,7 +9208,7 @@ let BattlePokedex = {
 		evos: ["carracosta"],
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Carracosta: {
+	carracosta: {
 		num: 565,
 		species: "Carracosta",
 		types: ["Water", "Rock"],
@@ -9235,7 +9235,7 @@ let BattlePokedex = {
 		evos: ["archeops"],
 		eggGroups: ["Flying", "Water 3"],
 	},
-	Archeops: {
+	archeops: {
 		num: 567,
 		species: "Archeops",
 		types: ["Rock", "Flying"],
@@ -9261,7 +9261,7 @@ let BattlePokedex = {
 		evos: ["garbodor"],
 		eggGroups: ["Mineral"],
 	},
-	Garbodor: {
+	garbodor: {
 		num: 569,
 		species: "Garbodor",
 		types: ["Poison", "Steel"],
@@ -9287,7 +9287,7 @@ let BattlePokedex = {
 		evos: ["zoroark"],
 		eggGroups: ["Field"],
 	},
-	Zoroark: {
+	zoroark: {
 		num: 571,
 		species: "Zoroark",
 		types: ["Dark"],
@@ -9314,7 +9314,7 @@ let BattlePokedex = {
 		evos: ["cinccino"],
 		eggGroups: ["Field"],
 	},
-	Cinccino: {
+	cinccino: {
 		num: 573,
 		species: "Cinccino",
 		types: ["Normal"],
@@ -9357,7 +9357,7 @@ let BattlePokedex = {
 		evos: ["gothitelle"],
 		eggGroups: ["Human-Like"],
 	},
-	Gothitelle: {
+	gothitelle: {
 		num: 576,
 		species: "Gothitelle",
 		types: ["Psychic", "Dark"],
@@ -9397,7 +9397,7 @@ let BattlePokedex = {
 		evos: ["reuniclus"],
 		eggGroups: ["Amorphous"],
 	},
-	Reuniclus: {
+	reuniclus: {
 		num: 579,
 		species: "Reuniclus",
 		types: ["Psychic"],
@@ -9422,7 +9422,7 @@ let BattlePokedex = {
 		evos: ["swanna"],
 		eggGroups: ["Water 1", "Flying"],
 	},
-	Swanna: {
+	swanna: {
 		num: 581,
 		species: "Swanna",
 		types: ["Water", "Flying"],
@@ -9461,7 +9461,7 @@ let BattlePokedex = {
 		evos: ["vanilluxe"],
 		eggGroups: ["Mineral"],
 	},
-	Vanilluxe: {
+	vanilluxe: {
 		num: 584,
 		species: "Vanilluxe",
 		types: ["Ice"],
@@ -9488,7 +9488,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherForms: ["deerlingsummer", "deerlingautumn", "deerlingwinter"],
 	},
-	Sawsbuck: {
+	sawsbuck: {
 		num: 586,
 		species: "Sawsbuck",
 		baseForme: "Spring",
@@ -9503,7 +9503,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherForms: ["sawsbucksummer", "sawsbuckautumn", "sawsbuckwinter"],
 	},
-	Emolga: {
+	emolga: {
 		num: 587,
 		species: "Emolga",
 		types: ["Electric", "Flying"],
@@ -9526,7 +9526,7 @@ let BattlePokedex = {
 		evos: ["escavalier"],
 		eggGroups: ["Bug"],
 	},
-	Escavalier: {
+	escavalier: {
 		num: 589,
 		species: "Escavalier",
 		types: ["Bug", "Steel"],
@@ -9551,7 +9551,7 @@ let BattlePokedex = {
 		evos: ["amoonguss"],
 		eggGroups: ["Grass"],
 	},
-	Amoonguss: {
+	amoonguss: {
 		num: 591,
 		species: "Amoonguss",
 		types: ["Grass", "Poison"],
@@ -9576,7 +9576,7 @@ let BattlePokedex = {
 		evos: ["jellicent"],
 		eggGroups: ["Amorphous"],
 	},
-	Jellicent: {
+	jellicent: {
 		num: 593,
 		species: "Jellicent",
 		types: ["Water", "Ghost"],
@@ -9589,7 +9589,7 @@ let BattlePokedex = {
 		evoLevel: 40,
 		eggGroups: ["Amorphous"],
 	},
-	Alomomola: {
+	alomomola: {
 		num: 594,
 		species: "Alomomola",
 		types: ["Water"],
@@ -9612,7 +9612,7 @@ let BattlePokedex = {
 		evos: ["galvantula"],
 		eggGroups: ["Bug"],
 	},
-	Galvantula: {
+	galvantula: {
 		num: 596,
 		species: "Galvantula",
 		types: ["Bug", "Electric"],
@@ -9637,7 +9637,7 @@ let BattlePokedex = {
 		evos: ["ferrothorn"],
 		eggGroups: ["Grass", "Mineral"],
 	},
-	Ferrothorn: {
+	ferrothorn: {
 		num: 598,
 		species: "Ferrothorn",
 		types: ["Grass", "Steel"],
@@ -9678,7 +9678,7 @@ let BattlePokedex = {
 		evos: ["klinklang"],
 		eggGroups: ["Mineral"],
 	},
-	Klinklang: {
+	klinklang: {
 		num: 601,
 		species: "Klinklang",
 		types: ["Steel", "Electric"],
@@ -9718,7 +9718,7 @@ let BattlePokedex = {
 		evos: ["eelektross"],
 		eggGroups: ["Amorphous"],
 	},
-	Eelektross: {
+	eelektross: {
 		num: 604,
 		species: "Eelektross",
 		types: ["Electric"],
@@ -9744,7 +9744,7 @@ let BattlePokedex = {
 		evos: ["beheeyem"],
 		eggGroups: ["Human-Like"],
 	},
-	Beheeyem: {
+	beheeyem: {
 		num: 606,
 		species: "Beheeyem",
 		types: ["Psychic"],
@@ -9783,7 +9783,7 @@ let BattlePokedex = {
 		evos: ["chandelure"],
 		eggGroups: ["Amorphous"],
 	},
-	Chandelure: {
+	chandelure: {
 		num: 609,
 		species: "Chandelure",
 		types: ["Ghost", "Fire"],
@@ -9823,7 +9823,7 @@ let BattlePokedex = {
 		evos: ["haxorus"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Haxorus: {
+	haxorus: {
 		num: 612,
 		species: "Haxorus",
 		types: ["Dragon"],
@@ -9848,7 +9848,7 @@ let BattlePokedex = {
 		evos: ["beartic"],
 		eggGroups: ["Field"],
 	},
-	Beartic: {
+	beartic: {
 		num: 614,
 		species: "Beartic",
 		types: ["Ice", "Fighting"],
@@ -9861,7 +9861,7 @@ let BattlePokedex = {
 		evoLevel: 37,
 		eggGroups: ["Field"],
 	},
-	Cryogonal: {
+	cryogonal: {
 		num: 615,
 		species: "Cryogonal",
 		types: ["Ice"],
@@ -9885,7 +9885,7 @@ let BattlePokedex = {
 		evos: ["accelgor"],
 		eggGroups: ["Bug"],
 	},
-	Accelgor: {
+	accelgor: {
 		num: 617,
 		species: "Accelgor",
 		types: ["Bug"],
@@ -9898,7 +9898,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Bug"],
 	},
-	Stunfisk: {
+	stunfisk: {
 		num: 618,
 		species: "Stunfisk",
 		types: ["Ground", "Electric"],
@@ -9921,7 +9921,7 @@ let BattlePokedex = {
 		evos: ["mienshao"],
 		eggGroups: ["Field", "Human-Like"],
 	},
-	Mienshao: {
+	mienshao: {
 		num: 620,
 		species: "Mienshao",
 		types: ["Fighting"],
@@ -9934,7 +9934,7 @@ let BattlePokedex = {
 		evoLevel: 50,
 		eggGroups: ["Field", "Human-Like"],
 	},
-	Druddigon: {
+	druddigon: {
 		num: 621,
 		species: "Druddigon",
 		types: ["Dragon"],
@@ -9958,7 +9958,7 @@ let BattlePokedex = {
 		evos: ["golurk"],
 		eggGroups: ["Mineral"],
 	},
-	Golurk: {
+	golurk: {
 		num: 623,
 		species: "Golurk",
 		types: ["Ground", "Ghost"],
@@ -9984,7 +9984,7 @@ let BattlePokedex = {
 		evos: ["bisharp"],
 		eggGroups: ["Human-Like"],
 	},
-	Bisharp: {
+	bisharp: {
 		num: 625,
 		species: "Bisharp",
 		types: ["Dark", "Steel"],
@@ -9997,7 +9997,7 @@ let BattlePokedex = {
 		evoLevel: 52,
 		eggGroups: ["Human-Like"],
 	},
-	Bouffalant: {
+	bouffalant: {
 		num: 626,
 		species: "Bouffalant",
 		types: ["Normal"],
@@ -10021,7 +10021,7 @@ let BattlePokedex = {
 		evos: ["braviary"],
 		eggGroups: ["Flying"],
 	},
-	Braviary: {
+	braviary: {
 		num: 628,
 		species: "Braviary",
 		types: ["Normal", "Flying"],
@@ -10048,7 +10048,7 @@ let BattlePokedex = {
 		evos: ["mandibuzz"],
 		eggGroups: ["Flying"],
 	},
-	Mandibuzz: {
+	mandibuzz: {
 		num: 630,
 		species: "Mandibuzz",
 		types: ["Dark", "Flying"],
@@ -10062,7 +10062,7 @@ let BattlePokedex = {
 		evoLevel: 54,
 		eggGroups: ["Flying"],
 	},
-	Heatmor: {
+	heatmor: {
 		num: 631,
 		species: "Heatmor",
 		types: ["Fire", "Ground"],
@@ -10073,7 +10073,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Field"],
 	},
-	Durant: {
+	durant: {
 		num: 632,
 		species: "Durant",
 		types: ["Bug", "Steel"],
@@ -10110,7 +10110,7 @@ let BattlePokedex = {
 		evos: ["hydreigon"],
 		eggGroups: ["Dragon"],
 	},
-	Hydreigon: {
+	hydreigon: {
 		num: 635,
 		species: "Hydreigon",
 		types: ["Dark", "Dragon"],
@@ -10135,7 +10135,7 @@ let BattlePokedex = {
 		evos: ["volcarona"],
 		eggGroups: ["Bug"],
 	},
-	Volcarona: {
+	volcarona: {
 		num: 637,
 		species: "Volcarona",
 		types: ["Bug", "Fire"],
@@ -10148,7 +10148,7 @@ let BattlePokedex = {
 		evoLevel: 59,
 		eggGroups: ["Bug"],
 	},
-	Cobalion: {
+	cobalion: {
 		num: 638,
 		species: "Cobalion",
 		types: ["Steel", "Fighting"],
@@ -10160,7 +10160,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Terrakion: {
+	terrakion: {
 		num: 639,
 		species: "Terrakion",
 		types: ["Rock", "Fighting"],
@@ -10172,7 +10172,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	Virizion: {
+	virizion: {
 		num: 640,
 		species: "Virizion",
 		types: ["Grass", "Fighting"],
@@ -10184,7 +10184,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
-	Tornadus: {
+	tornadus: {
 		num: 641,
 		species: "Tornadus",
 		baseForme: "Incarnate",
@@ -10198,7 +10198,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["tornadustherian"],
 	},
-	TornadusTherian: {
+	tornadustherian: {
 		num: 641,
 		species: "Tornadus-Therian",
 		baseSpecies: "Tornadus",
@@ -10213,7 +10213,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
-	Thundurus: {
+	thundurus: {
 		num: 642,
 		species: "Thundurus",
 		baseForme: "Incarnate",
@@ -10227,7 +10227,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["thundurustherian"],
 	},
-	ThundurusTherian: {
+	thundurustherian: {
 		num: 642,
 		species: "Thundurus-Therian",
 		baseSpecies: "Thundurus",
@@ -10242,7 +10242,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Reshiram: {
+	reshiram: {
 		num: 643,
 		species: "Reshiram",
 		types: ["Dragon", "Fire"],
@@ -10254,7 +10254,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Zekrom: {
+	zekrom: {
 		num: 644,
 		species: "Zekrom",
 		types: ["Dragon", "Electric"],
@@ -10266,7 +10266,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 	},
-	Landorus: {
+	landorus: {
 		num: 645,
 		species: "Landorus",
 		baseForme: "Incarnate",
@@ -10280,7 +10280,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["landorustherian"],
 	},
-	LandorusTherian: {
+	landorustherian: {
 		num: 645,
 		species: "Landorus-Therian",
 		baseSpecies: "Landorus",
@@ -10295,7 +10295,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
 	},
-	Kyurem: {
+	kyurem: {
 		num: 646,
 		species: "Kyurem",
 		types: ["Dragon", "Ice"],
@@ -10308,7 +10308,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["kyuremblack", "kyuremwhite"],
 	},
-	KyuremBlack: {
+	kyuremblack: {
 		num: 646,
 		species: "Kyurem-Black",
 		baseSpecies: "Kyurem",
@@ -10323,7 +10323,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	KyuremWhite: {
+	kyuremwhite: {
 		num: 646,
 		species: "Kyurem-White",
 		baseSpecies: "Kyurem",
@@ -10338,7 +10338,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	Keldeo: {
+	keldeo: {
 		num: 647,
 		species: "Keldeo",
 		baseForme: "Ordinary",
@@ -10352,7 +10352,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["keldeoresolute"],
 	},
-	KeldeoResolute: {
+	keldeoresolute: {
 		num: 647,
 		species: "Keldeo-Resolute",
 		baseSpecies: "Keldeo",
@@ -10367,7 +10367,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	Meloetta: {
+	meloetta: {
 		num: 648,
 		species: "Meloetta",
 		baseForme: "Aria",
@@ -10381,7 +10381,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["meloettapirouette"],
 	},
-	MeloettaPirouette: {
+	meloettapirouette: {
 		num: 648,
 		species: "Meloetta-Pirouette",
 		baseSpecies: "Meloetta",
@@ -10396,7 +10396,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Genesect: {
+	genesect: {
 		num: 649,
 		species: "Genesect",
 		types: ["Bug", "Steel"],
@@ -10497,7 +10497,7 @@ let BattlePokedex = {
 		evos: ["chesnaught"],
 		eggGroups: ["Field"],
 	},
-	Chesnaught: {
+	chesnaught: {
 		num: 652,
 		species: "Chesnaught",
 		types: ["Grass", "Fighting"],
@@ -10539,7 +10539,7 @@ let BattlePokedex = {
 		evos: ["delphox"],
 		eggGroups: ["Field"],
 	},
-	Delphox: {
+	delphox: {
 		num: 655,
 		species: "Delphox",
 		types: ["Fire", "Psychic"],
@@ -10581,7 +10581,7 @@ let BattlePokedex = {
 		evos: ["greninja"],
 		eggGroups: ["Water 1"],
 	},
-	Greninja: {
+	greninja: {
 		num: 658,
 		species: "Greninja",
 		types: ["Water", "Dark"],
@@ -10596,7 +10596,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 1"],
 		otherFormes: ["greninjaash"],
 	},
-	GreninjaAsh: {
+	greninjaash: {
 		num: 658,
 		species: "Greninja-Ash",
 		baseSpecies: "Greninja",
@@ -10623,7 +10623,7 @@ let BattlePokedex = {
 		evos: ["diggersby"],
 		eggGroups: ["Field"],
 	},
-	Diggersby: {
+	diggersby: {
 		num: 660,
 		species: "Diggersby",
 		types: ["Normal", "Ground"],
@@ -10662,7 +10662,7 @@ let BattlePokedex = {
 		evos: ["talonflame"],
 		eggGroups: ["Flying"],
 	},
-	Talonflame: {
+	talonflame: {
 		num: 663,
 		species: "Talonflame",
 		types: ["Fire", "Flying"],
@@ -10701,7 +10701,7 @@ let BattlePokedex = {
 		evos: ["vivillon"],
 		eggGroups: ["Bug"],
 	},
-	Vivillon: {
+	vivillon: {
 		num: 666,
 		species: "Vivillon",
 		types: ["Bug", "Flying"],
@@ -10757,7 +10757,7 @@ let BattlePokedex = {
 		evos: ["pyroar"],
 		eggGroups: ["Field"],
 	},
-	Pyroar: {
+	pyroar: {
 		num: 668,
 		species: "Pyroar",
 		types: ["Fire", "Normal"],
@@ -10819,7 +10819,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Florges: {
+	florges: {
 		num: 671,
 		species: "Florges",
 		baseForme: "Red",
@@ -10848,7 +10848,7 @@ let BattlePokedex = {
 		evos: ["gogoat"],
 		eggGroups: ["Field"],
 	},
-	Gogoat: {
+	gogoat: {
 		num: 673,
 		species: "Gogoat",
 		types: ["Grass"],
@@ -10873,7 +10873,7 @@ let BattlePokedex = {
 		evos: ["pangoro"],
 		eggGroups: ["Field", "Human-Like"],
 	},
-	Pangoro: {
+	pangoro: {
 		num: 675,
 		species: "Pangoro",
 		types: ["Fighting", "Dark"],
@@ -10886,7 +10886,7 @@ let BattlePokedex = {
 		evoLevel: 32,
 		eggGroups: ["Field", "Human-Like"],
 	},
-	Furfrou: {
+	furfrou: {
 		num: 676,
 		species: "Furfrou",
 		types: ["Normal"],
@@ -10910,7 +10910,7 @@ let BattlePokedex = {
 		evos: ["meowstic"],
 		eggGroups: ["Field"],
 	},
-	Meowstic: {
+	meowstic: {
 		num: 678,
 		species: "Meowstic",
 		baseForme: "M",
@@ -10955,7 +10955,7 @@ let BattlePokedex = {
 		evos: ["doublade"],
 		eggGroups: ["Mineral"],
 	},
-	Doublade: {
+	doublade: {
 		num: 680,
 		species: "Doublade",
 		types: ["Steel", "Ghost"],
@@ -10969,7 +10969,7 @@ let BattlePokedex = {
 		evos: ["aegislash"],
 		eggGroups: ["Mineral"],
 	},
-	Aegislash: {
+	aegislash: {
 		num: 681,
 		species: "Aegislash",
 		baseForme: "Shield",
@@ -10985,7 +10985,7 @@ let BattlePokedex = {
 		eggGroups: ["Mineral"],
 		otherFormes: ["aegislashblade"],
 	},
-	AegislashBlade: {
+	aegislashblade: {
 		num: 681,
 		species: "Aegislash-Blade",
 		baseSpecies: "Aegislash",
@@ -11014,7 +11014,7 @@ let BattlePokedex = {
 		evos: ["aromatisse"],
 		eggGroups: ["Fairy"],
 	},
-	Aromatisse: {
+	aromatisse: {
 		num: 683,
 		species: "Aromatisse",
 		types: ["Fairy"],
@@ -11039,7 +11039,7 @@ let BattlePokedex = {
 		evos: ["slurpuff"],
 		eggGroups: ["Fairy"],
 	},
-	Slurpuff: {
+	slurpuff: {
 		num: 685,
 		species: "Slurpuff",
 		types: ["Fairy"],
@@ -11064,7 +11064,7 @@ let BattlePokedex = {
 		evos: ["malamar"],
 		eggGroups: ["Water 1", "Water 2"],
 	},
-	Malamar: {
+	malamar: {
 		num: 687,
 		species: "Malamar",
 		types: ["Dark", "Psychic"],
@@ -11089,7 +11089,7 @@ let BattlePokedex = {
 		evos: ["barbaracle"],
 		eggGroups: ["Water 3"],
 	},
-	Barbaracle: {
+	barbaracle: {
 		num: 689,
 		species: "Barbaracle",
 		types: ["Rock", "Water"],
@@ -11114,7 +11114,7 @@ let BattlePokedex = {
 		evos: ["dragalge"],
 		eggGroups: ["Water 1", "Dragon"],
 	},
-	Dragalge: {
+	dragalge: {
 		num: 691,
 		species: "Dragalge",
 		types: ["Poison", "Dragon"],
@@ -11139,7 +11139,7 @@ let BattlePokedex = {
 		evos: ["clawitzer"],
 		eggGroups: ["Water 1", "Water 3"],
 	},
-	Clawitzer: {
+	clawitzer: {
 		num: 693,
 		species: "Clawitzer",
 		types: ["Water"],
@@ -11164,7 +11164,7 @@ let BattlePokedex = {
 		evos: ["heliolisk"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Heliolisk: {
+	heliolisk: {
 		num: 695,
 		species: "Heliolisk",
 		types: ["Electric", "Normal"],
@@ -11191,7 +11191,7 @@ let BattlePokedex = {
 		evos: ["tyrantrum"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Tyrantrum: {
+	tyrantrum: {
 		num: 697,
 		species: "Tyrantrum",
 		types: ["Rock", "Dragon"],
@@ -11218,7 +11218,7 @@ let BattlePokedex = {
 		evos: ["aurorus"],
 		eggGroups: ["Monster"],
 	},
-	Aurorus: {
+	aurorus: {
 		num: 699,
 		species: "Aurorus",
 		types: ["Rock", "Ice"],
@@ -11232,7 +11232,7 @@ let BattlePokedex = {
 		evoLevel: 39,
 		eggGroups: ["Monster"],
 	},
-	Sylveon: {
+	sylveon: {
 		num: 700,
 		species: "Sylveon",
 		types: ["Fairy"],
@@ -11247,7 +11247,7 @@ let BattlePokedex = {
 		evoCondition: "with a Fairy-type move and two levels of Affection",
 		eggGroups: ["Field"],
 	},
-	Hawlucha: {
+	hawlucha: {
 		num: 701,
 		species: "Hawlucha",
 		types: ["Fighting", "Flying"],
@@ -11258,7 +11258,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Human-Like"],
 	},
-	Dedenne: {
+	dedenne: {
 		num: 702,
 		species: "Dedenne",
 		types: ["Electric", "Fairy"],
@@ -11269,7 +11269,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Field", "Fairy"],
 	},
-	Carbink: {
+	carbink: {
 		num: 703,
 		species: "Carbink",
 		types: ["Rock", "Fairy"],
@@ -11307,7 +11307,7 @@ let BattlePokedex = {
 		evos: ["goodra"],
 		eggGroups: ["Dragon"],
 	},
-	Goodra: {
+	goodra: {
 		num: 706,
 		species: "Goodra",
 		types: ["Dragon"],
@@ -11320,7 +11320,7 @@ let BattlePokedex = {
 		evoLevel: 50,
 		eggGroups: ["Dragon"],
 	},
-	Klefki: {
+	klefki: {
 		num: 707,
 		species: "Klefki",
 		types: ["Steel", "Fairy"],
@@ -11343,7 +11343,7 @@ let BattlePokedex = {
 		evos: ["trevenant"],
 		eggGroups: ["Grass", "Amorphous"],
 	},
-	Trevenant: {
+	trevenant: {
 		num: 709,
 		species: "Trevenant",
 		types: ["Ghost", "Grass"],
@@ -11415,7 +11415,7 @@ let BattlePokedex = {
 		evos: ["gourgeistsuper"],
 		eggGroups: ["Amorphous"],
 	},
-	Gourgeist: {
+	gourgeist: {
 		num: 711,
 		species: "Gourgeist",
 		baseForme: "Average",
@@ -11430,7 +11430,7 @@ let BattlePokedex = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["gourgeistsmall", "gourgeistlarge", "gourgeistsuper"],
 	},
-	GourgeistSmall: {
+	gourgeistsmall: {
 		num: 711,
 		species: "Gourgeist-Small",
 		baseSpecies: "Gourgeist",
@@ -11446,7 +11446,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Amorphous"],
 	},
-	GourgeistLarge: {
+	gourgeistlarge: {
 		num: 711,
 		species: "Gourgeist-Large",
 		baseSpecies: "Gourgeist",
@@ -11462,7 +11462,7 @@ let BattlePokedex = {
 		evoType: "trade",
 		eggGroups: ["Amorphous"],
 	},
-	GourgeistSuper: {
+	gourgeistsuper: {
 		num: 711,
 		species: "Gourgeist-Super",
 		baseSpecies: "Gourgeist",
@@ -11490,7 +11490,7 @@ let BattlePokedex = {
 		evos: ["avalugg"],
 		eggGroups: ["Monster"],
 	},
-	Avalugg: {
+	avalugg: {
 		num: 713,
 		species: "Avalugg",
 		types: ["Ice"],
@@ -11515,7 +11515,7 @@ let BattlePokedex = {
 		evos: ["noivern"],
 		eggGroups: ["Flying"],
 	},
-	Noivern: {
+	noivern: {
 		num: 715,
 		species: "Noivern",
 		types: ["Flying", "Dragon"],
@@ -11528,7 +11528,7 @@ let BattlePokedex = {
 		evoLevel: 48,
 		eggGroups: ["Flying"],
 	},
-	Xerneas: {
+	xerneas: {
 		num: 716,
 		species: "Xerneas",
 		types: ["Fairy"],
@@ -11540,7 +11540,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Yveltal: {
+	yveltal: {
 		num: 717,
 		species: "Yveltal",
 		types: ["Dark", "Flying"],
@@ -11552,7 +11552,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	Zygarde: {
+	zygarde: {
 		num: 718,
 		species: "Zygarde",
 		baseForme: "50%",
@@ -11566,7 +11566,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["zygarde10", "zygardecomplete"],
 	},
-	Zygarde10: {
+	zygarde10: {
 		num: 718,
 		species: "Zygarde-10%",
 		baseSpecies: "Zygarde",
@@ -11581,7 +11581,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
-	ZygardeComplete: {
+	zygardecomplete: {
 		num: 718,
 		species: "Zygarde-Complete",
 		baseSpecies: "Zygarde",
@@ -11596,7 +11596,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
-	Diancie: {
+	diancie: {
 		num: 719,
 		species: "Diancie",
 		types: ["Rock", "Fairy"],
@@ -11609,7 +11609,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["dianciemega"],
 	},
-	DiancieMega: {
+	dianciemega: {
 		num: 719,
 		species: "Diancie-Mega",
 		baseSpecies: "Diancie",
@@ -11624,7 +11624,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 	},
-	Hoopa: {
+	hoopa: {
 		num: 720,
 		species: "Hoopa",
 		baseForme: "Confined",
@@ -11638,7 +11638,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["hoopaunbound"],
 	},
-	HoopaUnbound: {
+	hoopaunbound: {
 		num: 720,
 		species: "Hoopa-Unbound",
 		baseSpecies: "Hoopa",
@@ -11653,7 +11653,7 @@ let BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 	},
-	Volcanion: {
+	volcanion: {
 		num: 721,
 		species: "Volcanion",
 		types: ["Fire", "Water"],
@@ -11693,7 +11693,7 @@ let BattlePokedex = {
 		evos: ["decidueye"],
 		eggGroups: ["Flying"],
 	},
-	Decidueye: {
+	decidueye: {
 		num: 724,
 		species: "Decidueye",
 		types: ["Grass", "Ghost"],
@@ -11735,7 +11735,7 @@ let BattlePokedex = {
 		evos: ["incineroar"],
 		eggGroups: ["Field"],
 	},
-	Incineroar: {
+	incineroar: {
 		num: 727,
 		species: "Incineroar",
 		types: ["Fire", "Dark"],
@@ -11777,7 +11777,7 @@ let BattlePokedex = {
 		evos: ["primarina"],
 		eggGroups: ["Water 1", "Field"],
 	},
-	Primarina: {
+	primarina: {
 		num: 730,
 		species: "Primarina",
 		types: ["Water", "Fairy"],
@@ -11817,7 +11817,7 @@ let BattlePokedex = {
 		evos: ["toucannon"],
 		eggGroups: ["Flying"],
 	},
-	Toucannon: {
+	toucannon: {
 		num: 733,
 		species: "Toucannon",
 		types: ["Fire", "Flying"],
@@ -11842,7 +11842,7 @@ let BattlePokedex = {
 		evos: ["gumshoos"],
 		eggGroups: ["Field"],
 	},
-	Gumshoos: {
+	gumshoos: {
 		num: 735,
 		species: "Gumshoos",
 		types: ["Normal", "Ground"],
@@ -11896,7 +11896,7 @@ let BattlePokedex = {
 		evos: ["vikavolt"],
 		eggGroups: ["Bug"],
 	},
-	Vikavolt: {
+	vikavolt: {
 		num: 738,
 		species: "Vikavolt",
 		types: ["Bug", "Electric"],
@@ -11937,7 +11937,7 @@ let BattlePokedex = {
 		evos: ["crabominable"],
 		eggGroups: ["Water 3"],
 	},
-	Crabominable: {
+	crabominable: {
 		num: 740,
 		species: "Crabominable",
 		types: ["Fighting", "Ice"],
@@ -11951,7 +11951,7 @@ let BattlePokedex = {
 		evoCondition: "at Mount Lanakila",
 		eggGroups: ["Water 3"],
 	},
-	Oricorio: {
+	oricorio: {
 		num: 741,
 		species: "Oricorio",
 		baseForme: "Baile",
@@ -11965,7 +11965,7 @@ let BattlePokedex = {
 		eggGroups: ["Flying"],
 		otherFormes: ["oricoriopompom", "oricoriopau", "oricoriosensu"],
 	},
-	OricorioPomPom: {
+	oricoriopompom: {
 		num: 741,
 		species: "Oricorio-Pom-Pom",
 		baseSpecies: "Oricorio",
@@ -11980,7 +11980,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Flying"],
 	},
-	PricorioPau: {
+	oricoriopau: {
 		num: 741,
 		species: "Oricorio-Pa'u",
 		baseSpecies: "Oricorio",
@@ -11995,7 +11995,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Flying"],
 	},
-	OricorioSensu: {
+	oricoriosensu: {
 		num: 741,
 		species: "Oricorio-Sensu",
 		baseSpecies: "Oricorio",
@@ -12022,7 +12022,7 @@ let BattlePokedex = {
 		evos: ["ribombee"],
 		eggGroups: ["Bug", "Fairy"],
 	},
-	Ribombee: {
+	ribombee: {
 		num: 743,
 		species: "Ribombee",
 		types: ["Bug", "Fairy"],
@@ -12063,7 +12063,7 @@ let BattlePokedex = {
 		evos: ["lycanroc", "lycanrocmidnight", "lycanrocdusk"],
 		eggGroups: ["Field"],
 	},
-	Lycanroc: {
+	lycanroc: {
 		num: 745,
 		species: "Lycanroc",
 		baseForme: "Midday",
@@ -12078,7 +12078,7 @@ let BattlePokedex = {
 		eggGroups: ["Field"],
 		otherFormes: ["lycanrocmidnight", "lycanrocdusk"],
 	},
-	LycanrocMidnight: {
+	lycanrocmidnight: {
 		num: 745,
 		species: "Lycanroc-Midnight",
 		baseSpecies: "Lycanroc",
@@ -12094,7 +12094,7 @@ let BattlePokedex = {
 		evoLevel: 25,
 		eggGroups: ["Field"],
 	},
-	LycanrocDusk: {
+	lycanrocdusk: {
 		num: 745,
 		species: "Lycanroc-Dusk",
 		baseSpecies: "Lycanroc",
@@ -12110,7 +12110,7 @@ let BattlePokedex = {
 		evoLevel: 25,
 		eggGroups: ["Field"],
 	},
-	Wishiwashi: {
+	wishiwashi: {
 		num: 746,
 		species: "Wishiwashi",
 		baseForme: "Solo",
@@ -12123,7 +12123,7 @@ let BattlePokedex = {
 		eggGroups: ["Water 2"],
 		otherFormes: ["wishiwashischool"],
 	},
-	WishiwashiSchool: {
+	wishiwashischool: {
 		num: 746,
 		species: "Wishiwashi-School",
 		baseSpecies: "Wishiwashi",
@@ -12137,7 +12137,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Water 2"],
 	},
-	Mareanie: {
+	mareanie: {
 		num: 747,
 		species: "Mareanie",
 		types: ["Poison", "Water"],
@@ -12149,7 +12149,7 @@ let BattlePokedex = {
 		evos: ["toxapex"],
 		eggGroups: ["Water 1"],
 	},
-	Toxapex: {
+	toxapex: {
 		num: 748,
 		species: "Toxapex",
 		types: ["Poison", "Water"],
@@ -12174,7 +12174,7 @@ let BattlePokedex = {
 		evos: ["mudsdale"],
 		eggGroups: ["Field"],
 	},
-	Mudsdale: {
+	mudsdale: {
 		num: 750,
 		species: "Mudsdale",
 		types: ["Ground", "Fighting"],
@@ -12199,7 +12199,7 @@ let BattlePokedex = {
 		evos: ["araquanid"],
 		eggGroups: ["Water 1", "Bug"],
 	},
-	Araquanid: {
+	araquanid: {
 		num: 752,
 		species: "Araquanid",
 		types: ["Water", "Bug"],
@@ -12239,7 +12239,7 @@ let BattlePokedex = {
 		evos: ["lurantis"],
 		eggGroups: ["Grass"],
 	},
-	Lurantis: {
+	lurantis: {
 		num: 754,
 		species: "Lurantis",
 		types: ["Grass"],
@@ -12279,7 +12279,7 @@ let BattlePokedex = {
 		evos: ["shiinotic"],
 		eggGroups: ["Grass"],
 	},
-	Shiinotic: {
+	shiinotic: {
 		num: 756,
 		species: "Shiinotic",
 		types: ["Grass", "Fairy"],
@@ -12305,7 +12305,7 @@ let BattlePokedex = {
 		evos: ["salazzle"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Salazzle: {
+	salazzle: {
 		num: 758,
 		species: "Salazzle",
 		types: ["Poison", "Fire"],
@@ -12347,7 +12347,7 @@ let BattlePokedex = {
 		evos: ["bewear"],
 		eggGroups: ["Field"],
 	},
-	Bewear: {
+	bewear: {
 		num: 760,
 		species: "Bewear",
 		types: ["Normal", "Fighting"],
@@ -12388,7 +12388,7 @@ let BattlePokedex = {
 		evos: ["tsareena"],
 		eggGroups: ["Grass"],
 	},
-	Tsareena: {
+	tsareena: {
 		num: 763,
 		species: "Tsareena",
 		types: ["Grass"],
@@ -12403,7 +12403,7 @@ let BattlePokedex = {
 		evoMove: "Stomp",
 		eggGroups: ["Grass"],
 	},
-	Comfey: {
+	comfey: {
 		num: 764,
 		species: "Comfey",
 		types: ["Fairy"],
@@ -12415,7 +12415,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Grass"],
 	},
-	Oranguru: {
+	oranguru: {
 		num: 765,
 		species: "Oranguru",
 		types: ["Normal", "Psychic"],
@@ -12426,7 +12426,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Field"],
 	},
-	Passimian: {
+	passimian: {
 		num: 766,
 		species: "Passimian",
 		types: ["Fighting"],
@@ -12449,7 +12449,7 @@ let BattlePokedex = {
 		evos: ["golisopod"],
 		eggGroups: ["Bug", "Water 3"],
 	},
-	Golisopod: {
+	golisopod: {
 		num: 768,
 		species: "Golisopod",
 		types: ["Bug", "Water"],
@@ -12474,7 +12474,7 @@ let BattlePokedex = {
 		evos: ["palossand"],
 		eggGroups: ["Amorphous"],
 	},
-	Palossand: {
+	palossand: {
 		num: 770,
 		species: "Palossand",
 		types: ["Ghost", "Ground"],
@@ -12487,7 +12487,7 @@ let BattlePokedex = {
 		evoLevel: 42,
 		eggGroups: ["Amorphous"],
 	},
-	Pyukumuku: {
+	pyukumuku: {
 		num: 771,
 		species: "Pyukumuku",
 		types: ["Water"],
@@ -12498,7 +12498,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Water 1"],
 	},
-	TypeNull: {
+	typenull: {
 		num: 772,
 		species: "Type: Null",
 		types: ["Normal"],
@@ -12511,7 +12511,7 @@ let BattlePokedex = {
 		evos: ["silvally"],
 		eggGroups: ["Undiscovered"],
 	},
-	Silvally: {
+	silvally: {
 		num: 773,
 		species: "Silvally",
 		types: ["Normal"],
@@ -12526,7 +12526,7 @@ let BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["silvallybug", "silvallydark", "silvallydragon", "silvallyelectric", "silvallyfairy", "silvallyfighting", "silvallyfire", "silvallyflying", "silvallyghost", "silvallygrass", "silvallyground", "silvallyice", "silvallypoison", "silvallypsychic", "silvallyrock", "silvallysteel", "silvallywater"],
 	},
-	SilvallyBug: {
+	silvallybug: {
 		num: 773,
 		species: "Silvally-Bug",
 		baseSpecies: "Silvally",
@@ -12543,7 +12543,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyDark: {
+	silvallydark: {
 		num: 773,
 		species: "Silvally-Dark",
 		baseSpecies: "Silvally",
@@ -12560,7 +12560,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyDragon: {
+	silvallydragon: {
 		num: 773,
 		species: "Silvally-Dragon",
 		baseSpecies: "Silvally",
@@ -12577,7 +12577,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyElectric: {
+	silvallyelectric: {
 		num: 773,
 		species: "Silvally-Electric",
 		baseSpecies: "Silvally",
@@ -12594,7 +12594,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyFairy: {
+	silvallyfairy: {
 		num: 773,
 		species: "Silvally-Fairy",
 		baseSpecies: "Silvally",
@@ -12611,7 +12611,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyFighting: {
+	silvallyfighting: {
 		num: 773,
 		species: "Silvally-Fighting",
 		baseSpecies: "Silvally",
@@ -12628,7 +12628,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyFire: {
+	silvallyfire: {
 		num: 773,
 		species: "Silvally-Fire",
 		baseSpecies: "Silvally",
@@ -12645,7 +12645,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyFlying: {
+	silvallyflying: {
 		num: 773,
 		species: "Silvally-Flying",
 		baseSpecies: "Silvally",
@@ -12662,7 +12662,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyGhost: {
+	silvallyghost: {
 		num: 773,
 		species: "Silvally-Ghost",
 		baseSpecies: "Silvally",
@@ -12679,7 +12679,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyGrass: {
+	silvallygrass: {
 		num: 773,
 		species: "Silvally-Grass",
 		baseSpecies: "Silvally",
@@ -12696,7 +12696,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyGround: {
+	silvallyground: {
 		num: 773,
 		species: "Silvally-Ground",
 		baseSpecies: "Silvally",
@@ -12713,7 +12713,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyIce: {
+	silvallyice: {
 		num: 773,
 		species: "Silvally-Ice",
 		baseSpecies: "Silvally",
@@ -12730,7 +12730,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyPoison: {
+	silvallypoison: {
 		num: 773,
 		species: "Silvally-Poison",
 		baseSpecies: "Silvally",
@@ -12747,7 +12747,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyPsychic: {
+	silvallypsychic: {
 		num: 773,
 		species: "Silvally-Psychic",
 		baseSpecies: "Silvally",
@@ -12764,7 +12764,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyRock: {
+	silvallyrock: {
 		num: 773,
 		species: "Silvally-Rock",
 		baseSpecies: "Silvally",
@@ -12781,7 +12781,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallySteel: {
+	silvallysteel: {
 		num: 773,
 		species: "Silvally-Steel",
 		baseSpecies: "Silvally",
@@ -12798,7 +12798,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	SilvallyWater: {
+	silvallywater: {
 		num: 773,
 		species: "Silvally-Water",
 		baseSpecies: "Silvally",
@@ -12815,7 +12815,7 @@ let BattlePokedex = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 	},
-	Minior: {
+	minior: {
 		num: 774,
 		species: "Minior",
 		baseForme: "Red",
@@ -12830,7 +12830,7 @@ let BattlePokedex = {
 		otherFormes: ["miniormeteor"],
 		otherForms: ["miniororange", "minioryellow", "miniorgreen", "miniorblue", "miniorindigo", "miniorviolet"],
 	},
-	MiniorMeteor: {
+	miniormeteor: {
 		num: 774,
 		species: "Minior-Meteor",
 		baseSpecies: "Minior",
@@ -12845,7 +12845,7 @@ let BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Mineral"],
 	},
-	Komala: {
+	komala: {
 		num: 775,
 		species: "Komala",
 		types: ["Normal"],
@@ -12856,7 +12856,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Field"],
 	},
-	Turtonator: {
+	turtonator: {
 		num: 776,
 		species: "Turtonator",
 		types: ["Fire", "Dragon"],
@@ -12867,7 +12867,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Togedemaru: {
+	togedemaru: {
 		num: 777,
 		species: "Togedemaru",
 		types: ["Electric", "Steel"],
@@ -12893,7 +12893,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Field", "Fairy"],
 	},
-	Mimikyu: {
+	mimikyu: {
 		num: 778,
 		species: "Mimikyu",
 		types: ["Ghost", "Fairy"],
@@ -12947,7 +12947,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Amorphous"],
 	},
-	Bruxish: {
+	bruxish: {
 		num: 779,
 		species: "Bruxish",
 		types: ["Water", "Psychic"],
@@ -12958,7 +12958,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Water 2"],
 	},
-	Drampa: {
+	drampa: {
 		num: 780,
 		species: "Drampa",
 		types: ["Normal", "Dragon"],
@@ -12969,7 +12969,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Monster", "Dragon"],
 	},
-	Dhelmise: {
+	dhelmise: {
 		num: 781,
 		species: "Dhelmise",
 		types: ["Ghost", "Grass"],
@@ -13007,7 +13007,7 @@ let BattlePokedex = {
 		evos: ["kommoo"],
 		eggGroups: ["Dragon"],
 	},
-	Kommoo: {
+	kommoo: {
 		num: 784,
 		species: "Kommo-o",
 		types: ["Dragon", "Fighting"],
@@ -13035,7 +13035,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Dragon"],
 	},
-	TapuKoko: {
+	tapukoko: {
 		num: 785,
 		species: "Tapu Koko",
 		types: ["Electric", "Fairy"],
@@ -13047,7 +13047,7 @@ let BattlePokedex = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	TapuLele: {
+	tapulele: {
 		num: 786,
 		species: "Tapu Lele",
 		types: ["Psychic", "Fairy"],
@@ -13059,7 +13059,7 @@ let BattlePokedex = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 	},
-	TapuBulu: {
+	tapubulu: {
 		num: 787,
 		species: "Tapu Bulu",
 		types: ["Grass", "Fairy"],
@@ -13071,7 +13071,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	TapuFini: {
+	tapufini: {
 		num: 788,
 		species: "Tapu Fini",
 		types: ["Water", "Fairy"],
@@ -13111,7 +13111,7 @@ let BattlePokedex = {
 		evos: ["solgaleo", "lunala"],
 		eggGroups: ["Undiscovered"],
 	},
-	Solgaleo: {
+	solgaleo: {
 		num: 791,
 		species: "Solgaleo",
 		types: ["Psychic", "Steel"],
@@ -13125,7 +13125,7 @@ let BattlePokedex = {
 		evoLevel: 53,
 		eggGroups: ["Undiscovered"],
 	},
-	Lunala: {
+	lunala: {
 		num: 792,
 		species: "Lunala",
 		types: ["Psychic", "Ghost"],
@@ -13139,7 +13139,7 @@ let BattlePokedex = {
 		evoLevel: 53,
 		eggGroups: ["Undiscovered"],
 	},
-	Nihilego: {
+	nihilego: {
 		num: 793,
 		species: "Nihilego",
 		types: ["Rock", "Poison"],
@@ -13151,7 +13151,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Buzzwole: {
+	buzzwole: {
 		num: 794,
 		species: "Buzzwole",
 		types: ["Bug", "Fighting"],
@@ -13163,7 +13163,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	Pheromosa: {
+	pheromosa: {
 		num: 795,
 		species: "Pheromosa",
 		types: ["Bug", "Fighting"],
@@ -13175,7 +13175,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Xurkitree: {
+	xurkitree: {
 		num: 796,
 		species: "Xurkitree",
 		types: ["Electric"],
@@ -13187,7 +13187,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 	},
-	Celesteela: {
+	celesteela: {
 		num: 797,
 		species: "Celesteela",
 		types: ["Steel", "Flying"],
@@ -13199,7 +13199,7 @@ let BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
-	Kartana: {
+	kartana: {
 		num: 798,
 		species: "Kartana",
 		types: ["Grass", "Steel"],
@@ -13211,7 +13211,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Guzzlord: {
+	guzzlord: {
 		num: 799,
 		species: "Guzzlord",
 		types: ["Dark", "Dragon"],
@@ -13223,7 +13223,7 @@ let BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 	},
-	Necrozma: {
+	necrozma: {
 		num: 800,
 		species: "Necrozma",
 		types: ["Psychic"],
@@ -13281,7 +13281,7 @@ let BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Magearna: {
+	magearna: {
 		num: 801,
 		species: "Magearna",
 		types: ["Steel", "Fairy"],
@@ -13309,7 +13309,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 	},
-	Marshadow: {
+	marshadow: {
 		num: 802,
 		species: "Marshadow",
 		types: ["Fighting", "Ghost"],
@@ -13334,7 +13334,7 @@ let BattlePokedex = {
 		evos: ["naganadel"],
 		eggGroups: ["Undiscovered"],
 	},
-	Naganadel: {
+	naganadel: {
 		num: 804,
 		species: "Naganadel",
 		types: ["Poison", "Dragon"],
@@ -13349,7 +13349,7 @@ let BattlePokedex = {
 		evoMove: "Dragon Pulse",
 		eggGroups: ["Undiscovered"],
 	},
-	Stakataka: {
+	stakataka: {
 		num: 805,
 		species: "Stakataka",
 		types: ["Rock", "Steel"],
@@ -13361,7 +13361,7 @@ let BattlePokedex = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
-	Blacephalon: {
+	blacephalon: {
 		num: 806,
 		species: "Blacephalon",
 		types: ["Fire", "Ghost"],
@@ -13373,7 +13373,7 @@ let BattlePokedex = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
-	Zeraora: {
+	zeraora: {
 		num: 807,
 		species: "Zeraora",
 		types: ["Electric"],
@@ -13398,7 +13398,7 @@ let BattlePokedex = {
 		evos: ["melmetal"],
 		eggGroups: ["Undiscovered"],
 	},
-	Melmetal: {
+	melmetal: {
 		num: 809,
 		species: "Melmetal",
 		types: ["Steel"],
