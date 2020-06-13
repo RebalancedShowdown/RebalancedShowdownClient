@@ -1876,7 +1876,7 @@ let BattlePokedex = {
 		formeLetter: "M",
 		types: ["Ghost", "Poison"],
 		baseStats: {hp: 60, atk: 65, def: 80, spa: 170, spd: 95, spe: 130},
-		abilities: {0: "Shadow Tag"},
+		abilities: {0: "Merciless"},
 		heightm: 1.4,
 		weightkg: 40.5,
 		color: "Purple",
@@ -2128,7 +2128,7 @@ let BattlePokedex = {
 		species: "Weezing",
 		types: ["Poison"],
 		baseStats: {hp: 65, atk: 90, def: 120, spa: 85, spd: 70, spe: 60},
-		abilities: {0: "Levitate"},
+		abilities: {0: "Levitate", H: "Cloud Nine"},
 		heightm: 1.2,
 		weightkg: 9.5,
 		color: "Purple",
@@ -2751,7 +2751,7 @@ let BattlePokedex = {
 		formeLetter: "M",
 		types: ["Psychic", "Fighting"],
 		gender: "N",
-		baseStats: {hp: 106, atk: 190, def: 100, spa: 154, spd: 100, spe: 130},
+		baseStats: {hp: 96, atk: 140, def: 90, spa: 114, spd: 90, spe: 115},
 		abilities: {0: "Steadfast"},
 		heightm: 2.3,
 		weightkg: 127,
@@ -2766,7 +2766,7 @@ let BattlePokedex = {
 		formeLetter: "M",
 		types: ["Psychic"],
 		gender: "N",
-		baseStats: {hp: 106, atk: 150, def: 70, spa: 194, spd: 120, spe: 140},
+		baseStats: {hp: 96, atk: 120, def: 50, spa: 154, spd: 80, spe: 120},
 		abilities: {0: "Insomnia"},
 		heightm: 1.5,
 		weightkg: 33,
@@ -6018,7 +6018,7 @@ let BattlePokedex = {
 		forme: "Mega",
 		formeLetter: "M",
 		types: ["Dragon", "Flying"],
-		baseStats: {hp: 95, atk: 145, def: 130, spa: 120, spd: 90, spe: 120},
+		baseStats: {hp: 95, atk: 135, def: 100, spa: 120, spd: 80, spe: 120},
 		abilities: {0: "Aerilate"},
 		heightm: 1.8,
 		weightkg: 112.6,
@@ -6076,7 +6076,7 @@ let BattlePokedex = {
 		formeLetter: "M",
 		types: ["Steel", "Psychic"],
 		gender: "N",
-		baseStats: {hp: 80, atk: 145, def: 150, spa: 105, spd: 110, spe: 110},
+		baseStats: {hp: 80, atk: 145, def: 140, spa: 105, spd: 100, spe: 90},
 		abilities: {0: "Tough Claws"},
 		heightm: 2.5,
 		weightkg: 942.9,
@@ -7245,7 +7245,7 @@ let BattlePokedex = {
 		formeLetter: "M",
 		types: ["Fighting", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 70, atk: 145, def: 88, spa: 140, spd: 70, spe: 112},
+		baseStats: {hp: 70, atk: 130, def: 88, spa: 125, spd: 70, spe: 103},
 		abilities: {0: "Adaptability"},
 		heightm: 1.3,
 		weightkg: 57.5,
@@ -9427,7 +9427,7 @@ let BattlePokedex = {
 		species: "Swanna",
 		types: ["Water", "Flying"],
 		baseStats: {hp: 75, atk: 87, def: 73, spa: 97, spd: 73, spe: 106},
-		abilities: {0: "Keen Eye", 1: "Big Pecks", H: "Hydration"},
+		abilities: {0: "Cloud Nine", 1: "Big Pecks", H: "Hydration"},
 		heightm: 1.3,
 		weightkg: 24.2,
 		color: "White",
@@ -11312,7 +11312,7 @@ let BattlePokedex = {
 		species: "Goodra",
 		types: ["Dragon"],
 		baseStats: {hp: 90, atk: 100, def: 70, spa: 110, spd: 150, spe: 80},
-		abilities: {0: "Sap Sipper", 1: "Hydration", H: "Gooey"},
+		abilities: {0: "Sap Sipper", 1: "Cloud Nine", H: "Gooey"},
 		heightm: 2,
 		weightkg: 150.5,
 		color: "Purple",
@@ -12203,7 +12203,7 @@ let BattlePokedex = {
 		num: 752,
 		species: "Araquanid",
 		types: ["Water", "Bug"],
-		baseStats: {hp: 68, atk: 70, def: 102, spa: 80, spd: 132, spe: 42},
+		baseStats: {hp: 68, atk: 70, def: 102, spa: 65, spd: 132, spe: 42},
 		abilities: {0: "Water Bubble", H: "Water Absorb"},
 		heightm: 1.8,
 		weightkg: 82,
@@ -13411,6 +13411,2971 @@ let BattlePokedex = {
 		prevo: "meltan",
 		eggGroups: ["Undiscovered"],
 	},
+	grookey:
+{
+    num: 810,
+    name: "Grookey",
+    types: ["Grass"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 50,
+        atk: 65,
+        def: 50,
+        spa: 40,
+        spd: 40,
+        spe: 65
+    },
+    abilities:
+    {
+        "0": "Overgrow",
+        H: "Grassy Surge"
+    },
+    heightm: 0.3,
+    weightkg: 5,
+    color: "Green",
+    evos: ["Thwackey"],
+    eggGroups: ["Field", "Grass"],
+    tier: "LC"
+}, thwackey:
+{
+    num: 811,
+    name: "Thwackey",
+    types: ["Grass"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 70,
+        atk: 85,
+        def: 70,
+        spa: 55,
+        spd: 60,
+        spe: 80
+    },
+    abilities:
+    {
+        "0": "Overgrow",
+        H: "Grassy Surge"
+    },
+    heightm: 0.7,
+    weightkg: 14,
+    color: "Green",
+    prevo: "Grookey",
+    evoLevel: 16,
+    evos: ["Rillaboom"],
+    eggGroups: ["Field", "Grass"],
+    tier: "NFE"
+}, rillaboom:
+{
+    num: 812,
+    name: "Rillaboom",
+    types: ["Grass"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 100,
+        atk: 125,
+        def: 90,
+        spa: 60,
+        spd: 70,
+        spe: 85
+    },
+    abilities:
+    {
+        "0": "Overgrow",
+        H: "Grassy Surge"
+    },
+    heightm: 2.1,
+    weightkg: 90,
+    color: "Green",
+    prevo: "Thwackey",
+    evoLevel: 35,
+    eggGroups: ["Field", "Grass"],
+    tier: "RU"
+}, scorbunny:
+{
+    num: 813,
+    name: "Scorbunny",
+    types: ["Fire"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 50,
+        atk: 71,
+        def: 40,
+        spa: 40,
+        spd: 40,
+        spe: 69
+    },
+    abilities:
+    {
+        "0": "Blaze",
+        H: "Libero"
+    },
+    heightm: 0.3,
+    weightkg: 4.5,
+    color: "White",
+    evos: ["Raboot"],
+    eggGroups: ["Field", "Human-Like"],
+    tier: "LC"
+}, raboot:
+{
+    num: 814,
+    name: "Raboot",
+    types: ["Fire"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 65,
+        atk: 86,
+        def: 60,
+        spa: 55,
+        spd: 60,
+        spe: 94
+    },
+    abilities:
+    {
+        "0": "Blaze",
+        H: "Libero"
+    },
+    heightm: 0.6,
+    weightkg: 9,
+    color: "Gray",
+    prevo: "Scorbunny",
+    evoLevel: 16,
+    evos: ["Cinderace"],
+    eggGroups: ["Field", "Human-Like"],
+    tier: "NFE"
+}, cinderace:
+{
+    num: 815,
+    name: "Cinderace",
+    types: ["Fire"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 80,
+        atk: 116,
+        def: 75,
+        spa: 65,
+        spd: 75,
+        spe: 119
+    },
+    abilities:
+    {
+        "0": "Blaze",
+        H: "Libero"
+    },
+    heightm: 1.4,
+    weightkg: 33,
+    color: "White",
+    prevo: "Raboot",
+    evoLevel: 35,
+    eggGroups: ["Field", "Human-Like"],
+    tier: "OU"
+}, sobble:
+{
+    num: 816,
+    name: "Sobble",
+    types: ["Water"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 50,
+        atk: 40,
+        def: 40,
+        spa: 70,
+        spd: 40,
+        spe: 70
+    },
+    abilities:
+    {
+        "0": "Torrent",
+        H: "Sniper"
+    },
+    heightm: 0.3,
+    weightkg: 4,
+    color: "Blue",
+    evos: ["Drizzile"],
+    eggGroups: ["Water 1", "Field"],
+    tier: "LC"
+}, drizzile:
+{
+    num: 817,
+    name: "Drizzile",
+    types: ["Water"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 65,
+        atk: 60,
+        def: 55,
+        spa: 95,
+        spd: 55,
+        spe: 90
+    },
+    abilities:
+    {
+        "0": "Torrent",
+        H: "Sniper"
+    },
+    heightm: 0.7,
+    weightkg: 11.5,
+    color: "Blue",
+    prevo: "Sobble",
+    evoLevel: 16,
+    evos: ["Inteleon"],
+    eggGroups: ["Water 1", "Field"],
+    tier: "NFE"
+}, inteleon:
+{
+    num: 818,
+    name: "Inteleon",
+    types: ["Water"],
+    genderRatio:
+    {
+        M: 0.875,
+        F: 0.125
+    },
+    baseStats:
+    {
+        hp: 70,
+        atk: 85,
+        def: 65,
+        spa: 125,
+        spd: 65,
+        spe: 120
+    },
+    abilities:
+    {
+        "0": "Torrent",
+        H: "Sniper"
+    },
+    heightm: 1.9,
+    weightkg: 45.2,
+    color: "Blue",
+    prevo: "Drizzile",
+    evoLevel: 35,
+    eggGroups: ["Water 1", "Field"],
+    tier: "RUBL"
+}, skwovet:
+{
+    num: 819,
+    name: "Skwovet",
+    types: ["Normal"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 55,
+        def: 55,
+        spa: 35,
+        spd: 35,
+        spe: 25
+    },
+    abilities:
+    {
+        "0": "Cheek Pouch",
+        H: "Gluttony"
+    },
+    heightm: 0.3,
+    weightkg: 2.5,
+    color: "Brown",
+    evos: ["Greedent"],
+    eggGroups: ["Field"],
+    tier: "LC",
+    unreleasedHidden: true
+}, greedent:
+{
+    num: 820,
+    name: "Greedent",
+    types: ["Normal"],
+    baseStats:
+    {
+        hp: 120,
+        atk: 95,
+        def: 105,
+        spa: 55,
+        spd: 95,
+        spe: 20
+    },
+    abilities:
+    {
+        "0": "Cheek Pouch",
+        H: "Gluttony"
+    },
+    heightm: 0.6,
+    weightkg: 6,
+    color: "Brown",
+    prevo: "Skwovet",
+    evoLevel: 24,
+    eggGroups: ["Field"],
+    tier: "(PU)",
+    unreleasedHidden: true
+}, rookidee:
+{
+    num: 821,
+    name: "Rookidee",
+    types: ["Flying"],
+    baseStats:
+    {
+        hp: 38,
+        atk: 47,
+        def: 35,
+        spa: 33,
+        spd: 35,
+        spe: 57
+    },
+    abilities:
+    {
+        "0": "Keen Eye",
+        "1": "Unnerve",
+        H: "Big Pecks"
+    },
+    heightm: 0.2,
+    weightkg: 1.8,
+    color: "Blue",
+    evos: ["Corvisquire"],
+    eggGroups: ["Flying"],
+    tier: "LC"
+}, corvisquire:
+{
+    num: 822,
+    name: "Corvisquire",
+    types: ["Flying"],
+    baseStats:
+    {
+        hp: 68,
+        atk: 67,
+        def: 55,
+        spa: 43,
+        spd: 55,
+        spe: 77
+    },
+    abilities:
+    {
+        "0": "Keen Eye",
+        "1": "Unnerve",
+        H: "Big Pecks"
+    },
+    heightm: 0.8,
+    weightkg: 16,
+    color: "Blue",
+    prevo: "Rookidee",
+    evoLevel: 18,
+    evos: ["Corviknight"],
+    eggGroups: ["Flying"],
+    tier: "NFE"
+}, corviknight:
+{
+    num: 823,
+    name: "Corviknight",
+    types: ["Flying", "Steel"],
+    baseStats:
+    {
+        hp: 98,
+        atk: 87,
+        def: 105,
+        spa: 53,
+        spd: 85,
+        spe: 67
+    },
+    abilities:
+    {
+        "0": "Pressure",
+        "1": "Unnerve",
+        H: "Mirror Armor"
+    },
+    heightm: 2.2,
+    weightkg: 75,
+    color: "Purple",
+    prevo: "Corvisquire",
+    evoLevel: 38,
+    eggGroups: ["Flying"],
+    otherFormes: ["Corviknight-Gmax"],
+    formeOrder: ["Corviknight", "Corviknight-Gmax"],
+    tier: "OU"
+}, corviknightgmax:
+{
+    num: 823,
+    name: "Corviknight-Gmax",
+    baseSpecies: "Corviknight",
+    forme: "Gmax",
+    types: ["Flying", "Steel"],
+    baseStats:
+    {
+        hp: 98,
+        atk: 87,
+        def: 105,
+        spa: 53,
+        spd: 85,
+        spe: 67
+    },
+    abilities:
+    {
+        "0": "Pressure",
+        "1": "Unnerve",
+        H: "Mirror Armor"
+    },
+    heightm: 14,
+    weightkg: 0,
+    color: "Purple",
+    eggGroups: ["Flying"],
+    isGigantamax: "G-Max Wind Rage",
+    tier: "(Uber)"
+}, blipbug:
+{
+    num: 824,
+    name: "Blipbug",
+    types: ["Bug"],
+    baseStats:
+    {
+        hp: 25,
+        atk: 20,
+        def: 20,
+        spa: 25,
+        spd: 45,
+        spe: 45
+    },
+    abilities:
+    {
+        "0": "Swarm",
+        "1": "Compound Eyes",
+        H: "Telepathy"
+    },
+    heightm: 0.4,
+    weightkg: 8,
+    color: "Blue",
+    evos: ["Dottler"],
+    eggGroups: ["Bug"],
+    tier: "LC"
+}, dottler:
+{
+    num: 825,
+    name: "Dottler",
+    types: ["Bug", "Psychic"],
+    baseStats:
+    {
+        hp: 50,
+        atk: 35,
+        def: 80,
+        spa: 50,
+        spd: 90,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Swarm",
+        "1": "Compound Eyes",
+        H: "Telepathy"
+    },
+    heightm: 0.4,
+    weightkg: 19.5,
+    color: "Yellow",
+    prevo: "Blipbug",
+    evoLevel: 10,
+    evos: ["Orbeetle"],
+    eggGroups: ["Bug"],
+    tier: "NFE"
+}, orbeetle:
+{
+    num: 826,
+    name: "Orbeetle",
+    types: ["Bug", "Psychic"],
+    baseStats:
+    {
+        hp: 80,
+        atk: 45,
+        def: 110,
+        spa: 80,
+        spd: 120,
+        spe: 90
+    },
+    abilities:
+    {
+        "0": "Swarm",
+        "1": "Frisk",
+        H: "Telepathy"
+    },
+    heightm: 0.4,
+    weightkg: 40.8,
+    color: "Red",
+    prevo: "Dottler",
+    evoLevel: 30,
+    eggGroups: ["Bug"],
+    otherFormes: ["Orbeetle-Gmax"],
+    formeOrder: ["Orbeetle", "Orbeetle-Gmax"],
+    tier: "NU"
+}, orbeetlegmax:
+{
+    num: 826,
+    name: "Orbeetle-Gmax",
+    baseSpecies: "Orbeetle",
+    forme: "Gmax",
+    types: ["Bug", "Psychic"],
+    baseStats:
+    {
+        hp: 60,
+        atk: 45,
+        def: 110,
+        spa: 80,
+        spd: 120,
+        spe: 90
+    },
+    abilities:
+    {
+        "0": "Swarm",
+        "1": "Frisk",
+        H: "Telepathy"
+    },
+    heightm: 14,
+    weightkg: 0,
+    color: "Red",
+    eggGroups: ["Bug"],
+    isGigantamax: "G-Max Gravitas",
+    tier: "(Uber)"
+}, nickit:
+{
+    num: 827,
+    name: "Nickit",
+    types: ["Dark"],
+    baseStats:
+    {
+        hp: 40,
+        atk: 28,
+        def: 28,
+        spa: 47,
+        spd: 52,
+        spe: 50
+    },
+    abilities:
+    {
+        "0": "Run Away",
+        "1": "Unburden",
+        H: "Stakeout"
+    },
+    heightm: 0.6,
+    weightkg: 8.9,
+    color: "Brown",
+    evos: ["Thievul"],
+    eggGroups: ["Field"],
+    tier: "LC",
+    unreleasedHidden: true
+}, thievul:
+{
+    num: 828,
+    name: "Thievul",
+    types: ["Dark"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 58,
+        def: 68,
+        spa: 104,
+        spd: 92,
+        spe: 106
+    },
+    abilities:
+    {
+        "0": "Run Away",
+        "1": "Unburden",
+        H: "Stakeout"
+    },
+    heightm: 1.2,
+    weightkg: 19.9,
+    color: "Brown",
+    prevo: "Nickit",
+    evoLevel: 18,
+    eggGroups: ["Field"],
+    tier: "(PU)",
+    unreleasedHidden: true
+}, gossifleur:
+{
+    num: 829,
+    name: "Gossifleur",
+    types: ["Grass"],
+    baseStats:
+    {
+        hp: 40,
+        atk: 40,
+        def: 60,
+        spa: 40,
+        spd: 60,
+        spe: 10
+    },
+    abilities:
+    {
+        "0": "Cotton Down",
+        "1": "Regenerator",
+        H: "Effect Spore"
+    },
+    heightm: 0.4,
+    weightkg: 2.2,
+    color: "Green",
+    evos: ["Eldegoss"],
+    eggGroups: ["Grass"],
+    tier: "LC"
+}, eldegoss:
+{
+    num: 830,
+    name: "Eldegoss",
+    types: ["Grass"],
+    baseStats:
+    {
+        hp: 60,
+        atk: 50,
+        def: 90,
+        spa: 80,
+        spd: 120,
+        spe: 60
+    },
+    abilities:
+    {
+        "0": "Cotton Down",
+        "1": "Regenerator",
+        H: "Chlorophyll"
+    },
+    heightm: 0.5,
+    weightkg: 2.5,
+    color: "Green",
+    prevo: "Gossifleur",
+    evoLevel: 20,
+    eggGroups: ["Grass"],
+    tier: "NU"
+}, wooloo:
+{
+    num: 831,
+    name: "Wooloo",
+    types: ["Normal"],
+    baseStats:
+    {
+        hp: 42,
+        atk: 40,
+        def: 55,
+        spa: 40,
+        spd: 45,
+        spe: 48
+    },
+    abilities:
+    {
+        "0": "Fluffy",
+        "1": "Run Away",
+        H: "Bulletproof"
+    },
+    heightm: 0.6,
+    weightkg: 6,
+    color: "White",
+    evos: ["Dubwool"],
+    eggGroups: ["Field"],
+    tier: "LC",
+    unreleasedHidden: true
+}, dubwool:
+{
+    num: 832,
+    name: "Dubwool",
+    types: ["Normal"],
+    baseStats:
+    {
+        hp: 72,
+        atk: 80,
+        def: 100,
+        spa: 60,
+        spd: 90,
+        spe: 88
+    },
+    abilities:
+    {
+        "0": "Fluffy",
+        "1": "Steadfast",
+        H: "Bulletproof"
+    },
+    heightm: 1.3,
+    weightkg: 43,
+    color: "White",
+    prevo: "Wooloo",
+    evoLevel: 24,
+    eggGroups: ["Field"],
+    tier: "PU",
+    unreleasedHidden: true
+}, chewtle:
+{
+    num: 833,
+    name: "Chewtle",
+    types: ["Water"],
+    baseStats:
+    {
+        hp: 50,
+        atk: 64,
+        def: 50,
+        spa: 38,
+        spd: 38,
+        spe: 44
+    },
+    abilities:
+    {
+        "0": "Strong Jaw",
+        "1": "Shell Armor",
+        H: "Swift Swim"
+    },
+    heightm: 0.3,
+    weightkg: 8.5,
+    color: "Green",
+    evos: ["Drednaw"],
+    eggGroups: ["Monster", "Water 1"],
+    tier: "LC"
+}, drednaw:
+{
+    num: 834,
+    name: "Drednaw",
+    types: ["Water", "Rock"],
+    baseStats:
+    {
+        hp: 90,
+        atk: 115,
+        def: 90,
+        spa: 48,
+        spd: 88,
+        spe: 54
+    },
+    abilities:
+    {
+        "0": "Strong Jaw",
+        "1": "Shell Armor",
+        H: "Swift Swim"
+    },
+    heightm: 1,
+    weightkg: 115.5,
+    color: "Green",
+    prevo: "Chewtle",
+    evoLevel: 22,
+    eggGroups: ["Monster", "Water 1"],
+    otherFormes: ["Drednaw-Gmax"],
+    formeOrder: ["Drednaw", "Drednaw-Gmax"],
+    tier: "NU"
+}, drednawgmax:
+{
+    num: 834,
+    name: "Drednaw-Gmax",
+    baseSpecies: "Drednaw",
+    forme: "Gmax",
+    types: ["Water", "Rock"],
+    baseStats:
+    {
+        hp: 90,
+        atk: 115,
+        def: 90,
+        spa: 48,
+        spd: 68,
+        spe: 74
+    },
+    abilities:
+    {
+        "0": "Strong Jaw",
+        "1": "Shell Armor",
+        H: "Swift Swim"
+    },
+    heightm: 24,
+    weightkg: 0,
+    color: "Green",
+    eggGroups: ["Monster", "Water 1"],
+    isGigantamax: "G-Max Stonesurge",
+    tier: "(Uber)"
+}, yamper:
+{
+    num: 835,
+    name: "Yamper",
+    types: ["Electric"],
+    baseStats:
+    {
+        hp: 59,
+        atk: 45,
+        def: 50,
+        spa: 40,
+        spd: 50,
+        spe: 26
+    },
+    abilities:
+    {
+        "0": "Ball Fetch",
+        H: "Rattled"
+    },
+    heightm: 0.3,
+    weightkg: 13.5,
+    color: "Yellow",
+    evos: ["Boltund"],
+    eggGroups: ["Field"],
+    tier: "LC",
+    unreleasedHidden: true
+}, boltund:
+{
+    num: 836,
+    name: "Boltund",
+    types: ["Electric"],
+    baseStats:
+    {
+        hp: 69,
+        atk: 100,
+        def: 60,
+        spa: 100,
+        spd: 60,
+        spe: 121
+    },
+    abilities:
+    {
+        "0": "Strong Jaw",
+        H: "Competitive"
+    },
+    heightm: 1,
+    weightkg: 34,
+    color: "Yellow",
+    prevo: "Yamper",
+    evoLevel: 25,
+    eggGroups: ["Field"],
+    tier: "NU",
+    unreleasedHidden: true
+}, rolycoly:
+{
+    num: 837,
+    name: "Rolycoly",
+    types: ["Rock"],
+    baseStats:
+    {
+        hp: 30,
+        atk: 40,
+        def: 50,
+        spa: 40,
+        spd: 50,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Steam Engine",
+        "1": "Heatproof",
+        H: "Flash Fire"
+    },
+    heightm: 0.3,
+    weightkg: 12,
+    color: "Black",
+    evos: ["Carkol"],
+    eggGroups: ["Mineral"],
+    tier: "LC"
+}, carkol:
+{
+    num: 838,
+    name: "Carkol",
+    types: ["Rock", "Fire"],
+    baseStats:
+    {
+        hp: 80,
+        atk: 60,
+        def: 90,
+        spa: 60,
+        spd: 70,
+        spe: 50
+    },
+    abilities:
+    {
+        "0": "Steam Engine",
+        "1": "Flame Body",
+        H: "Flash Fire"
+    },
+    heightm: 1.1,
+    weightkg: 78,
+    color: "Black",
+    prevo: "Rolycoly",
+    evoLevel: 18,
+    evos: ["Coalossal"],
+    eggGroups: ["Mineral"],
+    tier: "PU"
+}, coalossal:
+{
+    num: 839,
+    name: "Coalossal",
+    types: ["Rock", "Fire"],
+    baseStats:
+    {
+        hp: 110,
+        atk: 100,
+        def: 120,
+        spa: 100,
+        spd: 90,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Steam Engine",
+        "1": "Flame Body",
+        H: "Flash Fire"
+    },
+    heightm: 2.8,
+    weightkg: 310.5,
+    color: "Black",
+    prevo: "Carkol",
+    evoLevel: 34,
+    eggGroups: ["Mineral"],
+    otherFormes: ["Coalossal-Gmax"],
+    formeOrder: ["Coalossal", "Coalossal-Gmax"],
+    tier: "RU"
+}, coalossalgmax:
+{
+    num: 839,
+    name: "Coalossal-Gmax",
+    baseSpecies: "Coalossal",
+    forme: "Gmax",
+    types: ["Rock", "Fire"],
+    baseStats:
+    {
+        hp: 110,
+        atk: 80,
+        def: 120,
+        spa: 80,
+        spd: 90,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Steam Engine",
+        "1": "Flame Body",
+        H: "Flash Fire"
+    },
+    heightm: 42,
+    weightkg: 0,
+    color: "Black",
+    eggGroups: ["Mineral"],
+    isGigantamax: "G-Max Volcalith",
+    tier: "(Uber)"
+}, applin:
+{
+    num: 840,
+    name: "Applin",
+    types: ["Grass", "Dragon"],
+    baseStats:
+    {
+        hp: 40,
+        atk: 40,
+        def: 80,
+        spa: 40,
+        spd: 40,
+        spe: 20
+    },
+    abilities:
+    {
+        "0": "Ripen",
+        "1": "Gluttony",
+        H: "Bulletproof"
+    },
+    heightm: 0.2,
+    weightkg: 0.5,
+    color: "Green",
+    evos: ["Flapple", "Appletun"],
+    eggGroups: ["Grass", "Dragon"],
+    tier: "LC"
+}, flapple:
+{
+    num: 841,
+    name: "Flapple",
+    types: ["Grass", "Dragon"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 120,
+        def: 80,
+        spa: 95,
+        spd: 60,
+        spe: 70
+    },
+    abilities:
+    {
+        "0": "Ripen",
+        "1": "Gluttony",
+        H: "Hustle"
+    },
+    heightm: 0.3,
+    weightkg: 1,
+    color: "Green",
+    prevo: "Applin",
+    evoType: "useItem",
+    evoItem: "Tart Apple",
+    eggGroups: ["Grass", "Dragon"],
+    otherFormes: ["Flapple-Gmax"],
+    formeOrder: ["Flapple", "Flapple-Gmax"],
+    tier: "NU"
+}, flapplegmax:
+{
+    num: 841,
+    name: "Flapple-Gmax",
+    baseSpecies: "Flapple",
+    forme: "Gmax",
+    types: ["Grass", "Dragon"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 110,
+        def: 80,
+        spa: 95,
+        spd: 60,
+        spe: 70
+    },
+    abilities:
+    {
+        "0": "Ripen",
+        "1": "Gluttony",
+        H: "Hustle"
+    },
+    heightm: 24,
+    weightkg: 0,
+    color: "Green",
+    eggGroups: ["Grass", "Dragon"],
+    isGigantamax: "G-Max Tartness",
+    tier: "(Uber)"
+}, appletun:
+{
+    num: 842,
+    name: "Appletun",
+    types: ["Grass", "Dragon"],
+    baseStats:
+    {
+        hp: 110,
+        atk: 85,
+        def: 80,
+        spa: 100,
+        spd: 80,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Ripen",
+        "1": "Gluttony",
+        H: "Thick Fat"
+    },
+    heightm: 0.4,
+    weightkg: 13,
+    color: "Green",
+    prevo: "Applin",
+    evoType: "useItem",
+    evoItem: "Sweet Apple",
+    eggGroups: ["Grass", "Dragon"],
+    otherFormes: ["Appletun-Gmax"],
+    formeOrder: ["Appletun", "Appletun-Gmax"],
+    tier: "PUBL"
+}, appletungmax:
+{
+    num: 842,
+    name: "Appletun-Gmax",
+    baseSpecies: "Appletun",
+    forme: "Gmax",
+    types: ["Grass", "Dragon"],
+    baseStats:
+    {
+        hp: 110,
+        atk: 85,
+        def: 80,
+        spa: 100,
+        spd: 80,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Ripen",
+        "1": "Gluttony",
+        H: "Thick Fat"
+    },
+    heightm: 24,
+    weightkg: 0,
+    color: "Green",
+    eggGroups: ["Grass", "Dragon"],
+    isGigantamax: "G-Max Sweetness",
+    tier: "(Uber)"
+}, silicobra:
+{
+    num: 843,
+    name: "Silicobra",
+    types: ["Ground"],
+    baseStats:
+    {
+        hp: 52,
+        atk: 57,
+        def: 75,
+        spa: 35,
+        spd: 50,
+        spe: 46
+    },
+    abilities:
+    {
+        "0": "Sand Spit",
+        "1": "Shed Skin",
+        H: "Sand Veil"
+    },
+    heightm: 2.2,
+    weightkg: 7.6,
+    color: "Green",
+    evos: ["Sandaconda"],
+    eggGroups: ["Field", "Dragon"],
+    tier: "LC"
+}, sandaconda:
+{
+    num: 844,
+    name: "Sandaconda",
+    types: ["Ground"],
+    baseStats:
+    {
+        hp: 82,
+        atk: 107,
+        def: 125,
+        spa: 65,
+        spd: 70,
+        spe: 71
+    },
+    abilities:
+    {
+        "0": "Sand Stream",
+        "1": "Shed Skin",
+        H: "Wonder Skin"
+    },
+    heightm: 3.8,
+    weightkg: 65.5,
+    color: "Green",
+    prevo: "Silicobra",
+    evoLevel: 36,
+    eggGroups: ["Field", "Dragon"],
+    otherFormes: ["Sandaconda-Gmax"],
+    formeOrder: ["Sandaconda", "Sandaconda-Gmax"],
+    tier: "NU"
+}, sandacondagmax:
+{
+    num: 844,
+    name: "Sandaconda-Gmax",
+    baseSpecies: "Sandaconda",
+    forme: "Gmax",
+    types: ["Ground"],
+    baseStats:
+    {
+        hp: 72,
+        atk: 107,
+        def: 125,
+        spa: 65,
+        spd: 70,
+        spe: 71
+    },
+    abilities:
+    {
+        "0": "Sand Spit",
+        "1": "Shed Skin",
+        H: "Sand Veil"
+    },
+    heightm: 22,
+    weightkg: 0,
+    color: "Green",
+    eggGroups: ["Field", "Dragon"],
+    isGigantamax: "G-Max Sandblast",
+    tier: "(Uber)"
+}, cramorant:
+{
+    num: 845,
+    name: "Cramorant",
+    types: ["Flying", "Water"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 95,
+        def: 75,
+        spa: 95,
+        spd: 95,
+        spe: 85
+    },
+    abilities:
+    {
+        "0": "Gulp Missile"
+    },
+    heightm: 0.8,
+    weightkg: 18,
+    color: "Blue",
+    eggGroups: ["Water 1", "Flying"],
+    otherFormes: ["Cramorant-Gulping", "Cramorant-Gorging"],
+    formeOrder: ["Cramorant", "Cramorant-Gulping", "Cramorant-Gorging"],
+    tier: "RU"
+}, cramorantgulping:
+{
+    num: 845,
+    name: "Cramorant-Gulping",
+    baseSpecies: "Cramorant",
+    forme: "Gulping",
+    types: ["Flying", "Water"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 85,
+        def: 55,
+        spa: 85,
+        spd: 95,
+        spe: 85
+    },
+    abilities:
+    {
+        "0": "Gulp Missile"
+    },
+    heightm: 0.8,
+    weightkg: 18,
+    color: "Blue",
+    eggGroups: ["Water 1", "Flying"],
+    requiredAbility: "Gulp Missile",
+    battleOnly: "Cramorant"
+}, cramorantgorging:
+{
+    num: 845,
+    name: "Cramorant-Gorging",
+    baseSpecies: "Cramorant",
+    forme: "Gorging",
+    types: ["Flying", "Water"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 85,
+        def: 55,
+        spa: 85,
+        spd: 95,
+        spe: 85
+    },
+    abilities:
+    {
+        "0": "Gulp Missile"
+    },
+    heightm: 0.8,
+    weightkg: 18,
+    color: "Blue",
+    eggGroups: ["Water 1", "Flying"],
+    requiredAbility: "Gulp Missile",
+    battleOnly: "Cramorant"
+}, arrokuda:
+{
+    num: 846,
+    name: "Arrokuda",
+    types: ["Water"],
+    baseStats:
+    {
+        hp: 41,
+        atk: 63,
+        def: 40,
+        spa: 40,
+        spd: 30,
+        spe: 66
+    },
+    abilities:
+    {
+        "0": "Swift Swim",
+        H: "Propeller Tail"
+    },
+    heightm: 0.5,
+    weightkg: 1,
+    color: "Brown",
+    evos: ["Barraskewda"],
+    eggGroups: ["Water 2"],
+    tier: "LC"
+}, barraskewda:
+{
+    num: 847,
+    name: "Barraskewda",
+    types: ["Water"],
+    baseStats:
+    {
+        hp: 61,
+        atk: 123,
+        def: 60,
+        spa: 60,
+        spd: 50,
+        spe: 136
+    },
+    abilities:
+    {
+        "0": "Swift Swim",
+        H: "Propeller Tail"
+    },
+    heightm: 1.3,
+    weightkg: 30,
+    color: "Brown",
+    prevo: "Arrokuda",
+    evoLevel: 26,
+    eggGroups: ["Water 2"],
+    tier: "RUBL"
+}, toxel:
+{
+    num: 848,
+    name: "Toxel",
+    types: ["Electric", "Poison"],
+    baseStats:
+    {
+        hp: 40,
+        atk: 38,
+        def: 35,
+        spa: 54,
+        spd: 35,
+        spe: 40
+    },
+    abilities:
+    {
+        "0": "Rattled",
+        "1": "Static",
+        H: "Klutz"
+    },
+    heightm: 0.4,
+    weightkg: 11,
+    color: "Purple",
+    evos: ["Toxtricity", "Toxtricity-Low-Key"],
+    eggGroups: ["Undiscovered"],
+    tier: "LC"
+}, toxtricity:
+{
+    num: 849,
+    name: "Toxtricity",
+    baseForme: "Amped",
+    types: ["Electric", "Poison"],
+    baseStats:
+    {
+        hp: 75,
+        atk: 98,
+        def: 70,
+        spa: 114,
+        spd: 70,
+        spe: 75
+    },
+    abilities:
+    {
+        "0": "Punk Rock",
+        "1": "Plus",
+        H: "Technician"
+    },
+    heightm: 1.6,
+    weightkg: 40,
+    color: "Purple",
+    prevo: "Toxel",
+    evoLevel: 30,
+    eggGroups: ["Human-Like"],
+    otherFormes: ["Toxtricity-Low-Key", "Toxtricity-Gmax", "Toxtricity-Low-Key-Gmax"],
+    formeOrder: ["Toxtricity", "Toxtricity-Low-Key", "Toxtricity-Gmax", "Toxtricity-Low-Key-Gmax"],
+    tier: "UU"
+}, toxtricitylowkey:
+{
+    num: 849,
+    name: "Toxtricity-Low-Key",
+    baseSpecies: "Toxtricity",
+    forme: "Low-Key",
+    types: ["Electric", "Poison"],
+    baseStats:
+    {
+        hp: 75,
+        atk: 98,
+        def: 70,
+        spa: 114,
+        spd: 70,
+        spe: 75
+    },
+    abilities:
+    {
+        "0": "Punk Rock",
+        "1": "Minus",
+        H: "Technician"
+    },
+    heightm: 1.6,
+    weightkg: 40,
+    color: "Purple",
+    prevo: "Toxel",
+    evoLevel: 30,
+    eggGroups: ["Human-Like"],
+    tier: "UU"
+}, toxtricitygmax:
+{
+    num: 849,
+    name: "Toxtricity-Gmax",
+    baseSpecies: "Toxtricity",
+    forme: "Gmax",
+    types: ["Electric", "Poison"],
+    baseStats:
+    {
+        hp: 75,
+        atk: 98,
+        def: 70,
+        spa: 114,
+        spd: 70,
+        spe: 75
+    },
+    abilities:
+    {
+        "0": "Punk Rock",
+        "1": "Plus",
+        H: "Technician"
+    },
+    heightm: 24,
+    weightkg: 0,
+    color: "Purple",
+    eggGroups: ["Human-Like"],
+    isGigantamax: "G-Max Stun Shock",
+    tier: "(Uber)"
+}, toxtricitylowkeygmax:
+{
+    num: 849,
+    name: "Toxtricity-Low-Key-Gmax",
+    baseSpecies: "Toxtricity",
+    forme: "Gmax",
+    types: ["Electric", "Poison"],
+    baseStats:
+    {
+        hp: 75,
+        atk: 98,
+        def: 70,
+        spa: 114,
+        spd: 70,
+        spe: 75
+    },
+    abilities:
+    {
+        "0": "Punk Rock",
+        "1": "Minus",
+        H: "Technician"
+    },
+    heightm: 24,
+    weightkg: 0,
+    color: "Purple",
+    eggGroups: ["Human-Like"],
+    isGigantamax: "G-Max Stun Shock",
+    battleOnly: "Toxtricity-Low-Key",
+    tier: "(Uber)"
+}, sizzlipede:
+{
+    num: 850,
+    name: "Sizzlipede",
+    types: ["Fire", "Bug"],
+    baseStats:
+    {
+        hp: 50,
+        atk: 65,
+        def: 45,
+        spa: 50,
+        spd: 50,
+        spe: 45
+    },
+    abilities:
+    {
+        "0": "Flash Fire",
+        "1": "White Smoke",
+        H: "Flame Body"
+    },
+    heightm: 0.7,
+    weightkg: 1,
+    color: "Red",
+    evos: ["Centiskorch"],
+    eggGroups: ["Bug"],
+    tier: "LC"
+}, centiskorch:
+{
+    num: 851,
+    name: "Centiskorch",
+    types: ["Fire", "Bug"],
+    baseStats:
+    {
+        hp: 100,
+        atk: 115,
+        def: 75,
+        spa: 90,
+        spd: 90,
+        spe: 65
+    },
+    abilities:
+    {
+        "0": "Flash Fire",
+        "1": "White Smoke",
+        H: "Flame Body"
+    },
+    heightm: 3,
+    weightkg: 120,
+    color: "Red",
+    prevo: "Sizzlipede",
+    evoLevel: 28,
+    eggGroups: ["Bug"],
+    otherFormes: ["Centiskorch-Gmax"],
+    formeOrder: ["Centiskorch", "Centiskorch-Gmax"],
+    tier: "RUBL"
+}, centiskorchgmax:
+{
+    num: 851,
+    name: "Centiskorch-Gmax",
+    baseSpecies: "Centiskorch",
+    forme: "Gmax",
+    types: ["Fire", "Bug"],
+    baseStats:
+    {
+        hp: 100,
+        atk: 115,
+        def: 65,
+        spa: 90,
+        spd: 90,
+        spe: 65
+    },
+    abilities:
+    {
+        "0": "Flash Fire",
+        "1": "White Smoke",
+        H: "Flame Body"
+    },
+    heightm: 75,
+    weightkg: 0,
+    color: "Red",
+    eggGroups: ["Bug"],
+    isGigantamax: "G-Max Centiferno",
+    tier: "(Uber)"
+}, clobbopus:
+{
+    num: 852,
+    name: "Clobbopus",
+    types: ["Fighting"],
+    baseStats:
+    {
+        hp: 50,
+        atk: 68,
+        def: 60,
+        spa: 50,
+        spd: 50,
+        spe: 32
+    },
+    abilities:
+    {
+        "0": "Limber",
+        H: "Technician"
+    },
+    heightm: 0.6,
+    weightkg: 4,
+    color: "Brown",
+    evos: ["Grapploct"],
+    eggGroups: ["Water 1", "Human-Like"],
+    tier: "LC"
+}, grapploct:
+{
+    num: 853,
+    name: "Grapploct",
+    types: ["Fighting", "Water"],
+    baseStats:
+    {
+        hp: 80,
+        atk: 118,
+        def: 90,
+        spa: 70,
+        spd: 90,
+        spe: 42
+    },
+    abilities:
+    {
+        "0": "Contrary",
+        H: "Technician"
+    },
+    heightm: 1.6,
+    weightkg: 39,
+    color: "Blue",
+    prevo: "Clobbopus",
+    evoType: "levelMove",
+    evoMove: "Taunt",
+    eggGroups: ["Water 1", "Human-Like"],
+    tier: "PU"
+}, sinistea:
+{
+    num: 854,
+    name: "Sinistea",
+    baseForme: "Phony",
+    types: ["Ghost"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 40,
+        atk: 45,
+        def: 45,
+        spa: 74,
+        spd: 54,
+        spe: 50
+    },
+    abilities:
+    {
+        "0": "Weak Armor",
+        H: "Cursed Body"
+    },
+    heightm: 0.1,
+    weightkg: 0.2,
+    color: "Purple",
+    evos: ["Polteageist"],
+    eggGroups: ["Mineral", "Amorphous"],
+    otherFormes: ["Sinistea-Antique"],
+    formeOrder: ["Sinistea", "Sinistea-Antique"],
+    tier: "LC"
+}, sinisteaantique:
+{
+    num: 854,
+    name: "Sinistea-Antique",
+    baseSpecies: "Sinistea",
+    forme: "Antique",
+    types: ["Ghost"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 40,
+        atk: 45,
+        def: 45,
+        spa: 74,
+        spd: 54,
+        spe: 50
+    },
+    abilities:
+    {
+        "0": "Weak Armor",
+        H: "Cursed Body"
+    },
+    heightm: 0.1,
+    weightkg: 0.2,
+    color: "Purple",
+    evos: ["Polteageist-Antique"],
+    eggGroups: ["Undiscovered"],
+    tier: "LC",
+    unreleasedHidden: true
+}, polteageist:
+{
+    num: 855,
+    name: "Polteageist",
+    baseForme: "Phony",
+    types: ["Ghost"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 80,
+        atk: 65,
+        def: 65,
+        spa: 134,
+        spd: 114,
+        spe: 70
+    },
+    abilities:
+    {
+        "0": "Weak Armor",
+        H: "Cursed Body"
+    },
+    heightm: 0.2,
+    weightkg: 0.4,
+    color: "Purple",
+    prevo: "Sinistea",
+    evoType: "useItem",
+    evoItem: "Cracked Pot",
+    eggGroups: ["Mineral", "Amorphous"],
+    otherFormes: ["Polteageist-Antique"],
+    formeOrder: ["Polteageist", "Polteageist-Antique"],
+    tier: "UU"
+}, polteageistantique:
+{
+    num: 855,
+    name: "Polteageist-Antique",
+    baseSpecies: "Polteageist",
+    forme: "Antique",
+    types: ["Ghost"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 80,
+        atk: 65,
+        def: 65,
+        spa: 134,
+        spd: 114,
+        spe: 70
+    },
+    abilities:
+    {
+        "0": "Weak Armor",
+        H: "Cursed Body"
+    },
+    heightm: 0.2,
+    weightkg: 0.4,
+    color: "Purple",
+    prevo: "Sinistea-Antique",
+    evoType: "useItem",
+    evoItem: "Chipped Pot",
+    eggGroups: ["Undiscovered"],
+    tier: "UU",
+    unreleasedHidden: true
+}, hatenna:
+{
+    num: 856,
+    name: "Hatenna",
+    types: ["Psychic"],
+    gender: "F",
+    baseStats:
+    {
+        hp: 42,
+        atk: 30,
+        def: 45,
+        spa: 56,
+        spd: 53,
+        spe: 39
+    },
+    abilities:
+    {
+        "0": "Healer",
+        "1": "Anticipation",
+        H: "Magic Bounce"
+    },
+    heightm: 0.4,
+    weightkg: 3.4,
+    color: "Pink",
+    evos: ["Hattrem"],
+    eggGroups: ["Fairy"],
+    tier: "LC"
+}, hattrem:
+{
+    num: 857,
+    name: "Hattrem",
+    types: ["Psychic"],
+    gender: "F",
+    baseStats:
+    {
+        hp: 57,
+        atk: 40,
+        def: 65,
+        spa: 86,
+        spd: 73,
+        spe: 49
+    },
+    abilities:
+    {
+        "0": "Healer",
+        "1": "Anticipation",
+        H: "Magic Bounce"
+    },
+    heightm: 0.6,
+    weightkg: 4.8,
+    color: "Pink",
+    prevo: "Hatenna",
+    evoLevel: 32,
+    evos: ["Hatterene"],
+    eggGroups: ["Fairy"],
+    tier: "NU"
+}, hatterene:
+{
+    num: 858,
+    name: "Hatterene",
+    types: ["Psychic", "Fairy"],
+    gender: "F",
+    baseStats:
+    {
+        hp: 77,
+        atk: 105,
+        def: 95,
+        spa: 136,
+        spd: 103,
+        spe: 29
+    },
+    abilities:
+    {
+        "0": "Healer",
+        "1": "Anticipation",
+        H: "Magic Bounce"
+    },
+    heightm: 2.1,
+    weightkg: 5.1,
+    color: "Pink",
+    prevo: "Hattrem",
+    evoLevel: 42,
+    eggGroups: ["Fairy"],
+    otherFormes: ["Hatterene-Gmax"],
+    formeOrder: ["Hatterene", "Hatterene-Gmax"],
+    tier: "OU"
+}, hatterenegmax:
+{
+    num: 858,
+    name: "Hatterene-Gmax",
+    baseSpecies: "Hatterene",
+    forme: "Gmax",
+    types: ["Psychic", "Fairy"],
+    gender: "F",
+    baseStats:
+    {
+        hp: 57,
+        atk: 90,
+        def: 95,
+        spa: 136,
+        spd: 103,
+        spe: 29
+    },
+    abilities:
+    {
+        "0": "Healer",
+        "1": "Anticipation",
+        H: "Magic Bounce"
+    },
+    heightm: 26,
+    weightkg: 0,
+    color: "Pink",
+    eggGroups: ["Fairy"],
+    isGigantamax: "G-Max Smite",
+    tier: "(Uber)"
+}, impidimp:
+{
+    num: 859,
+    name: "Impidimp",
+    types: ["Dark", "Fairy"],
+    gender: "M",
+    baseStats:
+    {
+        hp: 45,
+        atk: 45,
+        def: 30,
+        spa: 55,
+        spd: 40,
+        spe: 50
+    },
+    abilities:
+    {
+        "0": "Prankster",
+        "1": "Frisk",
+        H: "Pickpocket"
+    },
+    heightm: 0.4,
+    weightkg: 5.5,
+    color: "Pink",
+    evos: ["Morgrem"],
+    eggGroups: ["Fairy", "Human-Like"],
+    tier: "LC"
+}, morgrem:
+{
+    num: 860,
+    name: "Morgrem",
+    types: ["Dark", "Fairy"],
+    gender: "M",
+    baseStats:
+    {
+        hp: 65,
+        atk: 60,
+        def: 45,
+        spa: 75,
+        spd: 55,
+        spe: 70
+    },
+    abilities:
+    {
+        "0": "Prankster",
+        "1": "Frisk",
+        H: "Pickpocket"
+    },
+    heightm: 0.8,
+    weightkg: 12.5,
+    color: "Pink",
+    prevo: "Impidimp",
+    evoLevel: 32,
+    evos: ["Grimmsnarl"],
+    eggGroups: ["Fairy", "Human-Like"],
+    tier: "NFE"
+}, grimmsnarl:
+{
+    num: 861,
+    name: "Grimmsnarl",
+    types: ["Dark", "Fairy"],
+    gender: "M",
+    baseStats:
+    {
+        hp: 95,
+        atk: 120,
+        def: 65,
+        spa: 95,
+        spd: 75,
+        spe: 60
+    },
+    abilities:
+    {
+        "0": "Prankster",
+        "1": "Frisk",
+        H: "Pickpocket"
+    },
+    heightm: 1.5,
+    weightkg: 61,
+    color: "Purple",
+    prevo: "Morgrem",
+    evoLevel: 42,
+    eggGroups: ["Fairy", "Human-Like"],
+    otherFormes: ["Grimmsnarl-Gmax"],
+    formeOrder: ["Grimmsnarl", "Grimmsnarl-Gmax"],
+    tier: "OU"
+}, grimmsnarlgmax:
+{
+    num: 861,
+    name: "Grimmsnarl-Gmax",
+    baseSpecies: "Grimmsnarl",
+    forme: "Gmax",
+    types: ["Dark", "Fairy"],
+    gender: "M",
+    baseStats:
+    {
+        hp: 95,
+        atk: 120,
+        def: 65,
+        spa: 95,
+        spd: 75,
+        spe: 60
+    },
+    abilities:
+    {
+        "0": "Prankster",
+        "1": "Frisk",
+        H: "Pickpocket"
+    },
+    heightm: 32,
+    weightkg: 0,
+    color: "Purple",
+    eggGroups: ["Fairy", "Human-Like"],
+    isGigantamax: "G-Max Snooze",
+    tier: "(Uber)"
+}, obstagoon:
+{
+    num: 862,
+    name: "Obstagoon",
+    types: ["Dark", "Normal"],
+    baseStats:
+    {
+        hp: 93,
+        atk: 90,
+        def: 101,
+        spa: 60,
+        spd: 81,
+        spe: 95
+    },
+    abilities:
+    {
+        "0": "Reckless",
+        "1": "Guts",
+        H: "Defiant"
+    },
+    heightm: 1.6,
+    weightkg: 46,
+    color: "Gray",
+    prevo: "Linoone-Galar",
+    evoLevel: 35,
+    evoCondition: "at night",
+    eggGroups: ["Field"],
+    tier: "UUBL"
+}, perrserker:
+{
+    num: 863,
+    name: "Perrserker",
+    types: ["Steel"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 120,
+        def: 110,
+        spa: 50,
+        spd: 60,
+        spe: 50
+    },
+    abilities:
+    {
+        "0": "Intimidate",
+        "1": "Tough Claws",
+        H: "Steely Spirit"
+    },
+    heightm: 0.8,
+    weightkg: 28,
+    color: "Brown",
+    prevo: "Meowth-Galar",
+    evoLevel: 28,
+    eggGroups: ["Field"],
+    tier: "NU"
+}, cursola:
+{
+    num: 864,
+    name: "Cursola",
+    types: ["Ghost"],
+    genderRatio:
+    {
+        M: 0.25,
+        F: 0.75
+    },
+    baseStats:
+    {
+        hp: 70,
+        atk: 75,
+        def: 70,
+        spa: 145,
+        spd: 130,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Weak Armor",
+        H: "Perish Body"
+    },
+    heightm: 1,
+    weightkg: 0.4,
+    color: "White",
+    prevo: "Corsola-Galar",
+    evoLevel: 38,
+    eggGroups: ["Water 1", "Water 3"],
+    tier: "NU"
+}, sirfetchd:
+{
+    num: 865,
+    name: "Sirfetchâ€™d",
+    types: ["Fighting"],
+    baseStats:
+    {
+        hp: 62,
+        atk: 135,
+        def: 95,
+        spa: 68,
+        spd: 82,
+        spe: 65
+    },
+    abilities:
+    {
+        "0": "Steadfast",
+        H: "Scrappy"
+    },
+    heightm: 0.8,
+    weightkg: 117,
+    color: "White",
+    prevo: "Farfetchâ€™d-Galar",
+    evoType: "other",
+    evoCondition: "Land 3 critical hits in 1 battle",
+    eggGroups: ["Flying", "Field"],
+    tier: "UU"
+}, mrrime:
+{
+    num: 866,
+    name: "Mr. Rime",
+    types: ["Ice", "Psychic"],
+    baseStats:
+    {
+        hp: 80,
+        atk: 85,
+        def: 85,
+        spa: 110,
+        spd: 100,
+        spe: 70
+    },
+    abilities:
+    {
+        "0": "Tangled Feet",
+        "1": "Screen Cleaner",
+        H: "Dancer"
+    },
+    heightm: 1.5,
+    weightkg: 58.2,
+    color: "Purple",
+    prevo: "Mr. Mime-Galar",
+    evoLevel: 42,
+    eggGroups: ["Human-Like"],
+    tier: "PU"
+}, runerigus:
+{
+    num: 867,
+    name: "Runerigus",
+    types: ["Ground", "Ghost"],
+    baseStats:
+    {
+        hp: 58,
+        atk: 95,
+        def: 145,
+        spa: 50,
+        spd: 105,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Wandering Spirit"
+    },
+    heightm: 1.6,
+    weightkg: 66.6,
+    color: "Gray",
+    prevo: "Yamask-Galar",
+    evoType: "other",
+    evoCondition: "Have 49+ HP lost and walk under stone sculpture in Dusty Bowl",
+    eggGroups: ["Mineral", "Amorphous"],
+    tier: "RU"
+}, milcery:
+{
+    num: 868,
+    name: "Milcery",
+    types: ["Fairy"],
+    gender: "F",
+    baseStats:
+    {
+        hp: 45,
+        atk: 40,
+        def: 40,
+        spa: 50,
+        spd: 61,
+        spe: 34
+    },
+    abilities:
+    {
+        "0": "Sweet Veil",
+        H: "Aroma Veil"
+    },
+    heightm: 0.2,
+    weightkg: 0.3,
+    color: "White",
+    evos: ["Alcremie"],
+    eggGroups: ["Fairy", "Amorphous"],
+    tier: "LC"
+}, alcremie:
+{
+    num: 869,
+    name: "Alcremie",
+    baseForme: "Vanilla Cream",
+    types: ["Fairy"],
+    gender: "F",
+    baseStats:
+    {
+        hp: 65,
+        atk: 60,
+        def: 75,
+        spa: 110,
+        spd: 121,
+        spe: 64
+    },
+    abilities:
+    {
+        "0": "Sweet Veil",
+        H: "Aroma Veil"
+    },
+    heightm: 0.3,
+    weightkg: 0.5,
+    color: "White",
+    prevo: "Milcery",
+    evoType: "other",
+    evoCondition: "spin while holding a Sweet",
+    eggGroups: ["Fairy", "Amorphous"],
+    otherFormes: ["Alcremie-Gmax"],
+    cosmeticFormes: ["Alcremie-Ruby-Cream", "Alcremie-Matcha-Cream", "Alcremie-Mint-Cream", "Alcremie-Lemon-Cream", "Alcremie-Salted-Cream", "Alcremie-Ruby-Swirl", "Alcremie-Caramel-Swirl", "Alcremie-Rainbow-Swirl"],
+    formeOrder: ["Alcremie", "Alcremie-Ruby-Cream", "Alcremie-Matcha-Cream", "Alcremie-Mint-Cream", "Alcremie-Lemon-Cream", "Alcremie-Salted-Cream", "Alcremie-Ruby-Swirl", "Alcremie-Caramel-Swirl", "Alcremie-Rainbow-Swirl", "Alcremie-Gmax"],
+    tier: "NU"
+}, alcremiegmax:
+{
+    num: 869,
+    name: "Alcremie-Gmax",
+    baseSpecies: "Alcremie",
+    forme: "Gmax",
+    types: ["Fairy"],
+    gender: "F",
+    baseStats:
+    {
+        hp: 65,
+        atk: 60,
+        def: 75,
+        spa: 110,
+        spd: 121,
+        spe: 64
+    },
+    abilities:
+    {
+        "0": "Sweet Veil",
+        H: "Aroma Veil"
+    },
+    heightm: 30,
+    weightkg: 0,
+    color: "White",
+    eggGroups: ["Fairy", "Amorphous"],
+    isGigantamax: "G-Max Finale",
+    tier: "(Uber)"
+}, falinks:
+{
+    num: 870,
+    name: "Falinks",
+    types: ["Fighting", "Bug"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 65,
+        atk: 110,
+        def: 110,
+        spa: 70,
+        spd: 85,
+        spe: 75
+    },
+    abilities:
+    {
+        "0": "Battle Armor",
+        H: "Defiant"
+    },
+    heightm: 3,
+    weightkg: 62,
+    color: "Yellow",
+    eggGroups: ["Fairy", "Mineral"],
+    tier: "PU"
+}, pincurchin:
+{
+    num: 871,
+    name: "Pincurchin",
+    types: ["Electric", "Water"],
+    baseStats:
+    {
+        hp: 78,
+        atk: 101,
+        def: 95,
+        spa: 91,
+        spd: 85,
+        spe: 15
+    },
+    abilities:
+    {
+        "0": "Lightning Rod",
+        H: "Electric Surge"
+    },
+    heightm: 0.3,
+    weightkg: 1,
+    color: "Purple",
+    eggGroups: ["Water 1", "Amorphous"],
+    tier: "(PU)"
+}, snom:
+{
+    num: 872,
+    name: "Snom",
+    types: ["Ice", "Bug"],
+    baseStats:
+    {
+        hp: 30,
+        atk: 25,
+        def: 35,
+        spa: 45,
+        spd: 30,
+        spe: 20
+    },
+    abilities:
+    {
+        "0": "Shield Dust",
+        H: "Ice Scales"
+    },
+    heightm: 0.3,
+    weightkg: 3.8,
+    color: "White",
+    evos: ["Frosmoth"],
+    eggGroups: ["Bug"],
+    tier: "LC"
+}, frosmoth:
+{
+    num: 873,
+    name: "Frosmoth",
+    types: ["Ice", "Bug"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 65,
+        def: 75,
+        spa: 125,
+        spd: 90,
+        spe: 75
+    },
+    abilities:
+    {
+        "0": "Shield Dust",
+        H: "Ice Scales"
+    },
+    heightm: 1.3,
+    weightkg: 42,
+    color: "White",
+    prevo: "Snom",
+    evoType: "levelFriendship",
+    evoCondition: "at night",
+    eggGroups: ["Bug"],
+    tier: "RU"
+}, stonjourner:
+{
+    num: 874,
+    name: "Stonjourner",
+    types: ["Rock"],
+    baseStats:
+    {
+        hp: 100,
+        atk: 125,
+        def: 135,
+        spa: 20,
+        spd: 20,
+        spe: 70
+    },
+    abilities:
+    {
+        "0": "Power Spot"
+    },
+    heightm: 2.5,
+    weightkg: 520,
+    color: "Gray",
+    eggGroups: ["Mineral"],
+    tier: "PU"
+}, eiscue:
+{
+    num: 875,
+    name: "Eiscue",
+    types: ["Ice"],
+    baseStats:
+    {
+        hp: 75,
+        atk: 105,
+        def: 110,
+        spa: 65,
+        spd: 90,
+        spe: 50
+    },
+    abilities:
+    {
+        "0": "Ice Face"
+    },
+    heightm: 1.4,
+    weightkg: 89,
+    color: "Blue",
+    eggGroups: ["Water 1", "Field"],
+    otherFormes: ["Eiscue-Noice"],
+    formeOrder: ["Eiscue", "Eiscue-Noice"],
+    tier: "(PU)"
+}, eiscuenoice:
+{
+    num: 875,
+    name: "Eiscue-Noice",
+    baseSpecies: "Eiscue",
+    forme: "Noice",
+    types: ["Ice"],
+    baseStats:
+    {
+        hp: 75,
+        atk: 105,
+        def: 70,
+        spa: 65,
+        spd: 50,
+        spe: 130
+    },
+    abilities:
+    {
+        "0": "Ice Face"
+    },
+    heightm: 1.4,
+    weightkg: 89,
+    color: "Blue",
+    eggGroups: ["Water 1", "Field"],
+    requiredAbility: "Ice Face",
+    battleOnly: "Eiscue"
+}, indeedee:
+{
+    num: 876,
+    name: "Indeedee",
+    baseForme: "M",
+    types: ["Psychic", "Normal"],
+    gender: "M",
+    baseStats:
+    {
+        hp: 80,
+        atk: 65,
+        def: 75,
+        spa: 105,
+        spd: 105,
+        spe: 95
+    },
+    abilities:
+    {
+        "0": "Inner Focus",
+        "1": "Synchronize",
+        H: "Psychic Surge"
+    },
+    heightm: 0.9,
+    weightkg: 28,
+    color: "Purple",
+    eggGroups: ["Fairy"],
+    otherFormes: ["Indeedee-F"],
+    formeOrder: ["Indeedee", "Indeedee-F"],
+    tier: "RU"
+}, indeedeef:
+{
+    num: 876,
+    name: "Indeedee-F",
+    baseSpecies: "Indeedee",
+    forme: "F",
+    types: ["Psychic", "Normal"],
+    gender: "F",
+    baseStats:
+    {
+        hp: 80,
+        atk: 65,
+        def: 75,
+        spa: 105,
+        spd: 105,
+        spe: 85
+    },
+    abilities:
+    {
+        "0": "Own Tempo",
+        "1": "Synchronize",
+        H: "Psychic Surge"
+    },
+    heightm: 0.9,
+    weightkg: 28,
+    color: "Purple",
+    eggGroups: ["Fairy"],
+    tier: "NU"
+}, morpeko:
+{
+    num: 877,
+    name: "Morpeko",
+    types: ["Electric", "Dark"],
+    baseStats:
+    {
+        hp: 58,
+        atk: 95,
+        def: 68,
+        spa: 70,
+        spd: 68,
+        spe: 97
+    },
+    abilities:
+    {
+        "0": "Hunger Switch"
+    },
+    heightm: 0.3,
+    weightkg: 3,
+    color: "Yellow",
+    eggGroups: ["Field", "Fairy"],
+    otherFormes: ["Morpeko-Hangry"],
+    formeOrder: ["Morpeko", "Morpeko-Hangry"],
+    tier: "NU"
+}, morpekohangry:
+{
+    num: 877,
+    name: "Morpeko-Hangry",
+    baseSpecies: "Morpeko",
+    forme: "Hangry",
+    types: ["Electric", "Dark"],
+    baseStats:
+    {
+        hp: 58,
+        atk: 95,
+        def: 58,
+        spa: 70,
+        spd: 58,
+        spe: 97
+    },
+    abilities:
+    {
+        "0": "Hunger Switch"
+    },
+    heightm: 0.3,
+    weightkg: 3,
+    color: "Yellow",
+    eggGroups: ["Field", "Fairy"],
+    requiredAbility: "Hunger Switch",
+    battleOnly: "Morpeko"
+}, cufant:
+{
+    num: 878,
+    name: "Cufant",
+    types: ["Steel"],
+    baseStats:
+    {
+        hp: 72,
+        atk: 80,
+        def: 49,
+        spa: 40,
+        spd: 49,
+        spe: 40
+    },
+    abilities:
+    {
+        "0": "Sheer Force",
+        H: "Heavy Metal"
+    },
+    heightm: 1.2,
+    weightkg: 100,
+    color: "Yellow",
+    evos: ["Copperajah"],
+    eggGroups: ["Field", "Mineral"],
+    tier: "LC"
+}, copperajah:
+{
+    num: 879,
+    name: "Copperajah",
+    types: ["Steel"],
+    baseStats:
+    {
+        hp: 122,
+        atk: 130,
+        def: 69,
+        spa: 80,
+        spd: 69,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Sheer Force",
+        H: "Heavy Metal"
+    },
+    heightm: 3,
+    weightkg: 650,
+    color: "Green",
+    prevo: "Cufant",
+    evoLevel: 34,
+    eggGroups: ["Field", "Mineral"],
+    otherFormes: ["Copperajah-Gmax"],
+    formeOrder: ["Copperajah", "Copperajah-Gmax"],
+    tier: "RU"
+}, copperajahgmax:
+{
+    num: 879,
+    name: "Copperajah-Gmax",
+    baseSpecies: "Copperajah",
+    forme: "Gmax",
+    types: ["Steel"],
+    baseStats:
+    {
+        hp: 122,
+        atk: 130,
+        def: 69,
+        spa: 80,
+        spd: 69,
+        spe: 30
+    },
+    abilities:
+    {
+        "0": "Sheer Force",
+        H: "Heavy Metal"
+    },
+    heightm: 23,
+    weightkg: 0,
+    color: "Green",
+    eggGroups: ["Field", "Mineral"],
+    isGigantamax: "G-Max Steelsurge",
+    tier: "(Uber)"
+}, dracozolt:
+{
+    num: 880,
+    name: "Dracozolt",
+    types: ["Electric", "Dragon"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 90,
+        atk: 100,
+        def: 90,
+        spa: 80,
+        spd: 70,
+        spe: 75
+    },
+    abilities:
+    {
+        "0": "Volt Absorb",
+        "1": "Hustle",
+        H: "Sand Rush"
+    },
+    heightm: 1.8,
+    weightkg: 190,
+    color: "Green",
+    eggGroups: ["Undiscovered"],
+    tier: "UUBL",
+    unreleasedHidden: true
+}, arctozolt:
+{
+    num: 881,
+    name: "Arctozolt",
+    types: ["Electric", "Ice"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 90,
+        atk: 100,
+        def: 90,
+        spa: 90,
+        spd: 80,
+        spe: 55
+    },
+    abilities:
+    {
+        "0": "Volt Absorb",
+        "1": "Static",
+        H: "Slush Rush"
+    },
+    heightm: 2.3,
+    weightkg: 150,
+    color: "Blue",
+    eggGroups: ["Undiscovered"],
+    tier: "PUBL",
+    unreleasedHidden: true
+}, dracovish:
+{
+    num: 882,
+    name: "Dracovish",
+    types: ["Water", "Dragon"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 90,
+        atk: 120,
+        def: 100,
+        spa: 70,
+        spd: 80,
+        spe: 75
+    },
+    abilities:
+    {
+        "0": "Water Absorb",
+        "1": "Strong Jaw",
+        H: "Slush Rush"
+    },
+    heightm: 2.3,
+    weightkg: 215,
+    color: "Green",
+    eggGroups: ["Undiscovered"],
+    tier: "Uber",
+    unreleasedHidden: true
+}, arctovish:
+{
+    num: 883,
+    name: "Arctovish",
+    types: ["Water", "Ice"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 90,
+        atk: 90,
+        def: 100,
+        spa: 80,
+        spd: 90,
+        spe: 55
+    },
+    abilities:
+    {
+        "0": "Water Absorb",
+        "1": "Ice Body",
+        H: "Swift Swim"
+    },
+    heightm: 2,
+    weightkg: 175,
+    color: "Blue",
+    eggGroups: ["Undiscovered"],
+    tier: "NU",
+    unreleasedHidden: true
+}, duraludon:
+{
+    num: 884,
+    name: "Duraludon",
+    types: ["Steel", "Dragon"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 95,
+        def: 115,
+        spa: 120,
+        spd: 50,
+        spe: 85
+    },
+    abilities:
+    {
+        "0": "Light Metal",
+        "1": "Heavy Metal",
+        H: "Stalwart"
+    },
+    heightm: 1.8,
+    weightkg: 40,
+    color: "White",
+    eggGroups: ["Mineral", "Dragon"],
+    otherFormes: ["Duraludon-Gmax"],
+    formeOrder: ["Duraludon", "Duraludon-Gmax"],
+    tier: "RU"
+}, duraludongmax:
+{
+    num: 884,
+    name: "Duraludon-Gmax",
+    baseSpecies: "Duraludon",
+    forme: "Gmax",
+    types: ["Steel", "Dragon"],
+    baseStats:
+    {
+        hp: 70,
+        atk: 95,
+        def: 115,
+        spa: 120,
+        spd: 50,
+        spe: 85
+    },
+    abilities:
+    {
+        "0": "Light Metal",
+        "1": "Heavy Metal",
+        H: "Stalwart"
+    },
+    heightm: 43,
+    weightkg: 0,
+    color: "White",
+    eggGroups: ["Mineral", "Dragon"],
+    isGigantamax: "G-Max Depletion",
+    tier: "(Uber)"
+}, dreepy:
+{
+    num: 885,
+    name: "Dreepy",
+    types: ["Dragon", "Ghost"],
+    baseStats:
+    {
+        hp: 28,
+        atk: 60,
+        def: 30,
+        spa: 40,
+        spd: 30,
+        spe: 82
+    },
+    abilities:
+    {
+        "0": "Clear Body",
+        "1": "Infiltrator",
+        H: "Cursed Body"
+    },
+    heightm: 0.5,
+    weightkg: 2,
+    color: "Green",
+    evos: ["Drakloak"],
+    eggGroups: ["Amorphous", "Dragon"],
+    tier: "LC"
+}, drakloak:
+{
+    num: 886,
+    name: "Drakloak",
+    types: ["Dragon", "Ghost"],
+    baseStats:
+    {
+        hp: 68,
+        atk: 80,
+        def: 50,
+        spa: 60,
+        spd: 50,
+        spe: 102
+    },
+    abilities:
+    {
+        "0": "Clear Body",
+        "1": "Infiltrator",
+        H: "Cursed Body"
+    },
+    heightm: 1.4,
+    weightkg: 11,
+    color: "Green",
+    prevo: "Dreepy",
+    evoLevel: 50,
+    evos: ["Dragapult"],
+    eggGroups: ["Amorphous", "Dragon"],
+    tier: "NFE"
+}, dragapult:
+{
+    num: 887,
+    name: "Dragapult",
+    types: ["Dragon", "Ghost"],
+    baseStats:
+    {
+        hp: 88,
+        atk: 120,
+        def: 75,
+        spa: 100,
+        spd: 75,
+        spe: 142
+    },
+    abilities:
+    {
+        "0": "Clear Body",
+        "1": "Infiltrator",
+        H: "Cursed Body"
+    },
+    heightm: 3,
+    weightkg: 50,
+    color: "Green",
+    prevo: "Drakloak",
+    evoLevel: 60,
+    eggGroups: ["Amorphous", "Dragon"],
+    tier: "OU"
+}, zacian:
+{
+    num: 888,
+    name: "Zacian",
+    types: ["Fairy"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 82,
+        atk: 130,
+        def: 105,
+        spa: 80,
+        spd: 105,
+        spe: 118
+    },
+    abilities:
+    {
+        "0": "Intrepid Sword"
+    },
+    heightm: 2.8,
+    weightkg: 110,
+    color: "Blue",
+    eggGroups: ["Undiscovered"],
+    otherFormes: ["Zacian-Crowned"],
+    formeOrder: ["Zacian", "Zacian-Crowned"],
+    tier: "Uber"
+}, zaciancrowned:
+{
+    num: 888,
+    name: "Zacian-Crowned",
+    baseSpecies: "Zacian",
+    forme: "Crowned",
+    types: ["Fairy", "Steel"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 92,
+        atk: 170,
+        def: 115,
+        spa: 80,
+        spd: 115,
+        spe: 148
+    },
+    abilities:
+    {
+        "0": "Intrepid Sword"
+    },
+    heightm: 2.8,
+    weightkg: 355,
+    color: "Blue",
+    eggGroups: ["Undiscovered"],
+    requiredItem: "Rusted Sword",
+    changesFrom: "Zacian",
+    tier: "Uber"
+}, zamazenta:
+{
+    num: 889,
+    name: "Zamazenta",
+    types: ["Fighting"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 92,
+        atk: 115,
+        def: 115,
+        spa: 65,
+        spd: 115,
+        spe: 118
+    },
+    abilities:
+    {
+        "0": "Dauntless Shield"
+    },
+    heightm: 2.9,
+    weightkg: 210,
+    color: "Red",
+    eggGroups: ["Undiscovered"],
+    otherFormes: ["Zamazenta-Crowned"],
+    formeOrder: ["Zamazenta", "Zamazenta-Crowned"],
+    tier: "Uber"
+}, zamazentacrowned:
+{
+    num: 889,
+    name: "Zamazenta-Crowned",
+    baseSpecies: "Zamazenta",
+    forme: "Crowned",
+    types: ["Fighting", "Steel"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 92,
+        atk: 130,
+        def: 145,
+        spa: 80,
+        spd: 145,
+        spe: 128
+    },
+    abilities:
+    {
+        "0": "Dauntless Shield"
+    },
+    heightm: 2.9,
+    weightkg: 785,
+    color: "Red",
+    eggGroups: ["Undiscovered"],
+    requiredItem: "Rusted Shield",
+    changesFrom: "Zamazenta",
+    tier: "Uber"
+}, eternatus:
+{
+    num: 890,
+    name: "Eternatus",
+    types: ["Poison", "Dragon"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 140,
+        atk: 85,
+        def: 95,
+        spa: 145,
+        spd: 95,
+        spe: 130
+    },
+    abilities:
+    {
+        "0": "Pressure"
+    },
+    heightm: 20,
+    weightkg: 950,
+    color: "Purple",
+    eggGroups: ["Undiscovered"],
+    otherFormes: ["Eternatus-Eternamax"],
+    formeOrder: ["Eternatus", "Eternatus-Eternamax"],
+    tier: "Uber"
+}, eternatuseternamax:
+{
+    num: 890,
+    name: "Eternatus-Eternamax",
+    baseSpecies: "Eternatus",
+    forme: "Eternamax",
+    types: ["Poison", "Dragon"],
+    gender: "N",
+    baseStats:
+    {
+        hp: 255,
+        atk: 115,
+        def: 250,
+        spa: 125,
+        spd: 250,
+        spe: 130
+    },
+    abilities:
+    {
+        "0": "Pressure"
+    },
+    heightm: 100,
+    weightkg: 0,
+    color: "Purple",
+    eggGroups: ["Undiscovered"],
+    tier: "Illegal",
+    isNonstandard: "Unobtainable"
+},
 	missingno: {
 		num: 0,
 		species: "Missingno.",
